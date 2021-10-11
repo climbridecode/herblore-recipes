@@ -32,7 +32,7 @@ And seeds!
 Feature added thanks to this [raised issue](https://github.com/skiclimbcode/herblore-recipes/issues/3).  
 
 You can display the tooltip with a custom keybind if you don't want it to be always present.  
-![Config](https://i.imgur.com/8ENRE9U.png "Config")
+![Config](https://i.imgur.com/8ENRE9U.png "Config")  
 Feature added thanks to this [raised issue](https://github.com/skiclimbcode/herblore-recipes/issues/11)
 
 ## Things to know
