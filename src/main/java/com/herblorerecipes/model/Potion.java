@@ -68,7 +68,7 @@ public enum Potion
 	SUPER_COMBAT_POTION("Super combat potion", "Torstol", "Super attack, Super strength, Super defence", "Torstol potion (unf)", "Torstol seed", 90),
 	SUPER_ANTIFIRE_POTION("Super antifire potion", "Antifire potion", "Crushed superior dragon bones", null, null, 92),
 	ANTI_VENOM_PLUS("Anti-venom+", "Anti-venom", "Torstol", null, "Torstol seed", 94),
-	DIVINE_SUPER_COMBAT("Divine super combat", "Super combat potion", "Crystal dust", null, null, 97),
+	DIVINE_SUPER_COMBAT("Divine super combat potion", "Super combat potion", "Crystal dust", null, null, 97),
 	EXTENDED_SUPER_ANTIFIRE("Extended super antifire", "Super antifire potion", "Lava scale shard", null, null, 98),
 	GUAM_TAR("Guam tar", "Guam leaf", "Swamp tar", null, "Guam seed", 19),
 	MARRENTILL_TAR("Marrentill tar", "Marrentill", "Swamp tar", null, "Marrentill seed", 31),
