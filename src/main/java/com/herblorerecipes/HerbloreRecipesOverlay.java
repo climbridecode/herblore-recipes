@@ -109,6 +109,7 @@ public class HerbloreRecipesOverlay extends Overlay
 
 		switch (action)
 		{
+			case WIDGET_USE_ON_ITEM:
 			case WIDGET_TARGET:
 			case CC_OP:
 			case ITEM_USE:
