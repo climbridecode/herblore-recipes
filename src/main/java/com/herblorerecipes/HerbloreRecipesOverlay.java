@@ -22,7 +22,6 @@ import net.runelite.api.MenuAction;
 import net.runelite.api.MenuEntry;
 import net.runelite.api.widgets.WidgetID;
 import net.runelite.api.widgets.WidgetInfo;
-import net.runelite.client.config.Keybind;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.ui.overlay.Overlay;
 import net.runelite.client.ui.overlay.OverlayPosition;
@@ -104,13 +103,13 @@ public class HerbloreRecipesOverlay extends Overlay
 			return null;
 		}
 
-		final MenuAction action = MenuAction.of(menuEntry.getType());
+		final MenuAction action = menuEntry.getType();
 		final int widgetId = menuEntry.getParam1();
 		final int groupId = WidgetInfo.TO_GROUP(widgetId);
 
 		switch (action)
 		{
-			case ITEM_USE_ON_WIDGET:
+			case WIDGET_TARGET:
 			case CC_OP:
 			case ITEM_USE:
 			case ITEM_FIRST_OPTION:
