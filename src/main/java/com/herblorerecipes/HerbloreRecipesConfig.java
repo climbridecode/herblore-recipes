@@ -134,6 +134,17 @@ public interface HerbloreRecipesConfig extends Config
 
 	@ConfigItem(
 		position = 9,
+		keyName = SHOW_OVERLAY_ON_PLACEHOLDER,
+		name = "Show Recipes Overlay on Placeholders",
+		section = tooltipSection,
+		description = "Setting to toggle whether the herblore recipes overlay appears on herblore items on bank placeholders"
+	)
+	default boolean showOverlayOnPlaceholder() {
+		return true;
+	}
+
+	@ConfigItem(
+		position = 10,
 		keyName = SHOW_OVERLAY_IN_INV,
 		name = "Show Recipes Overlay in Inventory",
 		section = tooltipSection,
@@ -145,7 +156,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 10,
+		position = 11,
 		keyName = USE_MODIFIER_KEY,
 		name = "Use Overlay Hotkey",
 		section = keybindSection,
@@ -157,7 +168,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 11,
+		position = 12,
 		keyName = MODIFIER_KEYBIND,
 		name = "Custom Overlay Hotkey",
 		section = keybindSection,

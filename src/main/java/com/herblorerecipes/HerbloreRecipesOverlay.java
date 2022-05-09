@@ -106,7 +106,8 @@ public class HerbloreRecipesOverlay extends Overlay
 		final MenuAction action = menuEntry.getType();
 		final int widgetId = menuEntry.getParam1();
 		final int groupId = WidgetInfo.TO_GROUP(widgetId);
-
+		System.out.println("ACTION: " + action);
+		System.out.println("GROUP ID: " + groupId);
 		switch (action)
 		{
 			case WIDGET_USE_ON_ITEM:
@@ -117,6 +118,7 @@ public class HerbloreRecipesOverlay extends Overlay
 			case ITEM_SECOND_OPTION:
 			case ITEM_THIRD_OPTION:
 			case ITEM_FOURTH_OPTION:
+			case CC_OP_LOW_PRIORITY:
 			case ITEM_FIFTH_OPTION:
 				switch (groupId)
 				{
@@ -129,7 +131,15 @@ public class HerbloreRecipesOverlay extends Overlay
 					case WidgetID.BANK_GROUP_ID:
 						if (config.showOverlayInBank())
 						{
-							conditionalRender(menuEntry, widgetId);
+							if (!config.showOverlayOnPlaceholder() && action == MenuAction.CC_OP_LOW_PRIORITY)
+							{
+								// do nothing
+								// not pretty but it works :)
+							}
+							else
+							{
+								conditionalRender(menuEntry, widgetId);
+							}
 						}
 						break;
 				}
