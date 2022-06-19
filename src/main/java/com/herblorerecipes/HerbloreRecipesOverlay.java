@@ -106,8 +106,7 @@ public class HerbloreRecipesOverlay extends Overlay
 		final MenuAction action = menuEntry.getType();
 		final int widgetId = menuEntry.getParam1();
 		final int groupId = WidgetInfo.TO_GROUP(widgetId);
-		//System.out.println("ACTION: " + action);
-		//System.out.println("GROUP ID: " + groupId);
+
 		switch (action)
 		{
 			case WIDGET_USE_ON_ITEM:
