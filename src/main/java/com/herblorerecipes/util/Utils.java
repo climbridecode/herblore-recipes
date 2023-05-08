@@ -21,6 +21,8 @@ public class Utils
 	public static final String SHOW_OVERLAY_IN_BANK = "showOverlayInBank";
 	public static final String SHOW_OVERLAY_ON_PLACEHOLDER = "showOverlayOnPlaceholder";
 	public static final String SHOW_OVERLAY_IN_INV = "showOverlayInInv";
+	public static final String SHOW_OVERLAY_IN_VAULT = "showOverlayInSeedVault";
+	public static final String SHOW_OVERLAY_IN_GROUP_STORAGE = "showOverlayInGroupStorage";
 	public static final String USE_MODIFIER_KEY = "useModifierKey";
 	public static final String MODIFIER_KEYBIND = "modifierKeybind";
 }

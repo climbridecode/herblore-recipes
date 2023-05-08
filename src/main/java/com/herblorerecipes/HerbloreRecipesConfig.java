@@ -156,7 +156,31 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 11,
+			position = 11,
+			keyName = SHOW_OVERLAY_IN_VAULT,
+			name = "Show Recipes Overlay in Seed Vault",
+			section = tooltipSection,
+			description = "Setting to toggle whether the herblore recipes overlay appears on herblore items in the seed vault"
+	)
+	default boolean showOverlayInSeedVault()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+			position = 12,
+			keyName = SHOW_OVERLAY_IN_GROUP_STORAGE,
+			name = "Show Recipes Overlay in Group Storage",
+			section = tooltipSection,
+			description = "Setting to toggle whether the herblore recipes overlay appears on herblore items in group storage"
+	)
+	default boolean showOverlayInGroupStorage()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		position = 13,
 		keyName = USE_MODIFIER_KEY,
 		name = "Use Overlay Hotkey",
 		section = keybindSection,
@@ -168,7 +192,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 12,
+		position = 14,
 		keyName = MODIFIER_KEYBIND,
 		name = "Custom Overlay Hotkey",
 		section = keybindSection,
