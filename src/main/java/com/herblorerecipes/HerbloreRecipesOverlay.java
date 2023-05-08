@@ -14,10 +14,11 @@ import java.awt.event.KeyEvent;
 import java.util.Optional;
 import java.util.concurrent.ExecutionException;
 import javax.inject.Inject;
+
 import net.runelite.api.Client;
-import net.runelite.api.InventoryID;
 import net.runelite.api.Item;
 import net.runelite.api.ItemContainer;
+import net.runelite.api.InventoryID;
 import net.runelite.api.MenuAction;
 import net.runelite.api.MenuEntry;
 import net.runelite.api.widgets.WidgetID;
@@ -35,6 +36,9 @@ public class HerbloreRecipesOverlay extends Overlay
 	private static final int INVENTORY_ITEM_WIDGETID = WidgetInfo.INVENTORY.getPackedId();
 	private static final int BANK_ITEM_WIDGETID = WidgetInfo.BANK_ITEM_CONTAINER.getPackedId();
 	private static final int BANKED_INVENTORY_ITEM_WIDGETID = WidgetInfo.BANK_INVENTORY_ITEMS_CONTAINER.getPackedId();
+	private static final int SEED_VAULT_INVENTORY_WIDGETID = WidgetInfo.SEED_VAULT_INVENTORY_ITEMS_CONTAINER.getPackedId();
+	private static final int SEED_VAULT_WIDGETID = WidgetInfo.SEED_VAULT_ITEM_CONTAINER.getPackedId();
+	private static final int GROUP_STORAGE_ITEM_WIDGETID = WidgetInfo.GROUP_STORAGE_ITEM_CONTAINER.getPackedId();
 	private static final Color GREY = new Color(238, 238, 238);
 	private static final Color LIME = new Color(0, 255, 0);
 	private static final Color AQUA = new Color(0, 255, 255);
@@ -72,6 +76,7 @@ public class HerbloreRecipesOverlay extends Overlay
 	@Override
 	public Dimension render(Graphics2D graphics)
 	{
+
 		if (client.isMenuOpen())
 		{
 			return null;
@@ -121,6 +126,10 @@ public class HerbloreRecipesOverlay extends Overlay
 			case ITEM_FIFTH_OPTION:
 				switch (groupId)
 				{
+					case WidgetID.BANK_INVENTORY_GROUP_ID:
+					case WidgetID.SEED_VAULT_GROUP_ID:
+					case WidgetID.SEED_VAULT_INVENTORY_GROUP_ID:
+					case WidgetID.GROUP_STORAGE_GROUP_ID:
 					case WidgetID.INVENTORY_GROUP_ID:
 						if (config.showOverlayInInv())
 						{
@@ -163,13 +172,19 @@ public class HerbloreRecipesOverlay extends Overlay
 
 	private Optional<ItemContainer> getContainer(int widgetId)
 	{
-		if (widgetId == INVENTORY_ITEM_WIDGETID || widgetId == BANKED_INVENTORY_ITEM_WIDGETID)
+		if (widgetId == INVENTORY_ITEM_WIDGETID || widgetId == BANKED_INVENTORY_ITEM_WIDGETID || widgetId == SEED_VAULT_INVENTORY_WIDGETID)
 		{
 			return Optional.ofNullable(client.getItemContainer(InventoryID.INVENTORY));
 		}
 		else if (widgetId == BANK_ITEM_WIDGETID)
 		{
 			return Optional.ofNullable(client.getItemContainer(InventoryID.BANK));
+		}
+		else if (widgetId == SEED_VAULT_WIDGETID) {
+			return Optional.ofNullable(client.getItemContainer(InventoryID.SEED_VAULT));
+		}
+		else if (widgetId == GROUP_STORAGE_ITEM_WIDGETID) {
+			return Optional.ofNullable(client.getItemContainer(InventoryID.GROUP_STORAGE));
 		}
 		return Optional.empty();
 	}
@@ -213,7 +228,11 @@ public class HerbloreRecipesOverlay extends Overlay
 			if (item.isPresent())
 			{
 				String itemName = stripExtra(itemManager.getItemComposition(item.get().getId()).getName());
-
+				if ("Pot".equals(itemName))
+				{
+					// ignore Pot
+					return;
+				}
 				if (config.showTooltipOnPrimaries() && Potion.getPrimaries().contains(itemName))
 				{
 					getTooltip(TOOLTIP_PRIMARY_TEXT, KEY_PRIMARY_IDENTIFIER + itemName);
