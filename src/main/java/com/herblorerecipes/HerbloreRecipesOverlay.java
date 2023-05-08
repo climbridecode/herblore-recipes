@@ -129,7 +129,17 @@ public class HerbloreRecipesOverlay extends Overlay
 					case WidgetID.BANK_INVENTORY_GROUP_ID:
 					case WidgetID.SEED_VAULT_GROUP_ID:
 					case WidgetID.SEED_VAULT_INVENTORY_GROUP_ID:
+						if (config.showOverlayInSeedVault())
+						{
+							conditionalRender(menuEntry, widgetId);
+						}
+						break;
 					case WidgetID.GROUP_STORAGE_GROUP_ID:
+						if (config.showOverlayInGroupStorage())
+						{
+							conditionalRender(menuEntry, widgetId);
+						}
+						break;
 					case WidgetID.INVENTORY_GROUP_ID:
 						if (config.showOverlayInInv())
 						{
