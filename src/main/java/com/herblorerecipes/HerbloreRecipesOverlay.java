@@ -15,7 +15,12 @@ import java.util.Optional;
 import java.util.concurrent.ExecutionException;
 import javax.inject.Inject;
 
-import net.runelite.api.*;
+import net.runelite.api.Client;
+import net.runelite.api.Item;
+import net.runelite.api.ItemContainer;
+import net.runelite.api.InventoryID;
+import net.runelite.api.MenuAction;
+import net.runelite.api.MenuEntry;
 import net.runelite.api.widgets.WidgetID;
 import net.runelite.api.widgets.WidgetInfo;
 import net.runelite.client.game.ItemManager;
