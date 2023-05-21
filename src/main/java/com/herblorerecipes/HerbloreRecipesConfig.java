@@ -49,7 +49,19 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 2,
+			position = 2,
+			keyName = SHOW_TOOLTIP_ON_GRIMY,
+			name = "Show Tooltip on Grimy herbs",
+			section = tooltipSection,
+			description = "Whether or not tooltip should be displayed on Grimy herbs."
+	)
+	default boolean showTooltipOnGrimy()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		position = 3,
 		keyName = SHOW_TOOLTIP_ON_SECONDARIES,
 		name = "Show Tooltip on Secondaries",
 		section = tooltipSection,
@@ -61,7 +73,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 3,
+		position = 4,
 		keyName = SHOW_TOOLTIP_ON_UNFINISHED,
 		name = "Show Tooltip on Unfinished Potions",
 		section = tooltipSection,
@@ -73,7 +85,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 4,
+		position = 5,
 		keyName = SHOW_TOOLTIP_ON_SEEDS,
 		name = "Show Tooltip on Seeds",
 		section = tooltipSection,
@@ -85,7 +97,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 5,
+		position = 6,
 		keyName = SHOW_PRIMARIES_IN_TOOLTIP,
 		name = "Show Primary Ingredients in Tooltip",
 		section = tooltipSection,
@@ -97,7 +109,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 6,
+		position = 7,
 		keyName = SHOW_SECONDARIES_IN_TOOLTIP,
 		name = "Show Secondary Ingredients in Tooltip",
 		section = tooltipSection,
@@ -109,7 +121,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 7,
+		position = 8,
 		keyName = SHOW_LEVEL_REQS_IN_TOOLTIP,
 		name = "Show Herblore level requirements in Tooltip",
 		section = tooltipSection,
@@ -121,7 +133,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 8,
+		position = 9,
 		keyName = SHOW_OVERLAY_IN_BANK,
 		name = "Show Recipes Overlay in Bank",
 		section = tooltipSection,
@@ -133,7 +145,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 9,
+		position = 10,
 		keyName = SHOW_OVERLAY_ON_PLACEHOLDER,
 		name = "Show Recipes Overlay on Placeholders",
 		section = tooltipSection,
@@ -144,7 +156,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 10,
+		position = 11,
 		keyName = SHOW_OVERLAY_IN_INV,
 		name = "Show Recipes Overlay in Inventory",
 		section = tooltipSection,
@@ -156,7 +168,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-			position = 11,
+			position = 12,
 			keyName = SHOW_OVERLAY_IN_VAULT,
 			name = "Show Recipes Overlay in Seed Vault",
 			section = tooltipSection,
@@ -168,7 +180,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-			position = 12,
+			position = 13,
 			keyName = SHOW_OVERLAY_IN_GROUP_STORAGE,
 			name = "Show Recipes Overlay in Group Storage",
 			section = tooltipSection,
@@ -180,7 +192,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 13,
+		position = 14,
 		keyName = USE_MODIFIER_KEY,
 		name = "Use Overlay Hotkey",
 		section = keybindSection,
@@ -192,7 +204,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 14,
+		position = 15,
 		keyName = MODIFIER_KEYBIND,
 		name = "Custom Overlay Hotkey",
 		section = keybindSection,
