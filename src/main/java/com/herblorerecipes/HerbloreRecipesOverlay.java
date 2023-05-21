@@ -212,8 +212,12 @@ public class HerbloreRecipesOverlay extends Overlay
 
 	private String stripExtra(String item)
 	{
-		String stripped = item.replaceAll("Grimy ", "")
-			.replaceAll("\\s?\\(\\d\\)", "");
+		String stripped = item;
+		if (config.showTooltipOnGrimy())
+		{
+			stripped = item.replaceAll("Grimy ", "");
+		}
+		stripped = stripped.replaceAll("\\s?\\(\\d\\)", "");
 		return stripped.substring(0, 1).toUpperCase() + stripped.substring(1);
 	}
 
