@@ -665,7 +665,45 @@ public enum Potions
 		.complexBase(Set.of(ANTIFIRE_POTION.potion))
 		.primary(ItemID.CRUSHED_SUPERIOR_DRAGON_BONES)
 		.ids(Set.of(ItemID.EXTENDED_SUPER_ANTIFIRE1, ItemID.EXTENDED_SUPER_ANTIFIRE2, ItemID.EXTENDED_SUPER_ANTIFIRE3, ItemID.EXTENDED_SUPER_ANTIFIRE4))
+		.build()),
+
+	// TARS
+	GUAM_TAR(Potion.builder()
+		.level(19)
+		.name("Guam tar")
+		.primary(ItemID.GUAM_LEAF)
+		.grimyHerb(ItemID.GRIMY_GUAM_LEAF)
+		.secondaries(Set.of(ItemID.SWAMP_TAR))
+		.ids(Set.of(ItemID.GUAM_TAR))
+		.build()),
+
+	MARRENTILL_TAR(Potion.builder()
+		.level(31)
+		.name("Marrentill tar")
+		.primary(ItemID.MARRENTILL)
+		.grimyHerb(ItemID.GRIMY_MARRENTILL)
+		.secondaries(Set.of(ItemID.SWAMP_TAR))
+		.ids(Set.of(ItemID.MARRENTILL_TAR))
+	.build()),
+
+	TARROMIN_TAR(Potion.builder()
+		.level(39)
+		.name("Tarromin tar")
+		.primary(ItemID.TARROMIN)
+		.grimyHerb(ItemID.GRIMY_TARROMIN)
+		.secondaries(Set.of(ItemID.SWAMP_TAR))
+		.ids(Set.of(ItemID.TARROMIN_TAR))
+		.build()),
+
+	HARRALANDER_TAR(Potion.builder()
+		.level(44)
+		.name("Harralander tar")
+		.primary(ItemID.HARRALANDER)
+		.grimyHerb(ItemID.GRIMY_HARRALANDER)
+		.secondaries(Set.of(ItemID.SWAMP_TAR))
+		.ids(Set.of(ItemID.HARRALANDER_TAR))
 		.build());
+
 	private static final Map<Integer, List<Potion>> primaryToPotion = new HashMap<>();
 	private static final Map<Integer, List<Potion>> secondariesToPotion = new HashMap<>();
 	private static final Map<Integer, List<Potion>> complexBaseToPotion = new HashMap<>();

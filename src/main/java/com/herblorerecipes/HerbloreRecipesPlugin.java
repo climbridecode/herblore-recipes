@@ -1,5 +1,6 @@
 package com.herblorerecipes;
 
+import com.google.common.base.Stopwatch;
 import com.google.inject.Provides;
 import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_HERB_LVL_REQ;
 import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_POTION_RECIPES;
@@ -11,7 +12,6 @@ import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_TOOLTIP_ON_SECONDAR
 import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
-import net.runelite.api.GameState;
 import net.runelite.api.events.GameStateChanged;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
@@ -49,6 +49,10 @@ public class HerbloreRecipesPlugin extends Plugin
 	{
 		overlayManager.add(overlay);
 		keyManager.registerKeyListener(overlay);
+		Stopwatch timer = Stopwatch.createStarted();
+		overlay.tooltipCache.preloadOnClientThread();
+		long nanos = timer.stop().elapsed().toNanos();
+		log.info("Tooltip cache was preloaded in {}ms ({} nanoseconds).", nanos / 1000000.0, nanos);
 	}
 
 	@Override
@@ -61,12 +65,6 @@ public class HerbloreRecipesPlugin extends Plugin
 	@Subscribe
 	public void onGameStateChanged(GameStateChanged gameStateChanged)
 	{
-		if (gameStateChanged.getGameState() == GameState.LOGGING_IN)
-		{
-			log.info("Preloading Tooltip cache...");
-			overlay.tooltipCache.preloadOnClientThread();
-			log.info("Finished preloading Tooltip cache.");
-		}
 	}
 
 	@Provides
@@ -87,9 +85,10 @@ public class HerbloreRecipesPlugin extends Plugin
 				event.getKey().equals(SHOW_TOOLTIP_ON_SECONDARIES) ||
 				event.getKey().equals(SHOW_TOOLTIP_ON_COMPLEX)))
 		{
-			log.info("Resetting Tooltip cache...");
+			Stopwatch timer = Stopwatch.createStarted();
 			overlay.tooltipCache.reset();
-			log.info("Tooltip cache reset.");
+			long nanos = timer.stop().elapsed().toNanos();
+			log.info("Tooltip cache was reset in {}ms ({} nanoseconds).", nanos / 1000000.0, nanos);
 		}
 	}
 }

@@ -1,12 +1,12 @@
 package com.herblorerecipes.cache;
 
 import com.herblorerecipes.HerbloreRecipesConfig;
+import com.herblorerecipes.model.Potion;
 import com.herblorerecipes.model.Potions;
 import com.herblorerecipes.model.TooltipBox;
 import com.herblorerecipes.model.TooltipCategory;
 import com.herblorerecipes.model.TooltipCategoryContent;
 import com.herblorerecipes.model.TooltipStringBuilder;
-import com.herblorerecipes.model.Potion;
 import java.awt.Color;
 import java.util.Collection;
 import java.util.HashMap;
