@@ -1,5 +1,6 @@
 package com.herblorerecipes.cache;
 
+import com.google.common.collect.ImmutableList;
 import com.herblorerecipes.HerbloreRecipesConfig;
 import com.herblorerecipes.model.Potion;
 import com.herblorerecipes.model.Potions;
@@ -71,7 +72,7 @@ public class TooltipCache
 				// get Potion instance
 				Potion p = Potions.getPotion(id);
 				// add Potion category
-				tooltip.getCategories().add(tooltipCategory(List.of(p), String.format(TOOLTIP_POTION_TEXT, colorWrap(p.getName(), AQUA))));
+				tooltip.getCategories().add(tooltipCategory(ImmutableList.of(p), String.format(TOOLTIP_POTION_TEXT, colorWrap(p.getName(), AQUA))));
 			}
 
 			// generate tooltip content for primaries
