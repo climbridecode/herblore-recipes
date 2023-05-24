@@ -1,13 +1,18 @@
 package com.herblorerecipes;
 
 import com.google.inject.Provides;
-import com.herblorerecipes.cache.HerbloreRecipesCacheLoader;
-import static com.herblorerecipes.util.Utils.SHOW_LEVEL_REQS_IN_TOOLTIP;
-import static com.herblorerecipes.util.Utils.SHOW_PRIMARIES_IN_TOOLTIP;
-import static com.herblorerecipes.util.Utils.SHOW_SECONDARIES_IN_TOOLTIP;
+import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_HERB_LVL_REQ;
+import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_POTION_RECIPES;
+import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_PRIMARY_INGS;
+import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_SECONDARY_INGS;
+import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_TOOLTIP_ON_COMPLEX;
+import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_TOOLTIP_ON_PRIMARIES;
+import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_TOOLTIP_ON_SECONDARIES;
 import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
+import net.runelite.api.GameState;
+import net.runelite.api.events.GameStateChanged;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.events.ConfigChanged;
@@ -31,31 +36,37 @@ public class HerbloreRecipesPlugin extends Plugin
 	private HerbloreRecipesConfig config;
 
 	@Inject
-	private KeyManager keyManager;
-
-	@Inject
-	private HerbloreRecipesKeyListener inputListener;
-
-	@Inject
 	private OverlayManager overlayManager;
 
 	@Inject
-	private HerbloreRecipesOverlay herbloreRecipesOverlay;
+	private KeyManager keyManager;
 
-	private boolean modifierKeyPressed;
+	@Inject
+	private HerbloreRecipesOverlay overlay;
 
 	@Override
 	protected void startUp() throws Exception
 	{
-		overlayManager.add(herbloreRecipesOverlay);
-		keyManager.registerKeyListener(inputListener);
+		overlayManager.add(overlay);
+		keyManager.registerKeyListener(overlay);
 	}
 
 	@Override
 	protected void shutDown() throws Exception
 	{
-		overlayManager.remove(herbloreRecipesOverlay);
-		keyManager.unregisterKeyListener(inputListener);
+		overlayManager.remove(overlay);
+		keyManager.unregisterKeyListener(overlay);
+	}
+
+	@Subscribe
+	public void onGameStateChanged(GameStateChanged gameStateChanged)
+	{
+		if (gameStateChanged.getGameState() == GameState.LOGGING_IN)
+		{
+			log.info("Preloading Tooltip cache...");
+			overlay.tooltipCache.preloadOnClientThread();
+			log.info("Finished preloading Tooltip cache.");
+		}
 	}
 
 	@Provides
@@ -67,21 +78,19 @@ public class HerbloreRecipesPlugin extends Plugin
 	@Subscribe
 	public void onConfigChanged(ConfigChanged event)
 	{
-		if (SHOW_SECONDARIES_IN_TOOLTIP.equals(event.getKey()) ||
-			SHOW_PRIMARIES_IN_TOOLTIP.equals(event.getKey()) ||
-			SHOW_LEVEL_REQS_IN_TOOLTIP.equals(event.getKey()))
+		log.info("event: " + event);
+		if ("herblorerecipes".equals(event.getGroup()) &&
+			(event.getKey().equals(SHOW_PRIMARY_INGS) ||
+				event.getKey().equals(SHOW_SECONDARY_INGS) ||
+				event.getKey().equals(SHOW_HERB_LVL_REQ) ||
+				event.getKey().equals(SHOW_POTION_RECIPES) ||
+				event.getKey().equals(SHOW_TOOLTIP_ON_PRIMARIES) ||
+				event.getKey().equals(SHOW_TOOLTIP_ON_SECONDARIES) ||
+				event.getKey().equals(SHOW_TOOLTIP_ON_COMPLEX)))
 		{
-			HerbloreRecipesCacheLoader.clearCache();
+			log.info("Resetting Tooltip cache...");
+			overlay.tooltipCache.reset();
+			log.info("Tooltip cache reset.");
 		}
-	}
-
-	public void setModifierKeyPressed(boolean modifierKeyPressed)
-	{
-		this.modifierKeyPressed = modifierKeyPressed;
-	}
-
-	public boolean isModifierKeyPressed()
-	{
-		return modifierKeyPressed;
 	}
 }
