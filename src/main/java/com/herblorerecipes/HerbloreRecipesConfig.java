@@ -1,6 +1,5 @@
 package com.herblorerecipes;
 
-import static com.herblorerecipes.util.Utils.*;
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
@@ -10,26 +9,58 @@ import net.runelite.client.config.Keybind;
 @ConfigGroup("herblorerecipes")
 public interface HerbloreRecipesConfig extends Config
 {
+	String MODIFIER_KEYBIND = "modifierKeybind";
+	String USE_KEYBIND = "useKeybind";
+	String SHOW_TOOLTIP_SEED_VAULT = "showTooltipSeedVault";
+	String SHOW_TOOLTIP_GROUP_STORAGE = "showTooltipGroupStorage";
+	String SHOW_TOOLTIP_INVENTORY = "showTooltipInInventory";
+	String SHOW_TOOLTIP_ON_PLACEHOLDER = "showTooltipOnPlaceholder";
+	String SHOW_TOOLTIP_IN_BANK = "showTooltipInBank";
+	String SHOW_POTION_RECIPES = "showPotionRecipes";
+	String SHOW_TOOLTIP_ON_PRIMARIES = "showTooltipOnPrimaries";
+	String SHOW_TOOLTIP_ON_GRIMY = "showTooltipOnGrimy";
+	String SHOW_TOOLTIP_ON_SECONDARIES = "showTooltipOnSecondaries";
+	String SHOW_TOOLTIP_ON_UNFINISHED = "showTooltipOnUnfinished";
+	String SHOW_TOOLTIP_ON_SEEDS = "showTooltipOnSeeds";
+	String SHOW_TOOLTIP_ON_COMPLEX = "showTooltipOnComplex";
+	String SHOW_PRIMARY_INGS = "showPrimaryIngredientsInTooltip";
+	String SHOW_SECONDARY_INGS = "showSecondaryIngredientsInTooltip";
+	String SHOW_HERB_LVL_REQ = "showHerbloreLvlInTooltip";
+
 	@ConfigSection(
-		name = "Tooltip Content Settings",
-		description = "Settings for the tooltip overlay content",
+		name = "Tooltip Visibility",
+		description = "Settings for tooltip Tooltip visibility",
 		position = 0
 	)
 	String tooltipSection = "tooltip";
 
 	@ConfigSection(
-		name = "Keybind",
-		description = "Define a custom hotkey to control the display of the overlay. Keybind changes are applied when focus is returned to the game.",
+		name = "Interfaces",
+		description = "Configure whether tooltip appears in these interfaces.",
 		position = 1
+	)
+	String interfaceSection = "interface";
+
+	@ConfigSection(
+		name = "Tooltip Content",
+		description = "Configure tooltip content",
+		position = 2
+	)
+	String tooltipContentSection = "tooltipContent";
+
+	@ConfigSection(
+		name = "Keybind",
+		description = "Define a custom hotkey to control the display of the Tooltip. Keybind changes are applied when focus is returned to the game.",
+		position = 3
 	)
 	String keybindSection = "keybind";
 
 	@ConfigItem(
 		position = 0,
-		keyName = SHOW_TOOLTIP_ON_POTIONS,
+		keyName = SHOW_POTION_RECIPES,
 		name = "Show Tooltip on Potions (Recipes)",
 		section = tooltipSection,
-		description = "Display the ingredients to make the potion on hover."
+		description = "Configure whether tooltips appear on potions - NOTE: Tooltips will still appear on potions that are bases for other potions e.g. Super attack potion for Divine super attack etc..."
 	)
 	default boolean showTooltipOnPotions()
 	{
@@ -49,11 +80,23 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-			position = 2,
-			keyName = SHOW_TOOLTIP_ON_GRIMY,
-			name = "Show Tooltip on Grimy herbs",
-			section = tooltipSection,
-			description = "Whether or not tooltip should be displayed on Grimy herbs."
+		position = 2,
+		keyName = SHOW_TOOLTIP_ON_COMPLEX,
+		name = "Show Tooltip on Complex Bases",
+		section = tooltipSection,
+		description = "Toggle recipe tooltip on Complex potion bases e.g. Hovering over a Super combat potion will show a tooltip as it's a base for Divine super combat potion."
+	)
+	default boolean showTooltipOnComplex()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		position = 3,
+		keyName = SHOW_TOOLTIP_ON_GRIMY,
+		name = "Show Tooltip on Grimy herbs",
+		section = tooltipSection,
+		description = "Whether or not tooltip should be displayed on Grimy herbs."
 	)
 	default boolean showTooltipOnGrimy()
 	{
@@ -61,7 +104,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 3,
+		position = 4,
 		keyName = SHOW_TOOLTIP_ON_SECONDARIES,
 		name = "Show Tooltip on Secondaries",
 		section = tooltipSection,
@@ -73,7 +116,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 4,
+		position = 5,
 		keyName = SHOW_TOOLTIP_ON_UNFINISHED,
 		name = "Show Tooltip on Unfinished Potions",
 		section = tooltipSection,
@@ -85,7 +128,7 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 5,
+		position = 6,
 		keyName = SHOW_TOOLTIP_ON_SEEDS,
 		name = "Show Tooltip on Seeds",
 		section = tooltipSection,
@@ -97,11 +140,71 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 6,
-		keyName = SHOW_PRIMARIES_IN_TOOLTIP,
-		name = "Show Primary Ingredients in Tooltip",
-		section = tooltipSection,
-		description = "Toggle primary ingredients alongside secondary ingredients in tooltip. This will clear the tooltip cache."
+		position = 1,
+		keyName = SHOW_TOOLTIP_IN_BANK,
+		name = "Show Tooltip in Bank",
+		section = interfaceSection,
+		description = "Configure whether the tooltip appears on herblore items in the bank"
+	)
+	default boolean showTooltipInBank()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		position = 2,
+		keyName = SHOW_TOOLTIP_ON_PLACEHOLDER,
+		name = "Show Tooltip on Placeholders",
+		section = interfaceSection,
+		description = "Configure whether the tooltips appears on herblore items placeholders"
+	)
+	default boolean showTooltipOnPlaceholder()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		position = 3,
+		keyName = SHOW_TOOLTIP_INVENTORY,
+		name = "Show Tooltip in Inventory",
+		section = interfaceSection,
+		description = "Configure whether the tooltip appears on herblore items in the inventory"
+	)
+	default boolean showTooltipInInv()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		position = 4,
+		keyName = SHOW_TOOLTIP_SEED_VAULT,
+		name = "Show Tooltip in Seed Vault",
+		section = interfaceSection,
+		description = "Configure whether the tooltip appears on herblore items in the seed vault"
+	)
+	default boolean showTooltipInSeedVault()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		position = 5,
+		keyName = SHOW_TOOLTIP_GROUP_STORAGE,
+		name = "Show Tooltip in Group Storage",
+		section = interfaceSection,
+		description = "Configure whether the tooltip appears on herblore items in group storage"
+	)
+	default boolean showTooltipInGroupStorage()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		position = 1,
+		keyName = SHOW_PRIMARY_INGS,
+		name = "Show Primary ingredients",
+		section = tooltipContentSection,
+		description = "Configure whether tooltip shows primary ingredients"
 	)
 	default boolean showPrimariesInTooltip()
 	{
@@ -109,11 +212,11 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 7,
-		keyName = SHOW_SECONDARIES_IN_TOOLTIP,
-		name = "Show Secondary Ingredients in Tooltip",
-		section = tooltipSection,
-		description = "Toggle secondary ingredients alongside primary ingredients in tooltip. This will clear the tooltip cache."
+		position = 2,
+		keyName = SHOW_SECONDARY_INGS,
+		name = "Show Secondary ingredients",
+		section = tooltipContentSection,
+		description = "Configure whether tooltip shows secondary ingredients"
 	)
 	default boolean showSecondariesInTooltip()
 	{
@@ -121,94 +224,36 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
-		position = 8,
-		keyName = SHOW_LEVEL_REQS_IN_TOOLTIP,
-		name = "Show Herblore level requirements in Tooltip",
-		section = tooltipSection,
-		description = "Setting to show or hide herblore level requirements on the tooltip. This will clear the tooltip cache"
+		position = 3,
+		keyName = SHOW_HERB_LVL_REQ,
+		name = "Show Herblore lvl requirement",
+		section = tooltipContentSection,
+		description = "Configure whether tooltip shows herblore level requirement"
 	)
-	default boolean showLevelReqsInTooltip()
+	default boolean showHerbloreLvlInTooltip()
 	{
 		return true;
 	}
 
-	@ConfigItem(
-		position = 9,
-		keyName = SHOW_OVERLAY_IN_BANK,
-		name = "Show Recipes Overlay in Bank",
-		section = tooltipSection,
-		description = "Setting to toggle whether the herblore recipes overlay appears on herblore items in the bank"
-	)
-	default boolean showOverlayInBank()
-	{
-		return true;
-	}
 
 	@ConfigItem(
-		position = 10,
-		keyName = SHOW_OVERLAY_ON_PLACEHOLDER,
-		name = "Show Recipes Overlay on Placeholders",
-		section = tooltipSection,
-		description = "Setting to toggle whether the herblore recipes overlay appears on herblore items on bank placeholders"
-	)
-	default boolean showOverlayOnPlaceholder() {
-		return true;
-	}
-
-	@ConfigItem(
-		position = 11,
-		keyName = SHOW_OVERLAY_IN_INV,
-		name = "Show Recipes Overlay in Inventory",
-		section = tooltipSection,
-		description = "Setting to toggle whether the herblore recipes overlay appears on herblore items in the inventory"
-	)
-	default boolean showOverlayInInv()
-	{
-		return true;
-	}
-
-	@ConfigItem(
-			position = 12,
-			keyName = SHOW_OVERLAY_IN_VAULT,
-			name = "Show Recipes Overlay in Seed Vault",
-			section = tooltipSection,
-			description = "Setting to toggle whether the herblore recipes overlay appears on herblore items in the seed vault"
-	)
-	default boolean showOverlayInSeedVault()
-	{
-		return true;
-	}
-
-	@ConfigItem(
-			position = 13,
-			keyName = SHOW_OVERLAY_IN_GROUP_STORAGE,
-			name = "Show Recipes Overlay in Group Storage",
-			section = tooltipSection,
-			description = "Setting to toggle whether the herblore recipes overlay appears on herblore items in group storage"
-	)
-	default boolean showOverlayInGroupStorage()
-	{
-		return true;
-	}
-
-	@ConfigItem(
-		position = 14,
-		keyName = USE_MODIFIER_KEY,
-		name = "Use Overlay Hotkey",
+		position = 1,
+		keyName = USE_KEYBIND,
+		name = "Use Tooltip Keybind",
 		section = keybindSection,
-		description = "Show overlay only when pressing on bound key. After enabling you need to define a custom keybind"
+		description = "Configure whether to press a key to show Herblore tooltips."
 	)
-	default boolean useModifierKey()
+	default boolean useKeybind()
 	{
 		return false;
 	}
 
 	@ConfigItem(
-		position = 15,
+		position = 2,
 		keyName = MODIFIER_KEYBIND,
-		name = "Custom Overlay Hotkey",
+		name = "Show Tooltip Keybind",
 		section = keybindSection,
-		description = "Define the overlay hotkey"
+		description = "Only show Tooltips when this Hotkey is pressed."
 	)
 	default Keybind modifierKey()
 	{
