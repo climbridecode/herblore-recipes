@@ -78,7 +78,6 @@ public class HerbloreRecipesPlugin extends Plugin
 	@Subscribe
 	public void onConfigChanged(ConfigChanged event)
 	{
-		log.info("event: " + event);
 		if ("herblorerecipes".equals(event.getGroup()) &&
 			(event.getKey().equals(SHOW_PRIMARY_INGS) ||
 				event.getKey().equals(SHOW_SECONDARY_INGS) ||
