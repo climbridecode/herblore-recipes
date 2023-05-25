@@ -1,5 +1,6 @@
 package com.herblorerecipes.cache;
 
+import com.google.common.base.Stopwatch;
 import com.google.common.collect.ImmutableList;
 import com.herblorerecipes.HerbloreRecipesConfig;
 import com.herblorerecipes.model.Potion;
@@ -16,11 +17,13 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import javax.inject.Inject;
+import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.ui.overlay.tooltip.Tooltip;
 import net.runelite.client.util.ColorUtil;
 
+@Slf4j
 public class TooltipCache
 {
 
@@ -62,6 +65,7 @@ public class TooltipCache
 		this.tooltipCache = new HashMap<>();
 		Set<Integer> allIds = Potions.allIds();
 
+		Stopwatch timer = Stopwatch.createStarted();
 		allIds.forEach(id -> {
 			TooltipBox tooltip = new TooltipBox();
 
@@ -125,6 +129,8 @@ public class TooltipCache
 				this.tooltipCache.put(id, buildTooltip(tooltip));
 			}
 		});
+		long nanos = timer.stop().elapsed().toNanos();
+		log.info("Tooltip cache was loaded in {}ms.", nanos / 1000000.0);
 	}
 
 	public boolean contains(int id)
