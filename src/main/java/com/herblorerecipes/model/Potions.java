@@ -232,8 +232,8 @@ public enum Potions
 		.primary(ItemID.IRIT_LEAF)
 		.grimyHerb(ItemID.GRIMY_IRIT_LEAF)
 		.primarySeed(ItemID.IRIT_SEED)
-		.secondaries(ImmutableSet.of(ItemID.UNICORN_HORN))
-		.secondariesAlt(ImmutableSet.of(ItemID.UNICORN_HORN_DUST))
+		.secondaries(ImmutableSet.of(ItemID.UNICORN_HORN_DUST))
+		.secondariesAlt(ImmutableSet.of(ItemID.UNICORN_HORN))
 		.unfinishedPotion(ItemID.IRIT_POTION_UNF)
 		.ids(ImmutableSet.of(ItemID.SUPERANTIPOISON1, ItemID.SUPERANTIPOISON2, ItemID.SUPERANTIPOISON3, ItemID.SUPERANTIPOISON4))
 		.build()),
