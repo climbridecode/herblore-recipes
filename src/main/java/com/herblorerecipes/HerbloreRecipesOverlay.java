@@ -74,8 +74,17 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 			// check if modifier key is set
 			if (config.modifierKey().getKeyCode() == Keybind.NOT_SET.getKeyCode())
 			{
-				// if keybind isn't set, but user wants to use keybind, don't render tooltip
-				return null;
+				// check modifiers because of ALT/SHIFT/CTRL
+				// if modifiers are 0, then return null because Keybind is truly not set.
+				// refer to this code in runelite's Keybind.java:
+				// 	public static final Keybind CTRL = new Keybind(KeyEvent.VK_UNDEFINED, InputEvent.CTRL_DOWN_MASK);
+				//	public static final Keybind ALT = new Keybind(KeyEvent.VK_UNDEFINED, InputEvent.ALT_DOWN_MASK);
+				//	public static final Keybind SHIFT = new Keybind(KeyEvent.VK_UNDEFINED, InputEvent.SHIFT_DOWN_MASK);
+				if (config.modifierKey().getModifiers() == 0)
+				{
+					// if keybind isn't set, don't render tooltip
+					return null;
+				}
 			}
 
 			// if here, keybind is set, ensure it's pressed

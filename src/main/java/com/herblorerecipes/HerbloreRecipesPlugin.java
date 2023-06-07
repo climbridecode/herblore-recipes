@@ -44,16 +44,16 @@ public class HerbloreRecipesPlugin extends Plugin
 	@Override
 	protected void startUp() throws Exception
 	{
-		overlayManager.add(overlay);
 		keyManager.registerKeyListener(overlay);
+		overlayManager.add(overlay);
 		overlay.tooltipCache.preloadOnClientThread();
 	}
 
 	@Override
 	protected void shutDown() throws Exception
 	{
-		overlayManager.remove(overlay);
 		keyManager.unregisterKeyListener(overlay);
+		overlayManager.remove(overlay);
 	}
 
 	@Subscribe
