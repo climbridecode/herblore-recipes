@@ -2,6 +2,7 @@ package com.herblorerecipes;
 
 import com.google.inject.Provides;
 import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_HERB_LVL_REQ;
+import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_IMP_REPELLENT_INGS;
 import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_POTION_RECIPES;
 import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_PRIMARY_INGS;
 import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_SECONDARY_INGS;
@@ -77,7 +78,8 @@ public class HerbloreRecipesPlugin extends Plugin
 				event.getKey().equals(SHOW_POTION_RECIPES) ||
 				event.getKey().equals(SHOW_TOOLTIP_ON_PRIMARIES) ||
 				event.getKey().equals(SHOW_TOOLTIP_ON_SECONDARIES) ||
-				event.getKey().equals(SHOW_TOOLTIP_ON_COMPLEX)))
+				event.getKey().equals(SHOW_TOOLTIP_ON_COMPLEX) ||
+				event.getKey().equals(SHOW_IMP_REPELLENT_INGS)))
 		{
 			overlay.tooltipCache.reset();
 		}

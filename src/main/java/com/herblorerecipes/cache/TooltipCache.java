@@ -197,8 +197,11 @@ public class TooltipCache
 				// consider imp repellent bc there are so many secondaries
 				if (p.getIds().contains(ItemID.IMP_REPELLENT))
 				{
-					// only show simple string for now...
-					content.setSecondary("Various flowers...");
+					if (!config.showImpRepellentIngs())
+					{
+						// only show this simple string for now...
+						content.setSecondary("Various flowers...");
+					}
 				}
 			}
 
