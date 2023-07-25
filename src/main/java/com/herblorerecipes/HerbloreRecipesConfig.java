@@ -26,6 +26,7 @@ public interface HerbloreRecipesConfig extends Config
 	String SHOW_PRIMARY_INGS = "showPrimaryIngredientsInTooltip";
 	String SHOW_SECONDARY_INGS = "showSecondaryIngredientsInTooltip";
 	String SHOW_HERB_LVL_REQ = "showHerbloreLvlInTooltip";
+	String SHOW_IMP_REPELLENT_INGS = "showImpRepellentIngs";
 
 	@ConfigSection(
 		name = "Tooltip Visibility",
@@ -233,6 +234,18 @@ public interface HerbloreRecipesConfig extends Config
 	default boolean showHerbloreLvlInTooltip()
 	{
 		return true;
+	}
+	
+	@ConfigItem(
+		position = 4,
+		keyName = SHOW_IMP_REPELLENT_INGS,
+		name = "Show Imp Repellent ingredients",
+		section = tooltipContentSection,
+		description = "Configure whether Imp Repellent tooltip shows ALL ingredients"
+	)
+	default boolean showImpRepellentIngs()
+	{
+		return false;
 	}
 
 
