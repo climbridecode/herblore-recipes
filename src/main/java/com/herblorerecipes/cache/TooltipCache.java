@@ -10,6 +10,7 @@ import com.herblorerecipes.model.TooltipCategory;
 import com.herblorerecipes.model.TooltipCategoryContent;
 import com.herblorerecipes.model.TooltipStringBuilder;
 import java.awt.Color;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
@@ -18,6 +19,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
+import net.runelite.api.ItemID;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.ui.overlay.tooltip.Tooltip;
@@ -172,7 +174,10 @@ public class TooltipCache
 			// prepare level line
 			content.setLevel(String.valueOf(p.getLevel()));
 			// prepare primary ingredient line
-			content.setPrimary(itemName(p.getPrimary()));
+			if (p.getPrimary() > 0)
+			{
+				content.setPrimary(itemName(p.getPrimary()));
+			}
 			// prepare potion base line
 			if (p.hasComplexBase())
 			{
@@ -189,6 +194,12 @@ public class TooltipCache
 			{
 				// there are secondaries to consider
 				content.setSecondary(itemNames(p.getSecondaries()));
+				// consider imp repellent bc there are so many secondaries
+				if (p.getIds().contains(ItemID.IMP_REPELLENT))
+				{
+					// only show simple string for now...
+					content.setSecondary("Various flowers...");
+				}
 			}
 
 			category.getContent().add(content);
