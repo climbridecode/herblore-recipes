@@ -9,8 +9,10 @@ import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_SECONDARY_INGS;
 import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_TOOLTIP_ON_COMPLEX;
 import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_TOOLTIP_ON_PRIMARIES;
 import static com.herblorerecipes.HerbloreRecipesConfig.SHOW_TOOLTIP_ON_SECONDARIES;
+import java.util.Objects;
 import javax.inject.Inject;
 import net.runelite.api.Client;
+import net.runelite.api.GameState;
 import net.runelite.api.events.GameStateChanged;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
@@ -47,7 +49,6 @@ public class HerbloreRecipesPlugin extends Plugin
 	{
 		keyManager.registerKeyListener(overlay);
 		overlayManager.add(overlay);
-		overlay.tooltipCache.preloadOnClientThread();
 	}
 
 	@Override
@@ -60,6 +61,10 @@ public class HerbloreRecipesPlugin extends Plugin
 	@Subscribe
 	public void onGameStateChanged(GameStateChanged gameStateChanged)
 	{
+		if (Objects.requireNonNull(gameStateChanged.getGameState()) == GameState.LOGGED_IN)
+		{
+			overlay.tooltipCache.preloadOnClientThread();
+		}
 	}
 
 	@Provides
