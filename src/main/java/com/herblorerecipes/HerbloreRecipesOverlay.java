@@ -12,8 +12,11 @@ import net.runelite.api.Item;
 import net.runelite.api.ItemContainer;
 import net.runelite.api.MenuAction;
 import net.runelite.api.MenuEntry;
+import net.runelite.api.widgets.ComponentID;
+import net.runelite.api.widgets.InterfaceID;
 import net.runelite.api.widgets.WidgetID;
 import net.runelite.api.widgets.WidgetInfo;
+import net.runelite.api.widgets.WidgetUtil;
 import net.runelite.client.config.Keybind;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.input.KeyListener;
@@ -25,12 +28,12 @@ import org.apache.commons.lang3.StringUtils;
 public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 {
 
-	private static final int INVENTORY_ITEM_WIDGETID = WidgetInfo.INVENTORY.getPackedId();
-	private static final int BANK_ITEM_WIDGETID = WidgetInfo.BANK_ITEM_CONTAINER.getPackedId();
-	private static final int BANKED_INVENTORY_ITEM_WIDGETID = WidgetInfo.BANK_INVENTORY_ITEMS_CONTAINER.getPackedId();
-	private static final int SEED_VAULT_INVENTORY_WIDGETID = WidgetInfo.SEED_VAULT_INVENTORY_ITEMS_CONTAINER.getPackedId();
-	private static final int SEED_VAULT_WIDGETID = WidgetInfo.SEED_VAULT_ITEM_CONTAINER.getPackedId();
-	private static final int GROUP_STORAGE_ITEM_WIDGETID = WidgetInfo.GROUP_STORAGE_ITEM_CONTAINER.getPackedId();
+	private static final int INVENTORY_ITEM_WIDGETID = ComponentID.INVENTORY_CONTAINER;
+	private static final int BANK_ITEM_WIDGETID = ComponentID.BANK_ITEM_CONTAINER;
+	private static final int BANKED_INVENTORY_ITEM_WIDGETID = ComponentID.BANK_INVENTORY_ITEM_CONTAINER;
+	private static final int SEED_VAULT_INVENTORY_WIDGETID = ComponentID.SEED_VAULT_INVENTORY_ITEM_CONTAINER;
+	private static final int SEED_VAULT_WIDGETID = ComponentID.SEED_VAULT_ITEM_CONTAINER;
+	private static final int GROUP_STORAGE_ITEM_WIDGETID = ComponentID.GROUP_STORAGE_ITEM_CONTAINER;
 	public final TooltipCache tooltipCache;
 	private final Client client;
 	private final TooltipManager tooltipManager;
@@ -114,11 +117,11 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 
 		final MenuAction action = menuEntry.getType();
 		final int widgetId = menuEntry.getParam1();
-		final int groupId = WidgetInfo.TO_GROUP(widgetId);
+		final int groupId = WidgetUtil.componentToInterface(widgetId);
 
 		switch (action)
 		{
-			case WIDGET_USE_ON_ITEM:
+			case WIDGET_TARGET_ON_WIDGET:
 			case WIDGET_TARGET:
 			case CC_OP:
 			case ITEM_USE:
@@ -130,24 +133,25 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 			case ITEM_FIFTH_OPTION:
 				switch (groupId)
 				{
-					case WidgetID.BANK_INVENTORY_GROUP_ID:
-					case WidgetID.SEED_VAULT_GROUP_ID:
-					case WidgetID.SEED_VAULT_INVENTORY_GROUP_ID:
+					case InterfaceID.GROUP_STORAGE_INVENTORY:
+					case InterfaceID.GROUP_IRON:
+					case InterfaceID.SEED_VAULT:
+					case InterfaceID.SEED_VAULT_INVENTORY:
 						if (!config.showTooltipInSeedVault())
 						{
 							return null;
 						}
-					case WidgetID.GROUP_STORAGE_GROUP_ID:
+					case InterfaceID.GROUP_STORAGE:
 						if (!config.showTooltipInGroupStorage())
 						{
 							return null;
 						}
-					case WidgetID.INVENTORY_GROUP_ID:
+					case InterfaceID.INVENTORY:
 						if (!config.showTooltipInInv())
 						{
 							return null;
 						}
-					case WidgetID.BANK_GROUP_ID:
+					case InterfaceID.BANK:
 						if (!config.showTooltipOnPlaceholder() && action == MenuAction.CC_OP_LOW_PRIORITY)
 						{
 							// item is bank placeholder - return null
