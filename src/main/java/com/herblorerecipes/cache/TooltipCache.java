@@ -132,7 +132,7 @@ public class TooltipCache
 			}
 		});
 		long nanos = timer.stop().elapsed().toNanos();
-		log.info("Tooltip cache was loaded in {}ms.", nanos / 1000000.0);
+		log.debug("Tooltip cache was loaded in {}ms.", nanos / 1000000.0);
 	}
 
 	public boolean contains(int id)
