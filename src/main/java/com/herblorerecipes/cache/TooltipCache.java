@@ -135,16 +135,7 @@ public class TooltipCache
 
 	public boolean contains(int id)
 	{
-		try
-		{
-			return this.tooltipCache.containsKey(id);
-		}
-		catch (NullPointerException e)
-		{
-			// sanity check, this shouldn't happen as id can't be null
-			log.debug("NPE thrown, id: {}. e: {}", id, e);
-		}
-		return false;
+		return this.tooltipCache.containsKey(id);
 	}
 
 	public Tooltip get(int id)
