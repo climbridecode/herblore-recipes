@@ -10,7 +10,6 @@ import com.herblorerecipes.model.TooltipCategory;
 import com.herblorerecipes.model.TooltipCategoryContent;
 import com.herblorerecipes.model.TooltipStringBuilder;
 import java.awt.Color;
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
@@ -47,7 +46,7 @@ public class TooltipCache
 	private final ItemManager itemManager;
 	private final ClientThread clientThread;
 	private final HerbloreRecipesConfig config;
-	private Map<Integer, Tooltip> tooltipCache;
+	private final Map<Integer, Tooltip> tooltipCache = new HashMap<>();
 
 	@Inject
 	public TooltipCache(ItemManager itemManager, ClientThread clientThread, HerbloreRecipesConfig config)
@@ -64,7 +63,6 @@ public class TooltipCache
 
 	private void preLoadCache()
 	{
-		this.tooltipCache = new HashMap<>();
 		Set<Integer> allIds = Potions.allIds();
 
 		Stopwatch timer = Stopwatch.createStarted();
@@ -137,16 +135,14 @@ public class TooltipCache
 
 	public boolean contains(int id)
 	{
-		if (this.tooltipCache != null)
+		try
 		{
-			try
-			{
-				return this.tooltipCache.containsKey(id);
-			}
-			catch (NullPointerException e)
-			{
-				log.debug("NPE thrown, id: {}. e: {}", id, e);
-			}
+			return this.tooltipCache.containsKey(id);
+		}
+		catch (NullPointerException e)
+		{
+			// sanity check, this shouldn't happen as id can't be null
+			log.debug("NPE thrown, id: {}. e: {}", id, e);
 		}
 		return false;
 	}
