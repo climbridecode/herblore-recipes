@@ -21,7 +21,7 @@ public interface HerbloreRecipesConfig extends Config
 	String SHOW_TOOLTIP_ON_GRIMY = "showTooltipOnGrimy";
 	String SHOW_TOOLTIP_ON_SECONDARIES = "showTooltipOnSecondaries";
 	String SHOW_TOOLTIP_ON_UNFINISHED = "showTooltipOnUnfinished";
-	String SHOW_TOOLTIP_ON_SEEDS = "showTooltipOnSeeds";
+	String SHOW_TOOLTIP_ON_PRIMARY_SEEDS = "showTooltipOnPrimarySeeds";
 	String SHOW_TOOLTIP_ON_COMPLEX = "showTooltipOnComplex";
 	String SHOW_PRIMARY_INGS = "showPrimaryIngredientsInTooltip";
 	String SHOW_SECONDARY_INGS = "showSecondaryIngredientsInTooltip";
@@ -130,12 +130,12 @@ public interface HerbloreRecipesConfig extends Config
 
 	@ConfigItem(
 		position = 6,
-		keyName = SHOW_TOOLTIP_ON_SEEDS,
-		name = "Show Tooltip on Seeds",
+		keyName = SHOW_TOOLTIP_ON_PRIMARY_SEEDS,
+		name = "Show Tooltip on Primary (Herb) Seeds",
 		section = tooltipSection,
-		description = "Toggle recipe tooltip on seeds."
+		description = "Toggle recipe tooltip on primary/herb seeds."
 	)
-	default boolean showTooltipOnSeeds()
+	default boolean showTooltipOnPrimarySeeds()
 	{
 		return true;
 	}

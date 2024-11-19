@@ -14,8 +14,6 @@ import net.runelite.api.MenuAction;
 import net.runelite.api.MenuEntry;
 import net.runelite.api.widgets.ComponentID;
 import net.runelite.api.widgets.InterfaceID;
-import net.runelite.api.widgets.WidgetID;
-import net.runelite.api.widgets.WidgetInfo;
 import net.runelite.api.widgets.WidgetUtil;
 import net.runelite.client.config.Keybind;
 import net.runelite.client.game.ItemManager;
@@ -63,7 +61,7 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 
 		if (!config.showTooltipOnPrimaries() && !config.showTooltipOnSecondaries() &&
 			!config.showTooltipOnPotions() && !config.showTooltipOnUnfinished() &&
-			!config.showTooltipOnSeeds() && !config.showTooltipOnGrimy() &&
+			!config.showTooltipOnPrimarySeeds() && !config.showTooltipOnGrimy() &&
 			!config.showTooltipOnComplex())
 		{
 			// plugin is effectively disabled
@@ -135,22 +133,32 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 				{
 					case InterfaceID.GROUP_STORAGE_INVENTORY:
 					case InterfaceID.GROUP_IRON:
-					case InterfaceID.SEED_VAULT:
-					case InterfaceID.SEED_VAULT_INVENTORY:
-						if (!config.showTooltipInSeedVault())
-						{
-							return null;
-						}
 					case InterfaceID.GROUP_STORAGE:
 						if (!config.showTooltipInGroupStorage())
 						{
 							return null;
 						}
+						showTooltip(widgetId, menuEntry);
+						break;
+
+					case InterfaceID.SEED_VAULT_INVENTORY:
+					case InterfaceID.SEED_VAULT:
+						if (!config.showTooltipInSeedVault())
+						{
+							return null;
+						}
+						showTooltip(widgetId, menuEntry);
+						break;
+
+					case InterfaceID.BANK_INVENTORY:
 					case InterfaceID.INVENTORY:
 						if (!config.showTooltipInInv())
 						{
 							return null;
 						}
+						showTooltip(widgetId, menuEntry);
+						break;
+
 					case InterfaceID.BANK:
 						if (!config.showTooltipOnPlaceholder() && action == MenuAction.CC_OP_LOW_PRIORITY)
 						{
@@ -162,44 +170,59 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 							return null;
 						}
 
-						ItemContainer container = getContainer(widgetId);
-						if (container == null)
-						{
-							return null;
-						}
-
-
-						Item item = container.getItem(menuEntry.getParam0());
-						if (item == null)
-						{
-							return null;
-						}
-
-						int itemId = itemManager.canonicalize(item.getId());
-
-
-						if (Potions.isSeed(itemId) && !config.showTooltipOnSeeds())
-						{
-							return null;
-						}
-
-						if (Potions.isUnfinished(itemId) && !config.showTooltipOnUnfinished())
-						{
-							return null;
-						}
-
-						if (Potions.isGrimy(itemId) && !config.showTooltipOnGrimy())
-						{
-							return null;
-						}
-
-						if (tooltipCache.contains(itemId))
-						{
-							tooltipManager.add(tooltipCache.get(itemId));
-						}
+						showTooltip(widgetId, menuEntry);
+						break;
 				}
 		}
 		return null;
+	}
+
+	private void showTooltip(int widgetId, MenuEntry menuEntry)
+	{
+		int itemId = getItemIdFromWidgetId(widgetId, menuEntry);
+
+		if (Potions.isSeed(itemId) && !config.showTooltipOnPrimarySeeds())
+		{
+			return;
+		}
+
+		if (Potions.isUnfinished(itemId) && !config.showTooltipOnUnfinished())
+		{
+			return;
+		}
+
+		if (Potions.isGrimy(itemId) && !config.showTooltipOnGrimy())
+		{
+			return;
+		}
+
+		showTooltip(itemId);
+	}
+
+	private int getItemIdFromWidgetId(int widgetId, MenuEntry menuEntry)
+	{
+		ItemContainer container = getContainer(widgetId);
+		if (container == null)
+		{
+			return -1;
+		}
+
+
+		Item item = container.getItem(menuEntry.getParam0());
+		if (item == null)
+		{
+			return -1;
+		}
+
+		return itemManager.canonicalize(item.getId());
+	}
+
+	private void showTooltip(int itemId)
+	{
+		if (tooltipCache.contains(itemId))
+		{
+			tooltipManager.add(tooltipCache.get(itemId));
+		}
 	}
 
 	private ItemContainer getContainer(int widgetId)
