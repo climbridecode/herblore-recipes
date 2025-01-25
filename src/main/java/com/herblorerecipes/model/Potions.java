@@ -288,6 +288,18 @@ public enum Potions
 		.ids(ImmutableSet.of(ItemID.HUNTER_POTION1, ItemID.HUNTER_POTION2, ItemID.HUNTER_POTION3, ItemID.HUNTER_POTION4))
 		.build()),
 
+	GOADING_POTION(Potion.builder()
+		.level(54)
+		.name("Goading potion")
+		.basicBase(ItemID.VIAL_OF_WATER)
+		.primary(ItemID.HARRALANDER)
+		.grimyHerb(ItemID.GRIMY_HARRALANDER)
+		.primarySeed(ItemID.HARRALANDER_SEED)
+		.secondaries(ImmutableSet.of(ItemID.ALDARIUM))
+		.unfinishedPotion(ItemID.HARRALANDER_POTION_UNF)
+		.ids(ImmutableSet.of(ItemID.GOADING_POTION1, ItemID.GOADING_POTION2, ItemID.GOADING_POTION3, ItemID.GOADING_POTION4))
+		.build()),
+
 	SUPER_STRENGTH(Potion.builder()
 		.level(55)
 		.name("Super strength")
@@ -310,6 +322,18 @@ public enum Potions
 		.secondariesAlt(ImmutableSet.of(ItemID.GORAK_CLAWS))
 		.unfinishedPotion(ItemID.MAGIC_ESSENCE_UNF)
 		.ids(ImmutableSet.of(ItemID.MAGIC_ESSENCE1, ItemID.MAGIC_ESSENCE2, ItemID.MAGIC_ESSENCE3, ItemID.MAGIC_ESSENCE4))
+		.build()),
+
+	PRAYER_REGENERATION_POTION(Potion.builder()
+		.level(58)
+		.name("Prayer regeneration potion")
+		.basicBase(ItemID.VIAL_OF_WATER)
+		.primary(ItemID.HUASCA)
+		.grimyHerb(ItemID.GRIMY_HUASCA)
+		.primarySeed(ItemID.HUASCA_SEED)
+		.secondaries(ImmutableSet.of(ItemID.ALDARIUM))
+		.unfinishedPotion(ItemID.HUASCA_POTION_UNF)
+		.ids(ImmutableSet.of(ItemID.PRAYER_REGENERATION_POTION1, ItemID.PRAYER_REGENERATION_POTION2, ItemID.PRAYER_REGENERATION_POTION3, ItemID.PRAYER_REGENERATION_POTION4))
 		.build()),
 
 	WEAPON_POISON(Potion.builder()
@@ -650,6 +674,14 @@ public enum Potions
 		.grimyHerb(ItemID.GRIMY_TORSTOL)
 		.primarySeed(ItemID.TORSTOL_SEED)
 		.ids(ImmutableSet.of(ItemID.ANTIVENOM1_12919, ItemID.ANTIVENOM2_12917, ItemID.ANTIVENOM3_12915, ItemID.ANTIVENOM4_12913))
+		.build()),
+
+	EXTENDED_ANTIVENOM_PLUS(Potion.builder()
+		.level(94)
+		.name("Extended anti-venom+")
+		.complexBase(ImmutableSet.of(ANTIVENOM_PLUS.potion))
+		.primary(ItemID.ARAXYTE_VENOM_SACK)
+		.ids(ImmutableSet.of(ItemID.EXTENDED_ANTIVENOM1, ItemID.EXTENDED_ANTIVENOM2, ItemID.EXTENDED_ANTIVENOM3, ItemID.EXTENDED_ANTIVENOM4))
 		.build()),
 
 	DIVINE_SUPER_COMBAT(Potion.builder()
