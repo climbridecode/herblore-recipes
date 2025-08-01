@@ -24,7 +24,7 @@ dependencies {
 }
 
 group = 'com.herblorerecipes'
-version = '1.7.5'
+version = '1.7.6'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
