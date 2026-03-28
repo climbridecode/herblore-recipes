@@ -7,12 +7,8 @@ import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
 import javax.inject.Inject;
 import net.runelite.api.Client;
-import net.runelite.api.InventoryID;
-import net.runelite.api.Item;
-import net.runelite.api.ItemContainer;
 import net.runelite.api.MenuAction;
 import net.runelite.api.MenuEntry;
-import net.runelite.api.widgets.ComponentID;
 import net.runelite.api.widgets.InterfaceID;
 import net.runelite.api.widgets.WidgetUtil;
 import net.runelite.client.config.Keybind;
@@ -26,12 +22,6 @@ import org.apache.commons.lang3.StringUtils;
 public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 {
 
-	private static final int INVENTORY_ITEM_WIDGETID = ComponentID.INVENTORY_CONTAINER;
-	private static final int BANK_ITEM_WIDGETID = ComponentID.BANK_ITEM_CONTAINER;
-	private static final int BANKED_INVENTORY_ITEM_WIDGETID = ComponentID.BANK_INVENTORY_ITEM_CONTAINER;
-	private static final int SEED_VAULT_INVENTORY_WIDGETID = ComponentID.SEED_VAULT_INVENTORY_ITEM_CONTAINER;
-	private static final int SEED_VAULT_WIDGETID = ComponentID.SEED_VAULT_ITEM_CONTAINER;
-	private static final int GROUP_STORAGE_ITEM_WIDGETID = ComponentID.GROUP_STORAGE_ITEM_CONTAINER;
 	public final TooltipCache tooltipCache;
 	private final Client client;
 	private final TooltipManager tooltipManager;
@@ -122,13 +112,12 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 			case WIDGET_TARGET_ON_WIDGET:
 			case WIDGET_TARGET:
 			case CC_OP:
-			case ITEM_USE:
-			case ITEM_FIRST_OPTION:
-			case ITEM_SECOND_OPTION:
-			case ITEM_THIRD_OPTION:
-			case ITEM_FOURTH_OPTION:
+			case WIDGET_FIRST_OPTION:
+			case WIDGET_SECOND_OPTION:
+			case WIDGET_THIRD_OPTION:
+			case WIDGET_FOURTH_OPTION:
 			case CC_OP_LOW_PRIORITY:
-			case ITEM_FIFTH_OPTION:
+			case WIDGET_FIFTH_OPTION:
 				switch (groupId)
 				{
 					case InterfaceID.GROUP_STORAGE_INVENTORY:
@@ -179,7 +168,7 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 
 	private void showTooltip(int widgetId, MenuEntry menuEntry)
 	{
-		int itemId = getItemIdFromWidgetId(widgetId, menuEntry);
+		int itemId = getItemIdFromMenuEntry(menuEntry);
 
 		if (Potions.isSeed(itemId) && !config.showTooltipOnPrimarySeeds())
 		{
@@ -199,22 +188,15 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 		showTooltip(itemId);
 	}
 
-	private int getItemIdFromWidgetId(int widgetId, MenuEntry menuEntry)
+	private int getItemIdFromMenuEntry(MenuEntry menuEntry)
 	{
-		ItemContainer container = getContainer(widgetId);
-		if (container == null)
+		int itemId = menuEntry.getItemId();
+		if (itemId < 0)
 		{
 			return -1;
 		}
 
-
-		Item item = container.getItem(menuEntry.getParam0());
-		if (item == null)
-		{
-			return -1;
-		}
-
-		return itemManager.canonicalize(item.getId());
+		return itemManager.canonicalize(itemId);
 	}
 
 	private void showTooltip(int itemId)
@@ -225,26 +207,6 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 		}
 	}
 
-	private ItemContainer getContainer(int widgetId)
-	{
-		if (widgetId == INVENTORY_ITEM_WIDGETID || widgetId == BANKED_INVENTORY_ITEM_WIDGETID || widgetId == SEED_VAULT_INVENTORY_WIDGETID)
-		{
-			return client.getItemContainer(InventoryID.INVENTORY);
-		}
-		else if (widgetId == BANK_ITEM_WIDGETID)
-		{
-			return client.getItemContainer(InventoryID.BANK);
-		}
-		else if (widgetId == SEED_VAULT_WIDGETID)
-		{
-			return client.getItemContainer(InventoryID.SEED_VAULT);
-		}
-		else if (widgetId == GROUP_STORAGE_ITEM_WIDGETID)
-		{
-			return client.getItemContainer(InventoryID.GROUP_STORAGE);
-		}
-		return null;
-	}
 
 	@Override
 	public void keyTyped(KeyEvent e)

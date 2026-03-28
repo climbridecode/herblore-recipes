@@ -745,6 +745,325 @@ public enum Potions
 		.grimyHerb(ItemID.GRIMY_IRIT_LEAF)
 		.secondaries(ImmutableSet.of(ItemID.SWAMP_TAR))
 		.ids(ImmutableSet.of(ItemID.IRIT_TAR))
+		.build()),
+
+	// NEW POTIONS (2025)
+	SURGE_POTION(Potion.builder()
+		.level(81)
+		.name("Surge potion")
+		.basicBase(ItemID.VIAL_OF_WATER)
+		.primary(ItemID.TORSTOL)
+		.grimyHerb(ItemID.GRIMY_TORSTOL)
+		.primarySeed(ItemID.TORSTOL_SEED)
+		.secondaries(ImmutableSet.of(ItemID.DEMONIC_TALLOW))
+		.unfinishedPotion(ItemID.TORSTOL_POTION_UNF)
+		.ids(ImmutableSet.of(ItemID.SURGE_POTION1, ItemID.SURGE_POTION2, ItemID.SURGE_POTION3, ItemID.SURGE_POTION4))
+		.build()),
+
+	// SAILING POTIONS
+	HAEMOSTATIC_POULTICE(Potion.builder()
+		.level(56)
+		.name("Haemostatic poultice")
+		.basicBase(ItemID.VIAL_OF_WATER)
+		.primary(ItemID.ELKHORN_CORAL)
+		.secondaries(ImmutableSet.of(ItemID.SQUID_PASTE))
+		.unfinishedPotion(ItemID.ELKHORN_POTION_UNF)
+		.ids(ImmutableSet.of(ItemID.HAEMOSTATIC_POULTICE))
+		.build()),
+
+	HAEMOSTATIC_DRESSING(Potion.builder()
+		.level(56)
+		.name("Haemostatic dressing")
+		.complexBase(ImmutableSet.of(HAEMOSTATIC_POULTICE.potion))
+		.secondaries(ImmutableSet.of(ItemID.COTTON_YARN))
+		.ids(ImmutableSet.of(ItemID.HAEMOSTATIC_DRESSING_1, ItemID.HAEMOSTATIC_DRESSING_2, ItemID.HAEMOSTATIC_DRESSING_3, ItemID.HAEMOSTATIC_DRESSING_4))
+		.build()),
+
+	SUPER_FISHING_POTION(Potion.builder()
+		.level(62)
+		.name("Super fishing potion")
+		.basicBase(ItemID.VIAL_OF_WATER)
+		.primary(ItemID.PILLAR_CORAL)
+		.secondaries(ImmutableSet.of(ItemID.HADDOCK_EYE))
+		.unfinishedPotion(ItemID.PILLAR_POTION_UNF)
+		.ids(ImmutableSet.of(ItemID.SUPER_FISHING_POTION1, ItemID.SUPER_FISHING_POTION2, ItemID.SUPER_FISHING_POTION3, ItemID.SUPER_FISHING_POTION4))
+		.build()),
+
+	EXTREME_ENERGY_POTION(Potion.builder()
+		.level(66)
+		.name("Extreme energy potion")
+		.complexBase(ImmutableSet.of(SUPER_ENERGY.potion))
+		.secondaries(ImmutableSet.of(ItemID.YELLOW_FIN))
+		.ids(ImmutableSet.of(ItemID.EXTREME_ENERGY_POTION1, ItemID.EXTREME_ENERGY_POTION2, ItemID.EXTREME_ENERGY_POTION3, ItemID.EXTREME_ENERGY_POTION4))
+		.build()),
+
+	SUPER_HUNTER_POTION(Potion.builder()
+		.level(67)
+		.name("Super hunter potion")
+		.basicBase(ItemID.VIAL_OF_WATER)
+		.primary(ItemID.PILLAR_CORAL)
+		.secondaries(ImmutableSet.of(ItemID.CRAB_PASTE))
+		.unfinishedPotion(ItemID.PILLAR_POTION_UNF)
+		.ids(ImmutableSet.of(ItemID.SUPER_HUNTER_POTION1, ItemID.SUPER_HUNTER_POTION2, ItemID.SUPER_HUNTER_POTION3, ItemID.SUPER_HUNTER_POTION4))
+		.build()),
+
+	EXTENDED_STAMINA_POTION(Potion.builder()
+		.level(85)
+		.name("Extended stamina potion")
+		.complexBase(ImmutableSet.of(STAMINA_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.MARLIN_SCALES))
+		.ids(ImmutableSet.of(ItemID.EXTENDED_STAMINA_POTION1, ItemID.EXTENDED_STAMINA_POTION2, ItemID.EXTENDED_STAMINA_POTION3, ItemID.EXTENDED_STAMINA_POTION4))
+		.build()),
+
+	ARMADYL_BREW(Potion.builder()
+		.level(89)
+		.name("Armadyl brew")
+		.basicBase(ItemID.VIAL_OF_WATER)
+		.primary(ItemID.UMBRAL_CORAL)
+		.secondaries(ImmutableSet.of(ItemID.RAINBOW_CRAB_PASTE))
+		.unfinishedPotion(ItemID.UMBRAL_POTION_UNF)
+		.ids(ImmutableSet.of(ItemID.ARMADYL_BREW1, ItemID.ARMADYL_BREW2, ItemID.ARMADYL_BREW3, ItemID.ARMADYL_BREW4))
+		.build()),
+
+	ANTI_ODOUR_SALT(Potion.builder()
+		.level(49)
+		.name("Anti-odour salt")
+		.primary(ItemID.ELKHORN_CORAL)
+		.secondaries(ImmutableSet.of(ItemID.CRAB_PASTE))
+		.ids(ImmutableSet.of(ItemID.ANTIODOUR_SALT))
+		.build()),
+
+	// BARBARIAN MIXES
+	ATTACK_MIX(Potion.builder()
+		.level(4)
+		.name("Attack mix")
+		.complexBase(ImmutableSet.of(ATTACK_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.ROE))
+		.ids(ImmutableSet.of(ItemID.ATTACK_MIX1, ItemID.ATTACK_MIX2))
+		.build()),
+
+	ANTIPOISON_MIX(Potion.builder()
+		.level(6)
+		.name("Antipoison mix")
+		.complexBase(ImmutableSet.of(ANTIPOISON.potion))
+		.secondaries(ImmutableSet.of(ItemID.ROE))
+		.ids(ImmutableSet.of(ItemID.ANTIPOISON_MIX1, ItemID.ANTIPOISON_MIX2))
+		.build()),
+
+	RELICYMS_MIX(Potion.builder()
+		.level(9)
+		.name("Relicym's mix")
+		.complexBase(ImmutableSet.of(RELICYMS_BALM.potion))
+		.secondaries(ImmutableSet.of(ItemID.ROE))
+		.ids(ImmutableSet.of(ItemID.RELICYMS_MIX1, ItemID.RELICYMS_MIX2))
+		.build()),
+
+	STRENGTH_MIX(Potion.builder()
+		.level(14)
+		.name("Strength mix")
+		.complexBase(ImmutableSet.of(STRENGTH_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.ROE))
+		.ids(ImmutableSet.of(ItemID.STRENGTH_MIX1, ItemID.STRENGTH_MIX2))
+		.build()),
+
+	RESTORE_MIX(Potion.builder()
+		.level(24)
+		.name("Restore mix")
+		.complexBase(ImmutableSet.of(RESTORE_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.ROE))
+		.ids(ImmutableSet.of(ItemID.RESTORE_MIX1, ItemID.RESTORE_MIX2))
+		.build()),
+
+	ENERGY_MIX(Potion.builder()
+		.level(29)
+		.name("Energy mix")
+		.complexBase(ImmutableSet.of(ENERGY_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.ENERGY_MIX1, ItemID.ENERGY_MIX2))
+		.build()),
+
+	DEFENCE_MIX(Potion.builder()
+		.level(33)
+		.name("Defence mix")
+		.complexBase(ImmutableSet.of(DEFENCE_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.DEFENCE_MIX1, ItemID.DEFENCE_MIX2))
+		.build()),
+
+	AGILITY_MIX(Potion.builder()
+		.level(37)
+		.name("Agility mix")
+		.complexBase(ImmutableSet.of(AGILITY_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.AGILITY_MIX1, ItemID.AGILITY_MIX2))
+		.build()),
+
+	COMBAT_MIX(Potion.builder()
+		.level(40)
+		.name("Combat mix")
+		.complexBase(ImmutableSet.of(COMBAT_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.COMBAT_MIX1, ItemID.COMBAT_MIX2))
+		.build()),
+
+	PRAYER_MIX(Potion.builder()
+		.level(42)
+		.name("Prayer mix")
+		.complexBase(ImmutableSet.of(PRAYER_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.PRAYER_MIX1, ItemID.PRAYER_MIX2))
+		.build()),
+
+	SUPERATTACK_MIX(Potion.builder()
+		.level(47)
+		.name("Superattack mix")
+		.complexBase(ImmutableSet.of(SUPER_ATTACK.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.SUPERATTACK_MIX1, ItemID.SUPERATTACK_MIX2))
+		.build()),
+
+	ANTIPOISON_SUPERMIX(Potion.builder()
+		.level(51)
+		.name("Anti-poison supermix")
+		.complexBase(ImmutableSet.of(SUPERANTIPOISON.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.ANTIPOISON_SUPERMIX1, ItemID.ANTIPOISON_SUPERMIX2))
+		.build()),
+
+	FISHING_MIX(Potion.builder()
+		.level(53)
+		.name("Fishing mix")
+		.complexBase(ImmutableSet.of(FISHING_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.FISHING_MIX1, ItemID.FISHING_MIX2))
+		.build()),
+
+	SUPER_ENERGY_MIX(Potion.builder()
+		.level(56)
+		.name("Super energy mix")
+		.complexBase(ImmutableSet.of(SUPER_ENERGY.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.SUPER_ENERGY_MIX1, ItemID.SUPER_ENERGY_MIX2))
+		.build()),
+
+	HUNTING_MIX(Potion.builder()
+		.level(58)
+		.name("Hunting mix")
+		.complexBase(ImmutableSet.of(HUNTER_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.HUNTING_MIX1, ItemID.HUNTING_MIX2))
+		.build()),
+
+	SUPER_STR_MIX(Potion.builder()
+		.level(59)
+		.name("Super strength mix")
+		.complexBase(ImmutableSet.of(SUPER_STRENGTH.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.SUPER_STR_MIX1, ItemID.SUPER_STR_MIX2))
+		.build()),
+
+	MAGIC_ESSENCE_MIX(Potion.builder()
+		.level(61)
+		.name("Magic essence mix")
+		.complexBase(ImmutableSet.of(MAGIC_ESSENCE.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.MAGIC_ESSENCE_MIX1, ItemID.MAGIC_ESSENCE_MIX2))
+		.build()),
+
+	SUPER_RESTORE_MIX(Potion.builder()
+		.level(67)
+		.name("Super restore mix")
+		.complexBase(ImmutableSet.of(SUPER_RESTORE.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.SUPER_RESTORE_MIX1, ItemID.SUPER_RESTORE_MIX2))
+		.build()),
+
+	SUPER_DEF_MIX(Potion.builder()
+		.level(71)
+		.name("Super defence mix")
+		.complexBase(ImmutableSet.of(SUPER_DEFENCE.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.SUPER_DEF_MIX1, ItemID.SUPER_DEF_MIX2))
+		.build()),
+
+	ANTIDOTE_MIX(Potion.builder()
+		.level(74)
+		.name("Antidote+ mix")
+		.complexBase(ImmutableSet.of(ANTIDOTE_PLUS.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.ANTIDOTE_MIX1, ItemID.ANTIDOTE_MIX2))
+		.build()),
+
+	ANTIFIRE_MIX(Potion.builder()
+		.level(75)
+		.name("Antifire mix")
+		.complexBase(ImmutableSet.of(ANTIFIRE_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.ANTIFIRE_MIX1, ItemID.ANTIFIRE_MIX2))
+		.build()),
+
+	RANGING_MIX(Potion.builder()
+		.level(80)
+		.name("Ranging mix")
+		.complexBase(ImmutableSet.of(RANGING_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.RANGING_MIX1, ItemID.RANGING_MIX2))
+		.build()),
+
+	MAGIC_MIX(Potion.builder()
+		.level(83)
+		.name("Magic mix")
+		.complexBase(ImmutableSet.of(MAGIC_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.MAGIC_MIX1, ItemID.MAGIC_MIX2))
+		.build()),
+
+	ZAMORAK_MIX(Potion.builder()
+		.level(85)
+		.name("Zamorak mix")
+		.complexBase(ImmutableSet.of(ZAMORAK_BREW.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.ZAMORAK_MIX1, ItemID.ZAMORAK_MIX2))
+		.build()),
+
+	STAMINA_MIX(Potion.builder()
+		.level(86)
+		.name("Stamina mix")
+		.complexBase(ImmutableSet.of(STAMINA_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.STAMINA_MIX1, ItemID.STAMINA_MIX2))
+		.build()),
+
+	EXTENDED_ANTIFIRE_MIX(Potion.builder()
+		.level(91)
+		.name("Extended antifire mix")
+		.complexBase(ImmutableSet.of(EXTENDED_ANTIFIRE.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.EXTENDED_ANTIFIRE_MIX1, ItemID.EXTENDED_ANTIFIRE_MIX2))
+		.build()),
+
+	ANCIENT_MIX(Potion.builder()
+		.level(92)
+		.name("Ancient mix")
+		.complexBase(ImmutableSet.of(ANCIENT_BREW.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.ANCIENT_MIX1, ItemID.ANCIENT_MIX2))
+		.build()),
+
+	SUPER_ANTIFIRE_MIX(Potion.builder()
+		.level(98)
+		.name("Super antifire mix")
+		.complexBase(ImmutableSet.of(SUPER_ANTIFIRE_POTION.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.SUPER_ANTIFIRE_MIX1, ItemID.SUPER_ANTIFIRE_MIX2))
+		.build()),
+
+	EXTENDED_SUPER_ANTIFIRE_MIX(Potion.builder()
+		.level(99)
+		.name("Extended super antifire mix")
+		.complexBase(ImmutableSet.of(EXTENDED_SUPER_ANTIFIRE.potion))
+		.secondaries(ImmutableSet.of(ItemID.CAVIAR))
+		.ids(ImmutableSet.of(ItemID.EXTENDED_SUPER_ANTIFIRE_MIX1, ItemID.EXTENDED_SUPER_ANTIFIRE_MIX2))
 		.build());
 
 	private static final Map<Integer, List<Potion>> primaryToPotion = new HashMap<>();
