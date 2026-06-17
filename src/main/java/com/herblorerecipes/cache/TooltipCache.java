@@ -10,11 +10,7 @@ import com.herblorerecipes.model.TooltipCategory;
 import com.herblorerecipes.model.TooltipCategoryContent;
 import com.herblorerecipes.model.TooltipStringBuilder;
 import java.awt.Color;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
@@ -36,6 +32,7 @@ public class TooltipCache
 	private static final Color PURPLE = new Color(181, 153, 255);
 	private static final Color ORANGE = new Color(255, 140, 103);
 	private static final Color TURQUOISE = new Color(112, 248, 208);
+	private static final Color SALMON = new Color(248, 112, 123);
 	private static final String TOOLTIP_PRIMARY_TEXT = colorWrap("Primary", LIME) + colorWrap(" for:", GREY);
 	private static final String TOOLTIP_SECONDARY_TEXT = colorWrap("Secondary", AQUA) + colorWrap(" for:", GREY);
 	private static final String TOOLTIP_UNF_TEXT = colorWrap("Unfinished", GOLD) + colorWrap(" for:", GREY);
@@ -43,6 +40,7 @@ public class TooltipCache
 	private static final String TOOLTIP_BASE_TEXT = colorWrap("Base", PURPLE) + colorWrap(" for:", GREY);
 	private static final String TOOLTIP_SEED_TEXT = colorWrap("Seed", ORANGE) + colorWrap(" for:", GREY);
 	private static final String TOOLTIP_GRIMY_TEXT = colorWrap("Clean", TURQUOISE) + colorWrap(" for:", GREY);
+	private static final String TOOLTIP_PASTE_TEXT = colorWrap("Paste", SALMON) + colorWrap(" for:", GREY);
 	private final ItemManager itemManager;
 	private final ClientThread clientThread;
 	private final HerbloreRecipesConfig config;
@@ -73,10 +71,21 @@ public class TooltipCache
 			// check if it's potion ID
 			if (Potions.isPotion(id) && config.showTooltipOnPotions())
 			{
+				List<Potion> ps = new ArrayList<>();
 				// get Potion instance
 				Potion p = Potions.getPotion(id);
-				// add Potion category
-				tooltip.getCategories().add(tooltipCategory(ImmutableList.of(p), String.format(TOOLTIP_POTION_TEXT, colorWrap(p.getName(), AQUA))));
+				// check if paste
+				if (p.getName().contains(" paste"))
+				{
+					// get all reqs
+					ps.addAll(Potions.getPastes(id));
+				}
+				else
+				{
+					ps.add(p);
+					// add Potion category
+					tooltip.getCategories().add(tooltipCategory(ps, String.format(TOOLTIP_POTION_TEXT, colorWrap(p.getName(), AQUA))));
+				}
 			}
 
 			// generate tooltip content for primaries
@@ -84,6 +93,16 @@ public class TooltipCache
 			{
 				// get Potions for this primary
 				List<Potion> ps = Potions.getByPrimary(id);
+				Optional<Potion> optPaste = ps.stream()
+						.filter(potion -> potion.getName().contains(" paste"))
+						.findFirst();
+				if (optPaste.isPresent())
+				{
+					// it's a paste
+					Potion paste = optPaste.get();
+					tooltip.getCategories().add(tooltipCategory(ImmutableList.of(paste), TOOLTIP_PASTE_TEXT));
+                    ps.remove(paste);
+                }
 				tooltip.getCategories().add(tooltipCategory(ps, TOOLTIP_PRIMARY_TEXT));
 			}
 

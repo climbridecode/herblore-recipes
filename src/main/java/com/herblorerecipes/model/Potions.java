@@ -747,6 +747,127 @@ public enum Potions
 		.ids(ImmutableSet.of(ItemID.IRIT_TAR))
 		.build()),
 
+	// MIXOLOGY PASTES
+	GUAM_LEAF_MOX(Potion.builder()
+			.level(1)
+			.name("Mox paste")
+			.primary(ItemID.GUAM_LEAF)
+			.grimyHerb(ItemID.GRIMY_GUAM_LEAF)
+			.ids(ImmutableSet.of(ItemID.MOX_PASTE))
+			.build()),
+
+	MARRENTILL_MOX(Potion.builder()
+			.level(1)
+			.name("Mox paste")
+			.primary(ItemID.MARRENTILL)
+			.grimyHerb(ItemID.GRIMY_MARRENTILL)
+			.ids(ImmutableSet.of(ItemID.MOX_PASTE))
+			.build()),
+
+	TARROMIN_MOX(Potion.builder()
+			.level(1)
+			.name("Mox paste")
+			.primary(ItemID.TARROMIN)
+			.grimyHerb(ItemID.GRIMY_TARROMIN)
+			.ids(ImmutableSet.of(ItemID.MOX_PASTE))
+			.build()),
+
+	HARRALANDER_MOX(Potion.builder()
+			.level(1)
+			.name("Mox paste")
+			.primary(ItemID.HARRALANDER)
+			.grimyHerb(ItemID.GRIMY_HARRALANDER)
+			.ids(ImmutableSet.of(ItemID.MOX_PASTE))
+			.build()),
+
+	RANARR_WEED_LYE(Potion.builder()
+			.level(1)
+			.name("Lye paste")
+			.primary(ItemID.RANARR_WEED)
+			.grimyHerb(ItemID.GRIMY_RANARR_WEED)
+			.ids(ImmutableSet.of(ItemID.LYE_PASTE))
+			.build()),
+
+	TOADFLAX_LYE(Potion.builder()
+			.level(1)
+			.name("Lye paste")
+			.primary(ItemID.TOADFLAX)
+			.grimyHerb(ItemID.GRIMY_TOADFLAX)
+			.ids(ImmutableSet.of(ItemID.LYE_PASTE))
+			.build()),
+
+	IRIT_LEAF_AGA(Potion.builder()
+			.level(1)
+			.name("Aga paste")
+			.primary(ItemID.IRIT_LEAF)
+			.grimyHerb(ItemID.GRIMY_IRIT_LEAF)
+			.ids(ImmutableSet.of(ItemID.AGA_PASTE))
+			.build()),
+
+	AVANTOE_LYE(Potion.builder()
+			.level(1)
+			.name("Lye paste")
+			.primary(ItemID.AVANTOE)
+			.grimyHerb(ItemID.GRIMY_AVANTOE)
+			.ids(ImmutableSet.of(ItemID.LYE_PASTE))
+			.build()),
+
+	KWUARM_LYE(Potion.builder()
+			.level(1)
+			.name("Lye paste")
+			.primary(ItemID.KWUARM)
+			.grimyHerb(ItemID.GRIMY_KWUARM)
+			.ids(ImmutableSet.of(ItemID.LYE_PASTE))
+			.build()),
+
+	HUASCA_AGA(Potion.builder()
+			.level(60)
+			.name("Aga paste")
+			.primary(ItemID.HUASCA)
+			.grimyHerb(ItemID.GRIMY_HUASCA)
+			.ids(ImmutableSet.of(ItemID.AGA_PASTE))
+			.build()),
+
+	SNAPDRAGON_LYE(Potion.builder()
+			.level(1)
+			.name("Lye paste")
+			.primary(ItemID.SNAPDRAGON)
+			.grimyHerb(ItemID.GRIMY_SNAPDRAGON)
+			.ids(ImmutableSet.of(ItemID.LYE_PASTE))
+			.build()),
+
+	CADANTINE_AGA(Potion.builder()
+			.level(1)
+			.name("Aga paste")
+			.primary(ItemID.CADANTINE)
+			.grimyHerb(ItemID.GRIMY_CADANTINE)
+			.ids(ImmutableSet.of(ItemID.AGA_PASTE))
+			.build()),
+
+	LANTADYME_AGA(Potion.builder()
+			.level(1)
+			.name("Aga paste")
+			.primary(ItemID.LANTADYME)
+			.grimyHerb(ItemID.GRIMY_LANTADYME)
+			.ids(ImmutableSet.of(ItemID.AGA_PASTE))
+			.build()),
+
+	DWARF_WEED_AGA(Potion.builder()
+			.level(60)
+			.name("Aga paste")
+			.primary(ItemID.DWARF_WEED)
+			.grimyHerb(ItemID.GRIMY_DWARF_WEED)
+			.ids(ImmutableSet.of(ItemID.AGA_PASTE))
+			.build()),
+
+	TORSTOL_AGA(Potion.builder()
+			.level(1)
+			.name("Aga paste")
+			.primary(ItemID.TORSTOL)
+			.grimyHerb(ItemID.GRIMY_TORSTOL)
+			.ids(ImmutableSet.of(ItemID.AGA_PASTE))
+			.build()),
+
 	// NEW POTIONS (2025)
 	SURGE_POTION(Potion.builder()
 		.level(81)
@@ -1107,6 +1228,15 @@ public enum Potions
 			.filter(potion -> potion.getIds().contains(potionId))
 			.findFirst()
 			.orElse(null);
+	}
+
+	public static List<Potion> getPastes(int pasteId)
+	{
+		return Arrays.stream(values())
+				.map(p -> p.potion)
+				.filter(p -> p.getName().contains(" paste"))
+				.filter(p -> p.getIds().contains(pasteId))
+				.collect(Collectors.toList());
 	}
 
 	private static void buildPrimariesAndGrimyMaps()
