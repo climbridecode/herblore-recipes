@@ -1,0 +1,129 @@
+name: Release and open plugin-hub PR
+
+# Triggered automatically after a PR is merged to master, only when build.gradle changes
+# (i.e. when you bump the version). Listening on `push` (not `release`) guarantees the
+# GitHub Release created below does NOT re-trigger this or any other workflow.
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - build.gradle
+
+# Lets the default GITHUB_TOKEN create the GitHub Release on THIS repo.
+permissions:
+  contents: write
+
+env:
+  # This repo (the plugin source repo).
+  PLUGIN_REPO_URL: https://github.com/climbridecode/herblore-recipes.git
+  # Upstream plugin-hub we branch off of and open the PR against.
+  UPSTREAM_PLUGIN_HUB: runelite/plugin-hub
+  # Your fork that the PR branch is pushed to.
+  FORK_PLUGIN_HUB: climbridecode/plugin-hub
+  # The plugin manifest file inside plugin-hub.
+  PLUGIN_HUB_FILE: plugins/herblorerecipes
+
+jobs:
+  release-and-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+        with:
+          # Full history so we can reference the exact merge commit SHA.
+          fetch-depth: 0
+
+      - name: Read version from build.gradle
+        id: version
+        run: |
+          VERSION=$(grep -E "^version\s*=\s*['\"]" build.gradle \
+            | head -n1 \
+            | sed -E "s/^version\s*=\s*['\"]([^'\"]+)['\"].*/\1/")
+          if [ -z "$VERSION" ]; then
+            echo "Could not parse version from build.gradle" >&2
+            exit 1
+          fi
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
+          echo "Detected version: $VERSION"
+
+      - name: Check if release already exists
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh release view "${{ steps.version.outputs.tag }}" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "Release ${{ steps.version.outputs.tag }} already exists; nothing to do."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create GitHub Release
+        if: steps.check.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${{ steps.version.outputs.tag }}" \
+            --title "${{ steps.version.outputs.tag }}" \
+            --target "${{ github.sha }}" \
+            --generate-notes
+
+      - name: Checkout upstream plugin-hub (master)
+        if: steps.check.outputs.exists == 'false'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.UPSTREAM_PLUGIN_HUB }}
+          ref: master
+          path: plugin-hub
+          # PAT that can push to your fork and open a PR upstream.
+          token: ${{ secrets.PLUGIN_HUB_TOKEN }}
+
+      - name: Update commit hash in plugin-hub manifest
+        if: steps.check.outputs.exists == 'false'
+        working-directory: plugin-hub
+        run: |
+          MERGE_SHA="${{ github.sha }}"
+          echo "Setting commit=$MERGE_SHA in $PLUGIN_HUB_FILE"
+          # Replace only the line starting with 'commit=' (line 2 of the manifest).
+          sed -i -E "s|^commit=.*|commit=${MERGE_SHA}|" "$PLUGIN_HUB_FILE"
+          echo "----- $PLUGIN_HUB_FILE after update -----"
+          cat "$PLUGIN_HUB_FILE"
+          # Fail early if nothing changed (e.g. SHA was already set).
+          if git diff --quiet -- "$PLUGIN_HUB_FILE"; then
+            echo "No change to $PLUGIN_HUB_FILE; aborting." >&2
+            exit 1
+          fi
+
+      - name: Push branch to fork and open PR
+        if: steps.check.outputs.exists == 'false'
+        working-directory: plugin-hub
+        env:
+          GH_TOKEN: ${{ secrets.PLUGIN_HUB_TOKEN }}
+          VERSION: ${{ steps.version.outputs.version }}
+          MERGE_SHA: ${{ github.sha }}
+        run: |
+          BRANCH="herblorerecipes-v${VERSION}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Point the fork remote at YOUR fork (origin is currently upstream).
+          git remote add fork "https://github.com/${FORK_PLUGIN_HUB}.git"
+
+          git checkout -b "$BRANCH"
+          git add "$PLUGIN_HUB_FILE"
+          git commit -m "herblorerecipes: bump to v${VERSION}"
+          git push -u fork "$BRANCH" --force
+
+          FORK_OWNER="${FORK_PLUGIN_HUB%%/*}"
+
+          gh pr create \
+            --repo "${UPSTREAM_PLUGIN_HUB}" \
+            --base master \
+            --head "${FORK_OWNER}:${BRANCH}" \
+            --title "herblorerecipes: bump to v${VERSION}" \
+            --body "Updates the herblorerecipes plugin to v${VERSION}.
+
+          Source commit: https://github.com/climbridecode/herblore-recipes/commit/${MERGE_SHA}"
