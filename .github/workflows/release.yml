@@ -1,12 +1,12 @@
 name: Release and open plugin-hub PR
 
-# Triggered automatically after a PR is merged to master, only when build.gradle changes
+# Triggered automatically after a PR is merged to main, only when build.gradle changes
 # (i.e. when you bump the version). Listening on `push` (not `release`) guarantees the
 # GitHub Release created below does NOT re-trigger this or any other workflow.
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - build.gradle
 
@@ -81,6 +81,7 @@ jobs:
           token: ${{ secrets.PLUGIN_HUB_TOKEN }}
 
       - name: Update commit hash in plugin-hub manifest
+        id: update
         if: steps.check.outputs.exists == 'false'
         working-directory: plugin-hub
         run: |
@@ -90,14 +91,16 @@ jobs:
           sed -i -E "s|^commit=.*|commit=${MERGE_SHA}|" "$PLUGIN_HUB_FILE"
           echo "----- $PLUGIN_HUB_FILE after update -----"
           cat "$PLUGIN_HUB_FILE"
-          # Fail early if nothing changed (e.g. SHA was already set).
+          # If nothing changed (SHA already set), exit gracefully and skip the PR steps.
           if git diff --quiet -- "$PLUGIN_HUB_FILE"; then
-            echo "No change to $PLUGIN_HUB_FILE; aborting." >&2
-            exit 1
+            echo "No change to $PLUGIN_HUB_FILE; commit is already up to date. Skipping PR."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Push branch to fork and open PR
-        if: steps.check.outputs.exists == 'false'
+        if: steps.check.outputs.exists == 'false' && steps.update.outputs.changed == 'true'
         working-directory: plugin-hub
         env:
           GH_TOKEN: ${{ secrets.PLUGIN_HUB_TOKEN }}
@@ -119,11 +122,23 @@ jobs:
 
           FORK_OWNER="${FORK_PLUGIN_HUB%%/*}"
 
-          gh pr create \
+          # Only open a PR if one doesn't already exist for this head branch.
+          EXISTING_PR=$(gh pr list \
             --repo "${UPSTREAM_PLUGIN_HUB}" \
-            --base master \
             --head "${FORK_OWNER}:${BRANCH}" \
-            --title "herblorerecipes: bump to v${VERSION}" \
-            --body "Updates the herblorerecipes plugin to v${VERSION}.
+            --state open \
+            --json number \
+            --jq '.[0].number')
 
-          Source commit: https://github.com/climbridecode/herblore-recipes/commit/${MERGE_SHA}"
+          if [ -n "$EXISTING_PR" ]; then
+            echo "PR #${EXISTING_PR} already exists for ${BRANCH}; it was updated by the force-push."
+          else
+            gh pr create \
+              --repo "${UPSTREAM_PLUGIN_HUB}" \
+              --base master \
+              --head "${FORK_OWNER}:${BRANCH}" \
+              --title "herblorerecipes: bump to v${VERSION}" \
+              --body "Updates the herblorerecipes plugin to v${VERSION}.
+
+            Source commit: https://github.com/climbridecode/herblore-recipes/commit/${MERGE_SHA}"
+          fi
