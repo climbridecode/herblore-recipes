@@ -1,0 +1,26 @@
+# Limit changed-files based labels to 5
+changed-files-labels-limit: 5
+
+ci-cd:
+  - changed-files:
+      - any-glob-to-any-file: '.github/workflows/**'
+
+plugin-settings:
+  - changed-files:
+      - any-glob-to-any-file: 'src/main/java/com/herblorerecipes/HerbloreRecipesConfig.java'
+
+internal:
+  - changed-files:
+      - any-glob-to-any-file:
+        - settings.gradle
+        - build.gradle
+        - runelite-plugin.properties
+        - .gitignore
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: '**/*.md'
+
+enhancement:
+  - changed-files:
+      - any-glob-to-any-file: '**/*.java'
