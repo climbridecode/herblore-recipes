@@ -1,0 +1,24 @@
+name: Auto-assign PR assignee
+
+# Assigns climbridecode as the assignee whenever a PR is opened in this repo.
+on:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+
+# Needed to modify the PR (add an assignee).
+permissions:
+  pull-requests: write
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign climbridecode
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr edit "${{ github.event.pull_request.number }}" \
+            --repo "${{ github.repository }}" \
+            --add-assignee climbridecode
