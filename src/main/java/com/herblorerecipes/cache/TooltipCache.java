@@ -14,7 +14,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
-import net.runelite.api.ItemID;
+import net.runelite.api.gameval.ItemID;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.ui.overlay.tooltip.Tooltip;
@@ -33,6 +33,7 @@ public class TooltipCache
 	private static final Color ORANGE = new Color(255, 140, 103);
 	private static final Color TURQUOISE = new Color(112, 248, 208);
 	private static final Color SALMON = new Color(248, 112, 123);
+	private static final Color GREEN = new Color(66, 187, 123);
 	private static final String TOOLTIP_PRIMARY_TEXT = colorWrap("Primary", LIME) + colorWrap(" for:", GREY);
 	private static final String TOOLTIP_SECONDARY_TEXT = colorWrap("Secondary", AQUA) + colorWrap(" for:", GREY);
 	private static final String TOOLTIP_UNF_TEXT = colorWrap("Unfinished", GOLD) + colorWrap(" for:", GREY);
@@ -41,6 +42,7 @@ public class TooltipCache
 	private static final String TOOLTIP_SEED_TEXT = colorWrap("Seed", ORANGE) + colorWrap(" for:", GREY);
 	private static final String TOOLTIP_GRIMY_TEXT = colorWrap("Clean", TURQUOISE) + colorWrap(" for:", GREY);
 	private static final String TOOLTIP_PASTE_TEXT = colorWrap("Paste", SALMON) + colorWrap(" for:", GREY);
+	private static final String TOOLTIP_PASTE_MADE_BY_TEXT = colorWrap("To make", GREEN) + colorWrap(" %s:", GREY);
 	private final ItemManager itemManager;
 	private final ClientThread clientThread;
 	private final HerbloreRecipesConfig config;
@@ -79,6 +81,7 @@ public class TooltipCache
 				{
 					// get all reqs
 					ps.addAll(Potions.getPastes(id));
+					tooltip.getCategories().add(tooltipCategory(ps, String.format(TOOLTIP_PASTE_MADE_BY_TEXT, colorWrap(p.getName(), AQUA))));
 				}
 				else
 				{
@@ -212,7 +215,7 @@ public class TooltipCache
 				// there are secondaries to consider
 				content.setSecondary(itemNames(p.getSecondaries()));
 				// consider imp repellent bc there are so many secondaries
-				if (p.getIds().contains(ItemID.IMP_REPELLENT))
+				if (p.getIds().contains(ItemID.II_IMP_REPELLENT))
 				{
 					if (!config.showImpRepellentIngs())
 					{
