@@ -36,7 +36,6 @@ You can display the tooltip with a custom keybind if you don't want it to be alw
 Feature added thanks to this [raised issue](https://github.com/skiclimbcode/herblore-recipes/issues/11)
 
 ## Things to know
-- As of now this plugin does not support barbarian mixes.
 - The ingredients for some combination potions  (e.g. super combat potion) will show up as  
   secondary ingredients even though they're technically primary ingredients.  
   Example:  
