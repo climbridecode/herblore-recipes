@@ -321,6 +321,30 @@ lvl 57: Magic essence (1st: #9017 - 2nd: #9018)
 lvl 80: Bastion potion (1st: #265 - 2nd: #245)
 lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
 
+== 30005
+<col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Mox paste</col>:</col>
+lvl 1: #249
+lvl 1: #251
+lvl 1: #253
+lvl 1: #255
+
+== 30007
+<col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Aga paste</col>:</col>
+lvl 1: #259
+lvl 60: #30097
+lvl 1: #265
+lvl 1: #2481
+lvl 60: #267
+lvl 1: #269
+
+== 30009
+<col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Lye paste</col>:</col>
+lvl 1: #257
+lvl 1: #2998
+lvl 1: #261
+lvl 1: #263
+lvl 1: #3000
+
 == 30088
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 lvl 60: Aga paste (1st: #30097)

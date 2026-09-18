@@ -15,6 +15,8 @@ public class TestConfig implements HerbloreRecipesConfig
 	public boolean primaryIngredients = true;
 	public boolean secondaryIngredients = true;
 	public boolean impRepellentIngredients = false;
+	public boolean pastes = true;
+	public boolean pastesOnHerbs = true;
 
 	@Override
 	public boolean showTooltipOnPotions()
@@ -80,5 +82,17 @@ public class TestConfig implements HerbloreRecipesConfig
 	public boolean showImpRepellentIngs()
 	{
 		return impRepellentIngredients;
+	}
+
+	@Override
+	public boolean showTooltipOnPastes()
+	{
+		return pastes;
+	}
+
+	@Override
+	public boolean showPastesOnHerbs()
+	{
+		return pastesOnHerbs;
 	}
 }

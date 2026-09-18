@@ -159,13 +159,70 @@ public class TooltipRendererTest
 	}
 
 	@Test
-	public void potionToggleHidesPotionAndPasteItemTooltips()
+	public void potionToggleHidesPotionTooltips()
 	{
 		TestConfig config = new TestConfig();
 		config.potions = false;
 
 		assertFalse(plain(ItemID._4DOSE1ATTACK, config).contains("Requirements for"));
+	}
+
+	@Test
+	public void pasteToggleHidesThePasteItemTooltipButNotPotions()
+	{
+		TestConfig config = new TestConfig();
+		config.pastes = false;
+
 		assertEquals(null, plain(ItemID.MM_MOX_PASTE, config));
+		assertTrue(plain(ItemID._4DOSE1ATTACK, config).contains("Requirements for"));
+	}
+
+	@Test
+	public void pasteItemTooltipDoesNotNeedThePotionToggle()
+	{
+		TestConfig config = new TestConfig();
+		config.potions = false;
+
+		assertTrue(plain(ItemID.MM_MOX_PASTE, config).startsWith("To make Mox paste:"));
+	}
+
+	@Test
+	public void herbPasteToggleHidesPasteOnCleanGrimyAndSeedButKeepsTheirOtherSections()
+	{
+		TestConfig config = new TestConfig();
+		config.pastesOnHerbs = false;
+
+		String clean = plain(ItemID.GUAM_LEAF, config);
+		assertFalse(clean, clean.contains("Paste for:"));
+		assertTrue(clean, clean.contains("Primary for:"));
+
+		String grimy = plain(ItemID.UNIDENTIFIED_GUAM, config);
+		assertFalse(grimy, grimy.contains("Paste for:"));
+		assertTrue(grimy, grimy.contains("Clean for:"));
+
+		assertEquals(
+			"Seed for:\n" +
+				"lvl 3: Attack potion (1st: #249 - 2nd: #221)\n",
+			plain(ItemID.GUAM_SEED, config));
+	}
+
+	@Test
+	public void herbPasteToggleDoesNotAffectThePasteItemTooltip()
+	{
+		TestConfig config = new TestConfig();
+		config.pastesOnHerbs = false;
+
+		assertTrue(plain(ItemID.MM_MOX_PASTE, config).startsWith("To make Mox paste:"));
+	}
+
+	@Test
+	public void herbPasteAlsoNeedsTheHerbFormsOwnToggle()
+	{
+		TestConfig config = new TestConfig();
+		config.primaries = false;
+
+		assertFalse(plain(ItemID.GUAM_LEAF, config).contains("Paste for:"));
+		assertTrue(plain(ItemID.UNIDENTIFIED_GUAM, config).contains("Paste for:"));
 	}
 
 	@Test

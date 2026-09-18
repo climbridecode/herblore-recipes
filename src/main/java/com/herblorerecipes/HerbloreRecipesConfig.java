@@ -27,6 +27,8 @@ public interface HerbloreRecipesConfig extends Config
 	String SHOW_SECONDARY_INGS = "showSecondaryIngredientsInTooltip";
 	String SHOW_HERB_LVL_REQ = "showHerbloreLvlInTooltip";
 	String SHOW_IMP_REPELLENT_INGS = "showImpRepellentIngs";
+	String SHOW_TOOLTIP_ON_PASTES = "showTooltipOnPastes";
+	String SHOW_PASTES_ON_HERBS = "showPastesOnHerbs";
 
 	@ConfigSection(
 		name = "Tooltip Visibility",
@@ -141,6 +143,18 @@ public interface HerbloreRecipesConfig extends Config
 	}
 
 	@ConfigItem(
+		position = 7,
+		keyName = SHOW_TOOLTIP_ON_PASTES,
+		name = "Show Tooltip on Mixology Pastes",
+		section = tooltipSection,
+		description = "Toggle recipe tooltip on Mastering Mixology pastes (lists the herbs they are made from)."
+	)
+	default boolean showTooltipOnPastes()
+	{
+		return true;
+	}
+
+	@ConfigItem(
 		position = 1,
 		keyName = SHOW_TOOLTIP_IN_BANK,
 		name = "Show Tooltip in Bank",
@@ -246,6 +260,18 @@ public interface HerbloreRecipesConfig extends Config
 	default boolean showImpRepellentIngs()
 	{
 		return false;
+	}
+
+	@ConfigItem(
+		position = 5,
+		keyName = SHOW_PASTES_ON_HERBS,
+		name = "Show Mixology pastes on herbs",
+		section = tooltipContentSection,
+		description = "Configure whether herb tooltips (clean, grimy and seeds) show the Mastering Mixology paste the herb can be made into"
+	)
+	default boolean showPastesOnHerbs()
+	{
+		return true;
 	}
 
 

@@ -51,7 +51,7 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 		if (!config.showTooltipOnPrimaries() && !config.showTooltipOnSecondaries() &&
 			!config.showTooltipOnPotions() && !config.showTooltipOnUnfinished() &&
 			!config.showTooltipOnPrimarySeeds() && !config.showTooltipOnGrimy() &&
-			!config.showTooltipOnComplex())
+			!config.showTooltipOnComplex() && !config.showTooltipOnPastes())
 		{
 			// plugin is effectively disabled
 			return null;

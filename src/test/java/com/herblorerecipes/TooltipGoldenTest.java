@@ -53,4 +53,13 @@ public class TooltipGoldenTest
 		config.unfinished = false;
 		GoldenFile.check("ingredient-forms-off", TooltipHarness.dump(config));
 	}
+
+	@Test
+	public void pastesOff() throws IOException
+	{
+		TestConfig config = new TestConfig();
+		config.pastes = false;
+		config.pastesOnHerbs = false;
+		GoldenFile.check("pastes-off", TooltipHarness.dump(config));
+	}
 }

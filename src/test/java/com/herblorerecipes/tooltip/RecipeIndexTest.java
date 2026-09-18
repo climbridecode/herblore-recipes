@@ -64,7 +64,7 @@ public class RecipeIndexTest
 	{
 		Section section = section(ItemID.MM_MOX_PASTE, ItemRole.PASTE_RECIPES).get();
 
-		assertEquals(ItemRole.POTION, section.getGate());
+		assertEquals(ItemRole.PASTE_RECIPES, section.getGate());
 		assertEquals(Arrays.asList(ItemID.GUAM_LEAF, ItemID.MARENTILL, ItemID.TARROMIN, ItemID.HARRALANDER),
 			section.getRecipes().stream().map(Recipe::getPrimary).collect(Collectors.toList()));
 	}

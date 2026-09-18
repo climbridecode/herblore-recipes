@@ -56,7 +56,7 @@ public final class TooltipRenderer
 		StringBuilder text = new StringBuilder();
 		for (Section section : index.sectionsOf(itemId))
 		{
-			if (!isEnabled(section.getGate()))
+			if (!isEnabled(section))
 			{
 				continue;
 			}
@@ -68,6 +68,15 @@ public final class TooltipRenderer
 			}
 		}
 		return text.length() == 0 ? Optional.empty() : Optional.of(text.toString());
+	}
+
+	private boolean isEnabled(Section section)
+	{
+		if (section.getRole() == ItemRole.PASTE && !config.showPastesOnHerbs())
+		{
+			return false;
+		}
+		return isEnabled(section.getGate());
 	}
 
 	private boolean isEnabled(ItemRole gate)
@@ -88,6 +97,8 @@ public final class TooltipRenderer
 				return config.showTooltipOnUnfinished();
 			case GRIMY:
 				return config.showTooltipOnGrimy();
+			case PASTE_RECIPES:
+				return config.showTooltipOnPastes();
 			default:
 				throw new IllegalArgumentException(gate + " is not a role an item can have");
 		}

@@ -95,7 +95,7 @@ public final class RecipeIndex
 			for (Paste.HerbRecipe herbRecipe : paste.getHerbs())
 			{
 				Recipe recipe = Recipe.of(paste, herbRecipe);
-				builder.add(paste.getItemId(), ItemRole.PASTE_RECIPES, ItemRole.POTION, recipe);
+				builder.add(paste.getItemId(), ItemRole.PASTE_RECIPES, ItemRole.PASTE_RECIPES, recipe);
 
 				// the paste shows on every form of the herb, and follows that form's own config toggle
 				builder.add(herbRecipe.getHerb(), ItemRole.PASTE, ItemRole.PRIMARY, recipe);
