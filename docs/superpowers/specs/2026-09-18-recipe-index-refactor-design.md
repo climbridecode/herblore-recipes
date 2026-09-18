@@ -17,7 +17,7 @@ form of a herb.
 - **Parallel maps per role.** `Potions` keeps six maps (primary, secondary,
   complex base, unfinished, seed, grimy), each with its own `isX` and `getByX`
   methods, and `TooltipCache.preLoadCache` has a matching branch for each.
-- **Pastes are hacked into the potion model.** Pastes are 16 fake `Potion`
+- **Pastes are hacked into the potion model.** Pastes are 15 fake `Potion`
   entries (one per herb) detected by `name.contains(" paste")` in
   `Potions.getPastes` and `TooltipCache`.
 - **Mutation bug.** `TooltipCache` calls `ps.remove(paste)` on the list returned
@@ -50,7 +50,7 @@ form of a herb.
 
 ### 1. Data model
 
-- `Potion` and the `Potions` enum data are unchanged, except that the 16 fake
+- `Potion` and the `Potions` enum data are unchanged, except that the 15 fake
   paste entries are deleted.
 - New `Paste` enum: `MOX`, `LYE`, `AGA`. Each has its paste item ID and a list
   of herb recipes. A recipe is `(clean herb ID, grimy ID, level)`. Recipes carry
@@ -146,3 +146,20 @@ form of a herb.
   plan; not changed without asking.
 - Level 60 for Huasca and Dwarf weed pastes is carried over from the existing
   data, not re-verified against the game.
+
+## Implementation notes
+
+Where the implementation refined the design above:
+
+- There are 15 fake paste potions, not 16 (4 Mox, 5 Lye, 6 Aga).
+- A paste herb recipe is `(clean herb ID, level)`, not `(clean, grimy, level)`. Every paste herb (Huasca included) is a
+  primary of a real potion, so its grimy and seed IDs come from `HerbForms`. That also gives Huasca a seed tooltip.
+- `Recipe` has no base field: the base was computed for every line but never displayed.
+- `ItemRole` has an extra value, `PASTE_RECIPES`, for the paste item's own "To make <paste>:" section. A `Section` is
+  `(role, gate, recipes)`: `role` decides title and order, `gate` decides which config toggle applies.
+- `TooltipRenderer` reads the config interface directly instead of a separate options snapshot.
+- Two existing bugs surfaced while snapshotting and are fixed: item 0 ("Dwarf remains") had a bogus tooltip because
+  potions without a primary ingredient were indexed under id 0, and stackable nightshade listed Weapon poison++ twice
+  because it is both the primary and the alternate primary.
+- The characterization snapshots taken before the refactor were order-dependent: the old reset bug (ps.remove(paste) mutating shared static lists) had already stripped the clean-herb paste section for every config except the one whose test ran first. The regenerated snapshots therefore show 45 new "Paste for:" sections in the default and no-ingredients configs (clean herb, grimy and seed) and 30 in the other two, rather than 30 everywhere.
+- Mockito 4.11.0 works with the RuneLite client on Java 11. The CI command concern below is unchanged.
