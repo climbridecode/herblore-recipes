@@ -29,6 +29,7 @@ public interface HerbloreRecipesConfig extends Config
 	String SHOW_IMP_REPELLENT_INGS = "showImpRepellentIngs";
 	String SHOW_TOOLTIP_ON_PASTES = "showTooltipOnPastes";
 	String SHOW_PASTES_ON_HERBS = "showPastesOnHerbs";
+	String SHOW_POTION_BASE = "showPotionBase";
 
 	@ConfigSection(
 		name = "Tooltip Visibility",
@@ -270,6 +271,18 @@ public interface HerbloreRecipesConfig extends Config
 		description = "Configure whether herb tooltips (clean, grimy and seeds) show the Mastering Mixology paste the herb can be made into"
 	)
 	default boolean showPastesOnHerbs()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		position = 6,
+		keyName = SHOW_POTION_BASE,
+		name = "Show potion base",
+		section = tooltipContentSection,
+		description = "Configure whether tooltip names the base of potions that are not made with a vial of water, e.g. a vial of blood"
+	)
+	default boolean showPotionBase()
 	{
 		return true;
 	}

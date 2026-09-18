@@ -23,6 +23,19 @@ public class RecipeTest
 	}
 
 	@Test
+	public void potionRecipeRecordsABaseThatIsNotWater()
+	{
+		assertEquals(ItemID.MYQ4_BLOOD_VIAL, Recipe.of(Potions.BASTION_POTION.potion).getBase());
+		assertEquals(ItemID.VIAL_COCONUT_MILK, Recipe.of(Potions.ANTIDOTE_PLUS2.potion).getBase());
+	}
+
+	@Test
+	public void waterBasedPotionRecipeHasNoBase()
+	{
+		assertEquals(0, Recipe.of(Potions.ATTACK_POTION.potion).getBase());
+	}
+
+	@Test
 	public void potionWithoutSecondariesHasAnEmptySetNotNull()
 	{
 		assertTrue(Recipe.of(Potions.SUPER_COMBAT_POTION.potion).getSecondaries().isEmpty());
@@ -46,6 +59,7 @@ public class RecipeTest
 		assertEquals("Aga paste", recipe.getName());
 		assertEquals(60, recipe.getLevel());
 		assertEquals(ItemID.HUASCA, recipe.getPrimary());
+		assertEquals(0, recipe.getBase());
 		assertTrue(recipe.getSecondaries().isEmpty());
 		assertFalse(recipe.isCollapsibleSecondaries());
 	}
