@@ -1,7 +1,6 @@
 package com.herblorerecipes;
 
 import com.herblorerecipes.cache.TooltipCache;
-import com.herblorerecipes.model.Potions;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
@@ -168,24 +167,7 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 
 	private void showTooltip(int widgetId, MenuEntry menuEntry)
 	{
-		int itemId = getItemIdFromMenuEntry(menuEntry);
-
-		if (Potions.isSeed(itemId) && !config.showTooltipOnPrimarySeeds())
-		{
-			return;
-		}
-
-		if (Potions.isUnfinished(itemId) && !config.showTooltipOnUnfinished())
-		{
-			return;
-		}
-
-		if (Potions.isGrimy(itemId) && !config.showTooltipOnGrimy())
-		{
-			return;
-		}
-
-		showTooltip(itemId);
+		showTooltip(getItemIdFromMenuEntry(menuEntry));
 	}
 
 	private int getItemIdFromMenuEntry(MenuEntry menuEntry)

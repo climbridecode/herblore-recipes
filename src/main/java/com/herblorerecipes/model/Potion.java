@@ -1,7 +1,6 @@
 package com.herblorerecipes.model;
 
 import java.util.Set;
-import java.util.stream.Collectors;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;
@@ -28,10 +27,5 @@ public class Potion
 	public boolean hasComplexBase()
 	{
 		return complexBase != null;
-	}
-
-	public String complexBaseNames()
-	{
-		return complexBase.stream().map(Potion::getName).collect(Collectors.joining(", "));
 	}
 }
