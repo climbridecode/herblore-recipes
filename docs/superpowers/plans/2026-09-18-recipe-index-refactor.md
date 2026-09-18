@@ -2135,7 +2135,7 @@ Where the implementation refined the design above:
 - Two existing bugs surfaced while snapshotting and are fixed: item 0 ("Dwarf remains") had a bogus tooltip because
   potions without a primary ingredient were indexed under id 0, and stackable nightshade listed Weapon poison++ twice
   because it is both the primary and the alternate primary.
-- Mockito 4.11.0 works with the RuneLite client on Java 11. The CI command concern below is unchanged.
+- Mockito 4.11.0 works with the RuneLite client on Java 11.
 ```
 
 - [ ] **Step 2: Mention pastes in the README**
@@ -2153,10 +2153,10 @@ and the paste itself lists the herbs that make it.
 Run: `bash ./gradlew build 2>&1 | tail -15`
 Expected: `BUILD SUCCESSFUL`; the test task ran and passed.
 
-- [ ] **Step 4: Check the CI concern without changing anything**
+- [ ] **Step 4: Check the CI command without changing anything**
 
 Run: `grep -n 'gradlew' .github/workflows/build.yml`
-Expected: the line `./gradlew build.gradle`. Report to the user that this looks like it does not run the `build` task or the tests; do **not** edit the workflow.
+Expected: the line `./gradlew build`, which compiles and runs the tests. (An earlier draft of this plan expected `./gradlew build.gradle`; that was a misreading caused by the workflow file lacking a trailing newline.) Do **not** edit the workflow.
 
 - [ ] **Step 5: Commit**
 
@@ -2172,6 +2172,6 @@ EOF
 
 - [ ] **Step 6: Report to the user (do not push or open a PR)**
 
-Summarise: the commit list (`git log --oneline main..HEAD`), the golden diff categories from Task 6, the CI note, and ask them to check it in a real client, which automated tests cannot do: run `bash ./gradlew run` (needs a display), then hover in inventory and bank: a clean herb, a grimy herb, a seed, a Mox/Lye/Aga paste, a potion, an unfinished potion and a secondary ingredient. Toggle a config option and confirm the herb tooltips keep their "Paste for:" section (this was the reset bug).
+Summarise: the commit list (`git log --oneline main..HEAD`), the golden diff categories from Task 6, and ask them to check it in a real client, which automated tests cannot do: run `bash ./gradlew run` (needs a display), then hover in inventory and bank: a clean herb, a grimy herb, a seed, a Mox/Lye/Aga paste, a potion, an unfinished potion and a secondary ingredient. Toggle a config option and confirm the herb tooltips keep their "Paste for:" section (this was the reset bug).
 
 Then use `superpowers:finishing-a-development-branch`.

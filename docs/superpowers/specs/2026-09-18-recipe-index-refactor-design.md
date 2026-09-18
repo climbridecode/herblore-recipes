@@ -140,10 +140,13 @@ form of a herb.
 
 ## Risks and open notes
 
-- Mockito version compatibility with RuneLite's `latest.release` client.
-- CI (`.github/workflows/build.yml`) runs `./gradlew build.gradle`, which
-  looks like it may not run the `build` task or the tests. To be checked in the
-  plan; not changed without asking.
+- Mockito version compatibility with RuneLite's `latest.release` client
+  (verified: Mockito 4.11.0 works with the client on Java 11).
+- CI (`.github/workflows/build.yml`) runs `./gradlew build`, which compiles and
+  runs all tests, including the golden snapshot test. (An earlier draft of this
+  note claimed the command was `./gradlew build.gradle`; that was a misreading,
+  because the workflow file has no trailing newline and the first line of
+  `.gitignore`, `.gradle`, was printed onto the same line.)
 - Level 60 for Huasca and Dwarf weed pastes is carried over from the existing
   data, not re-verified against the game.
 
@@ -162,4 +165,4 @@ Where the implementation refined the design above:
   potions without a primary ingredient were indexed under id 0, and stackable nightshade listed Weapon poison++ twice
   because it is both the primary and the alternate primary.
 - The characterization snapshots taken before the refactor were order-dependent: the old reset bug (ps.remove(paste) mutating shared static lists) had already stripped the clean-herb paste section for every config except the one whose test ran first. The regenerated snapshots therefore show 45 new "Paste for:" sections in the default and no-ingredients configs (clean herb, grimy and seed) and 30 in the other two, rather than 30 everywhere.
-- Mockito 4.11.0 works with the RuneLite client on Java 11. The CI command concern below is unchanged.
+- Mockito 4.11.0 works with the RuneLite client on Java 11.
