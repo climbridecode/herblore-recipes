@@ -29,7 +29,10 @@ Also shows up on Grimy herbs!
 
 And seeds!  
 ![Seeds](https://i.imgur.com/uz6xISY.png "Seeds")  
-Feature added thanks to this [raised issue](https://github.com/skiclimbcode/herblore-recipes/issues/3).  
+Feature added thanks to this [raised issue](https://github.com/skiclimbcode/herblore-recipes/issues/3).
+
+Mastering Mixology pastes are covered too: herbs (clean, grimy or as seeds) show which paste they can be ground into,  
+and the paste itself lists the herbs that make it.  
 
 You can display the tooltip with a custom keybind if you don't want it to be always present.  
 ![Config](https://i.imgur.com/8ENRE9U.png "Config")  

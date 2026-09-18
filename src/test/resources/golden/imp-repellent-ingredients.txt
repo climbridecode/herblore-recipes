@@ -1,0 +1,2542 @@
+== 91
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 3: Attack potion (1st: #249 - 2nd: #221)
+
+== 93
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 5: Antipoison (1st: #251 - 2nd: #235)
+
+== 95
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 12: Strength potion (1st: #253 - 2nd: #225)
+lvl 15: Serum 207 (1st: #253 - 2nd: #592)
+lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
+
+== 97
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 22: Compost potion (1st: #255 - 2nd: #21622)
+lvl 22: Restore potion (1st: #255 - 2nd: #223)
+lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
+lvl 26: Energy potion (1st: #255 - 2nd: #1975)
+lvl 36: Combat potion (1st: #255 - 2nd: #9736)
+lvl 54: Goading potion (1st: #255 - 2nd: #29993)
+
+== 99
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 30: Defence potion (1st: #257 - 2nd: #239)
+lvl 38: Prayer potion (1st: #257 - 2nd: #231)
+
+== 101
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 45: Super attack (1st: #259 - 2nd: #221)
+lvl 48: Superantipoison (1st: #259 - 2nd: #235)
+lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+
+== 103
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 50: Fishing potion (1st: #261 - 2nd: #231)
+lvl 52: Super energy (1st: #261 - 2nd: #2970)
+lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
+
+== 105
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 55: Super strength (1st: #263 - 2nd: #225)
+lvl 60: Weapon poison (1st: #263 - 2nd: #241)
+
+== 107
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 66: Super defence (1st: #265 - 2nd: #239)
+
+== 109
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 72: Ranging potion (1st: #267 - 2nd: #245)
+lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
+lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
+
+== 111
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
+lvl 81: Surge potion (1st: #269 - 2nd: #30800)
+
+== 113
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength potion</col>:</col>
+lvl 12: Strength potion (1st: #253 - 2nd: #225)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 14: Strength mix (2nd: #11324)
+
+== 115
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength potion</col>:</col>
+lvl 12: Strength potion (1st: #253 - 2nd: #225)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 14: Strength mix (2nd: #11324)
+
+== 117
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength potion</col>:</col>
+lvl 12: Strength potion (1st: #253 - 2nd: #225)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 14: Strength mix (2nd: #11324)
+
+== 119
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength potion</col>:</col>
+lvl 12: Strength potion (1st: #253 - 2nd: #225)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 14: Strength mix (2nd: #11324)
+
+== 121
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack potion</col>:</col>
+lvl 3: Attack potion (1st: #249 - 2nd: #221)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 4: Attack mix (2nd: #11324)
+
+== 123
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack potion</col>:</col>
+lvl 3: Attack potion (1st: #249 - 2nd: #221)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 4: Attack mix (2nd: #11324)
+
+== 125
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack potion</col>:</col>
+lvl 3: Attack potion (1st: #249 - 2nd: #221)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 4: Attack mix (2nd: #11324)
+
+== 127
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore potion</col>:</col>
+lvl 22: Restore potion (1st: #255 - 2nd: #223)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 22: Guthix balance (1st: #1550 - 2nd: #7650)
+lvl 24: Restore mix (2nd: #11324)
+
+== 129
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore potion</col>:</col>
+lvl 22: Restore potion (1st: #255 - 2nd: #223)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 22: Guthix balance (1st: #1550 - 2nd: #7650)
+lvl 24: Restore mix (2nd: #11324)
+
+== 131
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore potion</col>:</col>
+lvl 22: Restore potion (1st: #255 - 2nd: #223)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 22: Guthix balance (1st: #1550 - 2nd: #7650)
+lvl 24: Restore mix (2nd: #11324)
+
+== 133
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence potion</col>:</col>
+lvl 30: Defence potion (1st: #257 - 2nd: #239)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 33: Defence mix (2nd: #11326)
+
+== 135
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence potion</col>:</col>
+lvl 30: Defence potion (1st: #257 - 2nd: #239)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 33: Defence mix (2nd: #11326)
+
+== 137
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence potion</col>:</col>
+lvl 30: Defence potion (1st: #257 - 2nd: #239)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 33: Defence mix (2nd: #11326)
+
+== 139
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer potion</col>:</col>
+lvl 38: Prayer potion (1st: #257 - 2nd: #231)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 42: Prayer mix (2nd: #11326)
+
+== 141
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer potion</col>:</col>
+lvl 38: Prayer potion (1st: #257 - 2nd: #231)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 42: Prayer mix (2nd: #11326)
+
+== 143
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer potion</col>:</col>
+lvl 38: Prayer potion (1st: #257 - 2nd: #231)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 42: Prayer mix (2nd: #11326)
+
+== 145
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super attack</col>:</col>
+lvl 45: Super attack (1st: #259 - 2nd: #221)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super attack potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 47: Superattack mix (2nd: #11326)
+
+== 147
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super attack</col>:</col>
+lvl 45: Super attack (1st: #259 - 2nd: #221)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super attack potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 47: Superattack mix (2nd: #11326)
+
+== 149
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super attack</col>:</col>
+lvl 45: Super attack (1st: #259 - 2nd: #221)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super attack potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 47: Superattack mix (2nd: #11326)
+
+== 151
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing potion</col>:</col>
+lvl 50: Fishing potion (1st: #261 - 2nd: #231)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 53: Fishing mix (2nd: #11326)
+
+== 153
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing potion</col>:</col>
+lvl 50: Fishing potion (1st: #261 - 2nd: #231)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 53: Fishing mix (2nd: #11326)
+
+== 155
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing potion</col>:</col>
+lvl 50: Fishing potion (1st: #261 - 2nd: #231)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 53: Fishing mix (2nd: #11326)
+
+== 157
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength</col>:</col>
+lvl 55: Super strength (1st: #263 - 2nd: #225)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super strength potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 59: Super strength mix (2nd: #11326)
+
+== 159
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength</col>:</col>
+lvl 55: Super strength (1st: #263 - 2nd: #225)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super strength potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 59: Super strength mix (2nd: #11326)
+
+== 161
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength</col>:</col>
+lvl 55: Super strength (1st: #263 - 2nd: #225)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super strength potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 59: Super strength mix (2nd: #11326)
+
+== 163
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence</col>:</col>
+lvl 66: Super defence (1st: #265 - 2nd: #239)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super defence potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 71: Super defence mix (2nd: #11326)
+
+== 165
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence</col>:</col>
+lvl 66: Super defence (1st: #265 - 2nd: #239)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super defence potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 71: Super defence mix (2nd: #11326)
+
+== 167
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence</col>:</col>
+lvl 66: Super defence (1st: #265 - 2nd: #239)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super defence potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 71: Super defence mix (2nd: #11326)
+
+== 169
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging potion</col>:</col>
+lvl 72: Ranging potion (1st: #267 - 2nd: #245)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 74: Divine ranging potion (1st: #23804)
+lvl 80: Ranging mix (2nd: #11326)
+
+== 171
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging potion</col>:</col>
+lvl 72: Ranging potion (1st: #267 - 2nd: #245)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 74: Divine ranging potion (1st: #23804)
+lvl 80: Ranging mix (2nd: #11326)
+
+== 173
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging potion</col>:</col>
+lvl 72: Ranging potion (1st: #267 - 2nd: #245)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 74: Divine ranging potion (1st: #23804)
+lvl 80: Ranging mix (2nd: #11326)
+
+== 175
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison</col>:</col>
+lvl 5: Antipoison (1st: #251 - 2nd: #235)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 6: Antipoison mix (2nd: #11324)
+
+== 177
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison</col>:</col>
+lvl 5: Antipoison (1st: #251 - 2nd: #235)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 6: Antipoison mix (2nd: #11324)
+
+== 179
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison</col>:</col>
+lvl 5: Antipoison (1st: #251 - 2nd: #235)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 6: Antipoison mix (2nd: #11324)
+
+== 181
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superantipoison</col>:</col>
+lvl 48: Superantipoison (1st: #259 - 2nd: #235)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 51: Anti-poison supermix (2nd: #11326)
+
+== 183
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superantipoison</col>:</col>
+lvl 48: Superantipoison (1st: #259 - 2nd: #235)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 51: Anti-poison supermix (2nd: #11326)
+
+== 185
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superantipoison</col>:</col>
+lvl 48: Superantipoison (1st: #259 - 2nd: #235)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 51: Anti-poison supermix (2nd: #11326)
+
+== 187
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Weapon poison</col>:</col>
+lvl 60: Weapon poison (1st: #263 - 2nd: #241)
+
+== 189
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak brew</col>:</col>
+lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 85: Zamorak mix (2nd: #11326)
+
+== 191
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak brew</col>:</col>
+lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 85: Zamorak mix (2nd: #11326)
+
+== 193
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak brew</col>:</col>
+lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 85: Zamorak mix (2nd: #11326)
+
+== 199
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #249)
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 3: Attack potion (1st: #249 - 2nd: #221)
+lvl 19: Guam tar (1st: #249 - 2nd: #1939)
+
+== 201
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #251)
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 5: Antipoison (1st: #251 - 2nd: #235)
+lvl 31: Marrentill tar (1st: #251 - 2nd: #1939)
+
+== 203
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #253)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 12: Strength potion (1st: #253 - 2nd: #225)
+lvl 15: Serum 207 (1st: #253 - 2nd: #592)
+lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
+lvl 39: Tarromin tar (1st: #253 - 2nd: #1939)
+
+== 205
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #255)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 22: Compost potion (1st: #255 - 2nd: #21622)
+lvl 22: Restore potion (1st: #255 - 2nd: #223)
+lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
+lvl 26: Energy potion (1st: #255 - 2nd: #1975)
+lvl 36: Combat potion (1st: #255 - 2nd: #9736)
+lvl 54: Goading potion (1st: #255 - 2nd: #29993)
+lvl 44: Harralander tar (1st: #255 - 2nd: #1939)
+
+== 207
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #257)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 30: Defence potion (1st: #257 - 2nd: #239)
+lvl 38: Prayer potion (1st: #257 - 2nd: #231)
+
+== 209
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #259)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 45: Super attack (1st: #259 - 2nd: #221)
+lvl 48: Superantipoison (1st: #259 - 2nd: #235)
+lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 55: Irit tar (1st: #259 - 2nd: #1939)
+
+== 211
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #261)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 50: Fishing potion (1st: #261 - 2nd: #231)
+lvl 52: Super energy (1st: #261 - 2nd: #2970)
+lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
+
+== 213
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #263)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 55: Super strength (1st: #263 - 2nd: #225)
+lvl 60: Weapon poison (1st: #263 - 2nd: #241)
+
+== 215
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #265)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 66: Super defence (1st: #265 - 2nd: #239)
+lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+
+== 217
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #267)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 72: Ranging potion (1st: #267 - 2nd: #245)
+lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
+lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
+
+== 219
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #269)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 90: Super combat potion (1st: #269)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
+lvl 94: Anti-venom+ (1st: #269)
+lvl 81: Surge potion (1st: #269 - 2nd: #30800)
+
+== 221
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 3: Attack potion (1st: #249 - 2nd: #221)
+lvl 45: Super attack (1st: #259 - 2nd: #221)
+
+== 223
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 22: Restore potion (1st: #255 - 2nd: #223)
+lvl 63: Super restore (1st: #3000 - 2nd: #223)
+lvl 73: Weapon poison+ (1st: #6016 - 2nd: #223)
+
+== 225
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 12: Strength potion (1st: #253 - 2nd: #225)
+lvl 55: Super strength (1st: #263 - 2nd: #225)
+
+== 231
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 38: Prayer potion (1st: #257 - 2nd: #231)
+lvl 50: Fishing potion (1st: #261 - 2nd: #231)
+
+== 235
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 5: Antipoison (1st: #251 - 2nd: #235)
+lvl 48: Superantipoison (1st: #259 - 2nd: #235)
+
+== 237
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 5: Antipoison (1st: #251 - 2nd: #235)
+lvl 48: Superantipoison (1st: #259 - 2nd: #235)
+
+== 239
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 30: Defence potion (1st: #257 - 2nd: #239)
+lvl 66: Super defence (1st: #265 - 2nd: #239)
+
+== 241
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 60: Weapon poison (1st: #263 - 2nd: #241)
+lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
+
+== 243
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 60: Weapon poison (1st: #263 - 2nd: #241)
+lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
+
+== 245
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 72: Ranging potion (1st: #267 - 2nd: #245)
+lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+
+== 247
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
+
+== 249
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #249)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Attack potion (1st: #249 - 2nd: #221)
+lvl 19: Guam tar (1st: #249 - 2nd: #1939)
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+
+== 251
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #251)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 5: Antipoison (1st: #251 - 2nd: #235)
+lvl 31: Marrentill tar (1st: #251 - 2nd: #1939)
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+
+== 253
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #253)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 12: Strength potion (1st: #253 - 2nd: #225)
+lvl 15: Serum 207 (1st: #253 - 2nd: #592)
+lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
+lvl 39: Tarromin tar (1st: #253 - 2nd: #1939)
+
+== 255
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #255)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 22: Compost potion (1st: #255 - 2nd: #21622)
+lvl 22: Restore potion (1st: #255 - 2nd: #223)
+lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
+lvl 26: Energy potion (1st: #255 - 2nd: #1975)
+lvl 36: Combat potion (1st: #255 - 2nd: #9736)
+lvl 54: Goading potion (1st: #255 - 2nd: #29993)
+lvl 44: Harralander tar (1st: #255 - 2nd: #1939)
+
+== 257
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #257)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 30: Defence potion (1st: #257 - 2nd: #239)
+lvl 38: Prayer potion (1st: #257 - 2nd: #231)
+
+== 259
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #259)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 45: Super attack (1st: #259 - 2nd: #221)
+lvl 48: Superantipoison (1st: #259 - 2nd: #235)
+lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 55: Irit tar (1st: #259 - 2nd: #1939)
+
+== 261
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #261)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 50: Fishing potion (1st: #261 - 2nd: #231)
+lvl 52: Super energy (1st: #261 - 2nd: #2970)
+lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
+
+== 263
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #263)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 55: Super strength (1st: #263 - 2nd: #225)
+lvl 60: Weapon poison (1st: #263 - 2nd: #241)
+
+== 265
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #265)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 66: Super defence (1st: #265 - 2nd: #239)
+lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+
+== 267
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #267)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 72: Ranging potion (1st: #267 - 2nd: #245)
+lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
+lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
+
+== 269
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #269)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
+lvl 90: Super combat potion (1st: #269)
+lvl 94: Anti-venom+ (1st: #269)
+lvl 81: Surge potion (1st: #269 - 2nd: #30800)
+
+== 592
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 15: Serum 207 (1st: #253 - 2nd: #592)
+
+== 1525
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 8: Relicym's balm (1st: #1534 - 2nd: #1526)
+
+== 1526
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 8: Relicym's balm (1st: #1534 - 2nd: #1526)
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+
+== 1533
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 8: Relicym's balm (1st: #1534 - 2nd: #1526)
+
+== 1534
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 8: Relicym's balm (1st: #1534 - 2nd: #1526)
+
+== 1550
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 22: Guthix balance (1st: #1550 - 2nd: #7650)
+
+== 1581
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
+
+== 1582
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Blamish oil</col>:</col>
+lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
+
+== 1939
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 19: Guam tar (1st: #249 - 2nd: #1939)
+lvl 31: Marrentill tar (1st: #251 - 2nd: #1939)
+lvl 39: Tarromin tar (1st: #253 - 2nd: #1939)
+lvl 44: Harralander tar (1st: #255 - 2nd: #1939)
+lvl 55: Irit tar (1st: #259 - 2nd: #1939)
+
+== 1973
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 26: Energy potion (1st: #255 - 2nd: #1975)
+
+== 1975
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 26: Energy potion (1st: #255 - 2nd: #1975)
+
+== 2152
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
+
+== 2428
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack potion</col>:</col>
+lvl 3: Attack potion (1st: #249 - 2nd: #221)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 4: Attack mix (2nd: #11324)
+
+== 2430
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore potion</col>:</col>
+lvl 22: Restore potion (1st: #255 - 2nd: #223)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 22: Guthix balance (1st: #1550 - 2nd: #7650)
+lvl 24: Restore mix (2nd: #11324)
+
+== 2432
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence potion</col>:</col>
+lvl 30: Defence potion (1st: #257 - 2nd: #239)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 33: Defence mix (2nd: #11326)
+
+== 2434
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer potion</col>:</col>
+lvl 38: Prayer potion (1st: #257 - 2nd: #231)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 42: Prayer mix (2nd: #11326)
+
+== 2436
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super attack</col>:</col>
+lvl 45: Super attack (1st: #259 - 2nd: #221)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super attack potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 47: Superattack mix (2nd: #11326)
+
+== 2438
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing potion</col>:</col>
+lvl 50: Fishing potion (1st: #261 - 2nd: #231)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 53: Fishing mix (2nd: #11326)
+
+== 2440
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength</col>:</col>
+lvl 55: Super strength (1st: #263 - 2nd: #225)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super strength potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 59: Super strength mix (2nd: #11326)
+
+== 2442
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence</col>:</col>
+lvl 66: Super defence (1st: #265 - 2nd: #239)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 70: Divine super defence potion (1st: #23804)
+lvl 90: Super combat potion (1st: #269)
+lvl 71: Super defence mix (2nd: #11326)
+
+== 2444
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging potion</col>:</col>
+lvl 72: Ranging potion (1st: #267 - 2nd: #245)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 74: Divine ranging potion (1st: #23804)
+lvl 80: Ranging mix (2nd: #11326)
+
+== 2446
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison</col>:</col>
+lvl 5: Antipoison (1st: #251 - 2nd: #235)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 6: Antipoison mix (2nd: #11324)
+
+== 2448
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superantipoison</col>:</col>
+lvl 48: Superantipoison (1st: #259 - 2nd: #235)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 51: Anti-poison supermix (2nd: #11326)
+
+== 2450
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak brew</col>:</col>
+lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 85: Zamorak mix (2nd: #11326)
+
+== 2452
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire potion</col>:</col>
+lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 84: Extended antifire (1st: #11994)
+lvl 92: Super antifire potion (1st: #21975)
+lvl 98: Extended super antifire (1st: #21975)
+lvl 75: Antifire mix (2nd: #11326)
+
+== 2454
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire potion</col>:</col>
+lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 84: Extended antifire (1st: #11994)
+lvl 92: Super antifire potion (1st: #21975)
+lvl 98: Extended super antifire (1st: #21975)
+lvl 75: Antifire mix (2nd: #11326)
+
+== 2456
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire potion</col>:</col>
+lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 84: Extended antifire (1st: #11994)
+lvl 92: Super antifire potion (1st: #21975)
+lvl 98: Extended super antifire (1st: #21975)
+lvl 75: Antifire mix (2nd: #11326)
+
+== 2458
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire potion</col>:</col>
+lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 84: Extended antifire (1st: #11994)
+lvl 92: Super antifire potion (1st: #21975)
+lvl 98: Extended super antifire (1st: #21975)
+lvl 75: Antifire mix (2nd: #11326)
+
+== 2460
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 2462
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 2464
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 2466
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 2468
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 2470
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 2472
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 2474
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 2476
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 2481
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #2481)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
+lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
+
+== 2483
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
+lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
+
+== 2485
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #2481)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
+lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
+
+== 2970
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 52: Super energy (1st: #261 - 2nd: #2970)
+
+== 2998
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #2998)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
+lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
+lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
+
+== 3000
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #3000)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 63: Super restore (1st: #3000 - 2nd: #223)
+
+== 3002
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
+lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
+lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
+
+== 3004
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 63: Super restore (1st: #3000 - 2nd: #223)
+
+== 3008
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy potion</col>:</col>
+lvl 26: Energy potion (1st: #255 - 2nd: #1975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 29: Energy mix (2nd: #11326)
+
+== 3010
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy potion</col>:</col>
+lvl 26: Energy potion (1st: #255 - 2nd: #1975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 29: Energy mix (2nd: #11326)
+
+== 3012
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy potion</col>:</col>
+lvl 26: Energy potion (1st: #255 - 2nd: #1975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 29: Energy mix (2nd: #11326)
+
+== 3014
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy potion</col>:</col>
+lvl 26: Energy potion (1st: #255 - 2nd: #1975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 29: Energy mix (2nd: #11326)
+
+== 3016
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy</col>:</col>
+lvl 52: Super energy (1st: #261 - 2nd: #2970)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 77: Stamina potion (1st: #12640)
+lvl 66: Extreme energy potion (2nd: #32360)
+lvl 56: Super energy mix (2nd: #11326)
+
+== 3018
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy</col>:</col>
+lvl 52: Super energy (1st: #261 - 2nd: #2970)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 77: Stamina potion (1st: #12640)
+lvl 66: Extreme energy potion (2nd: #32360)
+lvl 56: Super energy mix (2nd: #11326)
+
+== 3020
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy</col>:</col>
+lvl 52: Super energy (1st: #261 - 2nd: #2970)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 77: Stamina potion (1st: #12640)
+lvl 66: Extreme energy potion (2nd: #32360)
+lvl 56: Super energy mix (2nd: #11326)
+
+== 3022
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy</col>:</col>
+lvl 52: Super energy (1st: #261 - 2nd: #2970)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 77: Stamina potion (1st: #12640)
+lvl 66: Extreme energy potion (2nd: #32360)
+lvl 56: Super energy mix (2nd: #11326)
+
+== 3024
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore</col>:</col>
+lvl 63: Super restore (1st: #3000 - 2nd: #223)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+lvl 67: Super restore mix (2nd: #11326)
+
+== 3026
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore</col>:</col>
+lvl 63: Super restore (1st: #3000 - 2nd: #223)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+lvl 67: Super restore mix (2nd: #11326)
+
+== 3028
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore</col>:</col>
+lvl 63: Super restore (1st: #3000 - 2nd: #223)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+lvl 67: Super restore mix (2nd: #11326)
+
+== 3030
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore</col>:</col>
+lvl 63: Super restore (1st: #3000 - 2nd: #223)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+lvl 67: Super restore mix (2nd: #11326)
+
+== 3032
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility potion</col>:</col>
+lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 37: Agility mix (2nd: #11326)
+
+== 3034
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility potion</col>:</col>
+lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 37: Agility mix (2nd: #11326)
+
+== 3036
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility potion</col>:</col>
+lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 37: Agility mix (2nd: #11326)
+
+== 3038
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility potion</col>:</col>
+lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 37: Agility mix (2nd: #11326)
+
+== 3040
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic potion</col>:</col>
+lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 78: Divine magic potion (1st: #23804)
+lvl 83: Magic mix (2nd: #11326)
+
+== 3042
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic potion</col>:</col>
+lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 78: Divine magic potion (1st: #23804)
+lvl 83: Magic mix (2nd: #11326)
+
+== 3044
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic potion</col>:</col>
+lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 78: Divine magic potion (1st: #23804)
+lvl 83: Magic mix (2nd: #11326)
+
+== 3046
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic potion</col>:</col>
+lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 78: Divine magic potion (1st: #23804)
+lvl 83: Magic mix (2nd: #11326)
+
+== 3049
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #2998)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
+lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
+lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
+
+== 3051
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #3000)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 63: Super restore (1st: #3000 - 2nd: #223)
+
+== 3138
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
+lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+
+== 3408
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Serum 207</col>:</col>
+lvl 15: Serum 207 (1st: #253 - 2nd: #592)
+
+== 3410
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Serum 207</col>:</col>
+lvl 15: Serum 207 (1st: #253 - 2nd: #592)
+
+== 3412
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Serum 207</col>:</col>
+lvl 15: Serum 207 (1st: #253 - 2nd: #592)
+
+== 3414
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Serum 207</col>:</col>
+lvl 15: Serum 207 (1st: #253 - 2nd: #592)
+
+== 4417
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+
+== 4419
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+
+== 4421
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+
+== 4423
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+
+== 4840
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 8: Relicym's balm (1st: #1534 - 2nd: #1526)
+
+== 4842
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's balm</col>:</col>
+lvl 8: Relicym's balm (1st: #1534 - 2nd: #1526)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 9: Relicym's mix (2nd: #11324)
+
+== 4844
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's balm</col>:</col>
+lvl 8: Relicym's balm (1st: #1534 - 2nd: #1526)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 9: Relicym's mix (2nd: #11324)
+
+== 4846
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's balm</col>:</col>
+lvl 8: Relicym's balm (1st: #1534 - 2nd: #1526)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 9: Relicym's mix (2nd: #11324)
+
+== 4848
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's balm</col>:</col>
+lvl 8: Relicym's balm (1st: #1534 - 2nd: #1526)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 9: Relicym's mix (2nd: #11324)
+
+== 5100
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 12: Strength potion (1st: #253 - 2nd: #225)
+lvl 55: Super strength (1st: #263 - 2nd: #225)
+
+== 5104
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
+
+== 5106
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+
+== 5291
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #249)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 3: Attack potion (1st: #249 - 2nd: #221)
+
+== 5292
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #251)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 5: Antipoison (1st: #251 - 2nd: #235)
+
+== 5293
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #253)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 12: Strength potion (1st: #253 - 2nd: #225)
+lvl 15: Serum 207 (1st: #253 - 2nd: #592)
+lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
+
+== 5294
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #255)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 22: Compost potion (1st: #255 - 2nd: #21622)
+lvl 22: Restore potion (1st: #255 - 2nd: #223)
+lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
+lvl 26: Energy potion (1st: #255 - 2nd: #1975)
+lvl 36: Combat potion (1st: #255 - 2nd: #9736)
+lvl 54: Goading potion (1st: #255 - 2nd: #29993)
+
+== 5295
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #257)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 30: Defence potion (1st: #257 - 2nd: #239)
+lvl 38: Prayer potion (1st: #257 - 2nd: #231)
+
+== 5296
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #2998)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
+lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
+lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
+
+== 5297
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #259)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 45: Super attack (1st: #259 - 2nd: #221)
+lvl 48: Superantipoison (1st: #259 - 2nd: #235)
+lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+
+== 5298
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #261)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 50: Fishing potion (1st: #261 - 2nd: #231)
+lvl 52: Super energy (1st: #261 - 2nd: #2970)
+lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
+
+== 5299
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #263)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 55: Super strength (1st: #263 - 2nd: #225)
+lvl 60: Weapon poison (1st: #263 - 2nd: #241)
+
+== 5300
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #3000)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 63: Super restore (1st: #3000 - 2nd: #223)
+
+== 5301
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #265)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 66: Super defence (1st: #265 - 2nd: #239)
+lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+
+== 5302
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #2481)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
+lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
+
+== 5303
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #267)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 72: Ranging potion (1st: #267 - 2nd: #245)
+lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
+lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
+
+== 5304
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #269)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
+lvl 94: Anti-venom+ (1st: #269)
+lvl 81: Surge potion (1st: #269 - 2nd: #30800)
+
+== 5936
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 73: Weapon poison+ (1st: #6016 - 2nd: #223)
+
+== 5937
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Weapon poison+</col>:</col>
+lvl 73: Weapon poison+ (1st: #6016 - 2nd: #223)
+
+== 5939
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+
+== 5940
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Weapon poison++</col>:</col>
+lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+
+== 5943
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
+lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 74: Antidote+ mix (2nd: #11326)
+
+== 5945
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
+lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 74: Antidote+ mix (2nd: #11326)
+
+== 5947
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
+lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 74: Antidote+ mix (2nd: #11326)
+
+== 5949
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
+lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 74: Antidote+ mix (2nd: #11326)
+
+== 5952
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
+lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 87: Anti-venom (1st: #12934)
+
+== 5954
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
+lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 87: Anti-venom (1st: #12934)
+
+== 5956
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
+lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 87: Anti-venom (1st: #12934)
+
+== 5958
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
+lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 87: Anti-venom (1st: #12934)
+
+== 6010
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 6012
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 6014
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 6016
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 73: Weapon poison+ (1st: #6016 - 2nd: #223)
+
+== 6018
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+
+== 6049
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+
+== 6051
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+
+== 6470
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Compost potion</col>:</col>
+lvl 22: Compost potion (1st: #255 - 2nd: #21622)
+
+== 6472
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Compost potion</col>:</col>
+lvl 22: Compost potion (1st: #255 - 2nd: #21622)
+
+== 6474
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Compost potion</col>:</col>
+lvl 22: Compost potion (1st: #255 - 2nd: #21622)
+
+== 6476
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Compost potion</col>:</col>
+lvl 22: Compost potion (1st: #255 - 2nd: #21622)
+
+== 6685
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Saradomin brew</col>:</col>
+lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
+
+== 6687
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Saradomin brew</col>:</col>
+lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
+
+== 6689
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Saradomin brew</col>:</col>
+lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
+
+== 6691
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Saradomin brew</col>:</col>
+lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
+
+== 6693
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
+
+== 7650
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 22: Guthix balance (1st: #1550 - 2nd: #7650)
+
+== 7660
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix balance</col>:</col>
+lvl 22: Guthix balance (1st: #1550 - 2nd: #7650)
+
+== 7662
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix balance</col>:</col>
+lvl 22: Guthix balance (1st: #1550 - 2nd: #7650)
+
+== 7664
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix balance</col>:</col>
+lvl 22: Guthix balance (1st: #1550 - 2nd: #7650)
+
+== 7666
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix balance</col>:</col>
+lvl 22: Guthix balance (1st: #1550 - 2nd: #7650)
+
+== 9016
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 57: Magic essence (1st: #9017 - 2nd: #9018)
+
+== 9017
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 57: Magic essence (1st: #9017 - 2nd: #9018)
+
+== 9018
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 57: Magic essence (1st: #9017 - 2nd: #9018)
+
+== 9019
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 57: Magic essence (1st: #9017 - 2nd: #9018)
+
+== 9021
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence</col>:</col>
+lvl 57: Magic essence (1st: #9017 - 2nd: #9018)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 61: Magic essence mix (2nd: #11326)
+
+== 9022
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence</col>:</col>
+lvl 57: Magic essence (1st: #9017 - 2nd: #9018)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 61: Magic essence mix (2nd: #11326)
+
+== 9023
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence</col>:</col>
+lvl 57: Magic essence (1st: #9017 - 2nd: #9018)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 61: Magic essence mix (2nd: #11326)
+
+== 9024
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence</col>:</col>
+lvl 57: Magic essence (1st: #9017 - 2nd: #9018)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 61: Magic essence mix (2nd: #11326)
+
+== 9735
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 36: Combat potion (1st: #255 - 2nd: #9736)
+
+== 9736
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 36: Combat potion (1st: #255 - 2nd: #9736)
+
+== 9739
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat potion</col>:</col>
+lvl 36: Combat potion (1st: #255 - 2nd: #9736)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 40: Combat mix (2nd: #11326)
+
+== 9741
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat potion</col>:</col>
+lvl 36: Combat potion (1st: #255 - 2nd: #9736)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 40: Combat mix (2nd: #11326)
+
+== 9743
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat potion</col>:</col>
+lvl 36: Combat potion (1st: #255 - 2nd: #9736)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 40: Combat mix (2nd: #11326)
+
+== 9745
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat potion</col>:</col>
+lvl 36: Combat potion (1st: #255 - 2nd: #9736)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 40: Combat mix (2nd: #11326)
+
+== 9998
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunter potion</col>:</col>
+lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 58: Hunting mix (2nd: #11326)
+
+== 10000
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunter potion</col>:</col>
+lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 58: Hunting mix (2nd: #11326)
+
+== 10002
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunter potion</col>:</col>
+lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 58: Hunting mix (2nd: #11326)
+
+== 10004
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunter potion</col>:</col>
+lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 58: Hunting mix (2nd: #11326)
+
+== 10109
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
+
+== 10111
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
+
+== 10142
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guam tar</col>:</col>
+lvl 19: Guam tar (1st: #249 - 2nd: #1939)
+
+== 10143
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Marrentill tar</col>:</col>
+lvl 31: Marrentill tar (1st: #251 - 2nd: #1939)
+
+== 10144
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Tarromin tar</col>:</col>
+lvl 39: Tarromin tar (1st: #253 - 2nd: #1939)
+
+== 10145
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Harralander tar</col>:</col>
+lvl 44: Harralander tar (1st: #255 - 2nd: #1939)
+
+== 10925
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Sanfew serum</col>:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+
+== 10927
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Sanfew serum</col>:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+
+== 10929
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Sanfew serum</col>:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+
+== 10931
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Sanfew serum</col>:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+
+== 10937
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 65: Sanfew serum (1st: #235 - 2nd: #1526, #10937)
+
+== 11204
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Shrink-me-quick</col>:</col>
+lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
+
+== 11205
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
+
+== 11262
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Imp repellent</col>:</col>
+lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+
+== 11324
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 4: Attack mix (2nd: #11324)
+lvl 6: Antipoison mix (2nd: #11324)
+lvl 9: Relicym's mix (2nd: #11324)
+lvl 14: Strength mix (2nd: #11324)
+lvl 24: Restore mix (2nd: #11324)
+
+== 11326
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 29: Energy mix (2nd: #11326)
+lvl 33: Defence mix (2nd: #11326)
+lvl 37: Agility mix (2nd: #11326)
+lvl 40: Combat mix (2nd: #11326)
+lvl 42: Prayer mix (2nd: #11326)
+lvl 47: Superattack mix (2nd: #11326)
+lvl 51: Anti-poison supermix (2nd: #11326)
+lvl 53: Fishing mix (2nd: #11326)
+lvl 56: Super energy mix (2nd: #11326)
+lvl 58: Hunting mix (2nd: #11326)
+lvl 59: Super strength mix (2nd: #11326)
+lvl 61: Magic essence mix (2nd: #11326)
+lvl 67: Super restore mix (2nd: #11326)
+lvl 71: Super defence mix (2nd: #11326)
+lvl 74: Antidote+ mix (2nd: #11326)
+lvl 75: Antifire mix (2nd: #11326)
+lvl 80: Ranging mix (2nd: #11326)
+lvl 83: Magic mix (2nd: #11326)
+lvl 85: Zamorak mix (2nd: #11326)
+lvl 86: Stamina mix (2nd: #11326)
+lvl 91: Extended antifire mix (2nd: #11326)
+lvl 92: Ancient mix (2nd: #11326)
+lvl 98: Super antifire mix (2nd: #11326)
+lvl 99: Extended super antifire mix (2nd: #11326)
+
+== 11429
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack mix</col>:</col>
+lvl 4: Attack mix (2nd: #11324)
+
+== 11431
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack mix</col>:</col>
+lvl 4: Attack mix (2nd: #11324)
+
+== 11433
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison mix</col>:</col>
+lvl 6: Antipoison mix (2nd: #11324)
+
+== 11435
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison mix</col>:</col>
+lvl 6: Antipoison mix (2nd: #11324)
+
+== 11437
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's mix</col>:</col>
+lvl 9: Relicym's mix (2nd: #11324)
+
+== 11439
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's mix</col>:</col>
+lvl 9: Relicym's mix (2nd: #11324)
+
+== 11441
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength mix</col>:</col>
+lvl 14: Strength mix (2nd: #11324)
+
+== 11443
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength mix</col>:</col>
+lvl 14: Strength mix (2nd: #11324)
+
+== 11445
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat mix</col>:</col>
+lvl 40: Combat mix (2nd: #11326)
+
+== 11447
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat mix</col>:</col>
+lvl 40: Combat mix (2nd: #11326)
+
+== 11449
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore mix</col>:</col>
+lvl 24: Restore mix (2nd: #11324)
+
+== 11451
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore mix</col>:</col>
+lvl 24: Restore mix (2nd: #11324)
+
+== 11453
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy mix</col>:</col>
+lvl 29: Energy mix (2nd: #11326)
+
+== 11455
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy mix</col>:</col>
+lvl 29: Energy mix (2nd: #11326)
+
+== 11457
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence mix</col>:</col>
+lvl 33: Defence mix (2nd: #11326)
+
+== 11459
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence mix</col>:</col>
+lvl 33: Defence mix (2nd: #11326)
+
+== 11461
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility mix</col>:</col>
+lvl 37: Agility mix (2nd: #11326)
+
+== 11463
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility mix</col>:</col>
+lvl 37: Agility mix (2nd: #11326)
+
+== 11465
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer mix</col>:</col>
+lvl 42: Prayer mix (2nd: #11326)
+
+== 11467
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer mix</col>:</col>
+lvl 42: Prayer mix (2nd: #11326)
+
+== 11469
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superattack mix</col>:</col>
+lvl 47: Superattack mix (2nd: #11326)
+
+== 11471
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superattack mix</col>:</col>
+lvl 47: Superattack mix (2nd: #11326)
+
+== 11473
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-poison supermix</col>:</col>
+lvl 51: Anti-poison supermix (2nd: #11326)
+
+== 11475
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-poison supermix</col>:</col>
+lvl 51: Anti-poison supermix (2nd: #11326)
+
+== 11477
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing mix</col>:</col>
+lvl 53: Fishing mix (2nd: #11326)
+
+== 11479
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing mix</col>:</col>
+lvl 53: Fishing mix (2nd: #11326)
+
+== 11481
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy mix</col>:</col>
+lvl 56: Super energy mix (2nd: #11326)
+
+== 11483
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy mix</col>:</col>
+lvl 56: Super energy mix (2nd: #11326)
+
+== 11485
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength mix</col>:</col>
+lvl 59: Super strength mix (2nd: #11326)
+
+== 11487
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength mix</col>:</col>
+lvl 59: Super strength mix (2nd: #11326)
+
+== 11489
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence mix</col>:</col>
+lvl 61: Magic essence mix (2nd: #11326)
+
+== 11491
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence mix</col>:</col>
+lvl 61: Magic essence mix (2nd: #11326)
+
+== 11493
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore mix</col>:</col>
+lvl 67: Super restore mix (2nd: #11326)
+
+== 11495
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore mix</col>:</col>
+lvl 67: Super restore mix (2nd: #11326)
+
+== 11497
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence mix</col>:</col>
+lvl 71: Super defence mix (2nd: #11326)
+
+== 11499
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence mix</col>:</col>
+lvl 71: Super defence mix (2nd: #11326)
+
+== 11501
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+ mix</col>:</col>
+lvl 74: Antidote+ mix (2nd: #11326)
+
+== 11503
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+ mix</col>:</col>
+lvl 74: Antidote+ mix (2nd: #11326)
+
+== 11505
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire mix</col>:</col>
+lvl 75: Antifire mix (2nd: #11326)
+
+== 11507
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire mix</col>:</col>
+lvl 75: Antifire mix (2nd: #11326)
+
+== 11509
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging mix</col>:</col>
+lvl 80: Ranging mix (2nd: #11326)
+
+== 11511
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging mix</col>:</col>
+lvl 80: Ranging mix (2nd: #11326)
+
+== 11513
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic mix</col>:</col>
+lvl 83: Magic mix (2nd: #11326)
+
+== 11515
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic mix</col>:</col>
+lvl 83: Magic mix (2nd: #11326)
+
+== 11517
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunting mix</col>:</col>
+lvl 58: Hunting mix (2nd: #11326)
+
+== 11519
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunting mix</col>:</col>
+lvl 58: Hunting mix (2nd: #11326)
+
+== 11521
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak mix</col>:</col>
+lvl 85: Zamorak mix (2nd: #11326)
+
+== 11523
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak mix</col>:</col>
+lvl 85: Zamorak mix (2nd: #11326)
+
+== 11951
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire</col>:</col>
+lvl 84: Extended antifire (1st: #11994)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 91: Extended antifire mix (2nd: #11326)
+
+== 11953
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire</col>:</col>
+lvl 84: Extended antifire (1st: #11994)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 91: Extended antifire mix (2nd: #11326)
+
+== 11955
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire</col>:</col>
+lvl 84: Extended antifire (1st: #11994)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 91: Extended antifire mix (2nd: #11326)
+
+== 11957
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire</col>:</col>
+lvl 84: Extended antifire (1st: #11994)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 91: Extended antifire mix (2nd: #11326)
+
+== 11960
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire mix</col>:</col>
+lvl 91: Extended antifire mix (2nd: #11326)
+
+== 11962
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire mix</col>:</col>
+lvl 91: Extended antifire mix (2nd: #11326)
+
+== 11992
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 84: Extended antifire (1st: #11994)
+
+== 11994
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 84: Extended antifire (1st: #11994)
+
+== 12625
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina potion</col>:</col>
+lvl 77: Stamina potion (1st: #12640)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 85: Extended stamina potion (2nd: #32362)
+lvl 86: Stamina mix (2nd: #11326)
+
+== 12627
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina potion</col>:</col>
+lvl 77: Stamina potion (1st: #12640)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 85: Extended stamina potion (2nd: #32362)
+lvl 86: Stamina mix (2nd: #11326)
+
+== 12629
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina potion</col>:</col>
+lvl 77: Stamina potion (1st: #12640)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 85: Extended stamina potion (2nd: #32362)
+lvl 86: Stamina mix (2nd: #11326)
+
+== 12631
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina potion</col>:</col>
+lvl 77: Stamina potion (1st: #12640)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 85: Extended stamina potion (2nd: #32362)
+lvl 86: Stamina mix (2nd: #11326)
+
+== 12633
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina mix</col>:</col>
+lvl 86: Stamina mix (2nd: #11326)
+
+== 12635
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina mix</col>:</col>
+lvl 86: Stamina mix (2nd: #11326)
+
+== 12640
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 77: Stamina potion (1st: #12640)
+
+== 12641
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 77: Stamina potion (1st: #12640)
+
+== 12695
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super combat potion</col>:</col>
+lvl 90: Super combat potion (1st: #269)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 97: Divine super combat potion (1st: #23804)
+
+== 12697
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super combat potion</col>:</col>
+lvl 90: Super combat potion (1st: #269)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 97: Divine super combat potion (1st: #23804)
+
+== 12699
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super combat potion</col>:</col>
+lvl 90: Super combat potion (1st: #269)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 97: Divine super combat potion (1st: #23804)
+
+== 12701
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super combat potion</col>:</col>
+lvl 90: Super combat potion (1st: #269)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 97: Divine super combat potion (1st: #23804)
+
+== 12905
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom</col>:</col>
+lvl 87: Anti-venom (1st: #12934)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 94: Anti-venom+ (1st: #269)
+
+== 12907
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom</col>:</col>
+lvl 87: Anti-venom (1st: #12934)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 94: Anti-venom+ (1st: #269)
+
+== 12909
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom</col>:</col>
+lvl 87: Anti-venom (1st: #12934)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 94: Anti-venom+ (1st: #269)
+
+== 12911
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom</col>:</col>
+lvl 87: Anti-venom (1st: #12934)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 94: Anti-venom+ (1st: #269)
+
+== 12913
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom+</col>:</col>
+lvl 94: Anti-venom+ (1st: #269)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 94: Extended anti-venom+ (1st: #29784)
+
+== 12915
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom+</col>:</col>
+lvl 94: Anti-venom+ (1st: #269)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 94: Extended anti-venom+ (1st: #29784)
+
+== 12917
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom+</col>:</col>
+lvl 94: Anti-venom+ (1st: #269)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 94: Extended anti-venom+ (1st: #29784)
+
+== 12919
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom+</col>:</col>
+lvl 94: Anti-venom+ (1st: #269)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 94: Extended anti-venom+ (1st: #29784)
+
+== 12934
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 87: Anti-venom (1st: #12934)
+
+== 21622
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 22: Compost potion (1st: #255 - 2nd: #21622)
+
+== 21975
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 92: Super antifire potion (1st: #21975)
+lvl 98: Extended super antifire (1st: #21975)
+
+== 21978
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire potion</col>:</col>
+lvl 92: Super antifire potion (1st: #21975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 98: Super antifire mix (2nd: #11326)
+
+== 21981
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire potion</col>:</col>
+lvl 92: Super antifire potion (1st: #21975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 98: Super antifire mix (2nd: #11326)
+
+== 21984
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire potion</col>:</col>
+lvl 92: Super antifire potion (1st: #21975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 98: Super antifire mix (2nd: #11326)
+
+== 21987
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire potion</col>:</col>
+lvl 92: Super antifire potion (1st: #21975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 98: Super antifire mix (2nd: #11326)
+
+== 21994
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire mix</col>:</col>
+lvl 98: Super antifire mix (2nd: #11326)
+
+== 21997
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire mix</col>:</col>
+lvl 98: Super antifire mix (2nd: #11326)
+
+== 22209
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire</col>:</col>
+lvl 98: Extended super antifire (1st: #21975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 99: Extended super antifire mix (2nd: #11326)
+
+== 22212
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire</col>:</col>
+lvl 98: Extended super antifire (1st: #21975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 99: Extended super antifire mix (2nd: #11326)
+
+== 22215
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire</col>:</col>
+lvl 98: Extended super antifire (1st: #21975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 99: Extended super antifire mix (2nd: #11326)
+
+== 22218
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire</col>:</col>
+lvl 98: Extended super antifire (1st: #21975)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 99: Extended super antifire mix (2nd: #11326)
+
+== 22221
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire mix</col>:</col>
+lvl 99: Extended super antifire mix (2nd: #11326)
+
+== 22224
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire mix</col>:</col>
+lvl 99: Extended super antifire mix (2nd: #11326)
+
+== 22443
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+
+== 22449
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
+lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 86: Divine battlemage potion (1st: #23804)
+
+== 22452
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
+lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 86: Divine battlemage potion (1st: #23804)
+
+== 22455
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
+lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 86: Divine battlemage potion (1st: #23804)
+
+== 22458
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
+lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 86: Divine battlemage potion (1st: #23804)
+
+== 22461
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
+lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 86: Divine bastion potion (1st: #23804)
+
+== 22464
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
+lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 86: Divine bastion potion (1st: #23804)
+
+== 22467
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
+lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 86: Divine bastion potion (1st: #23804)
+
+== 22470
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
+lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 86: Divine bastion potion (1st: #23804)
+
+== 22873
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
+lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+
+== 22879
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 38: Prayer potion (1st: #257 - 2nd: #231)
+lvl 50: Fishing potion (1st: #261 - 2nd: #231)
+
+== 23685
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super combat potion</col>:</col>
+lvl 97: Divine super combat potion (1st: #23804)
+
+== 23688
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super combat potion</col>:</col>
+lvl 97: Divine super combat potion (1st: #23804)
+
+== 23691
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super combat potion</col>:</col>
+lvl 97: Divine super combat potion (1st: #23804)
+
+== 23694
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super combat potion</col>:</col>
+lvl 97: Divine super combat potion (1st: #23804)
+
+== 23697
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super attack potion</col>:</col>
+lvl 70: Divine super attack potion (1st: #23804)
+
+== 23700
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super attack potion</col>:</col>
+lvl 70: Divine super attack potion (1st: #23804)
+
+== 23703
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super attack potion</col>:</col>
+lvl 70: Divine super attack potion (1st: #23804)
+
+== 23706
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super attack potion</col>:</col>
+lvl 70: Divine super attack potion (1st: #23804)
+
+== 23709
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super strength potion</col>:</col>
+lvl 70: Divine super strength potion (1st: #23804)
+
+== 23712
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super strength potion</col>:</col>
+lvl 70: Divine super strength potion (1st: #23804)
+
+== 23715
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super strength potion</col>:</col>
+lvl 70: Divine super strength potion (1st: #23804)
+
+== 23718
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super strength potion</col>:</col>
+lvl 70: Divine super strength potion (1st: #23804)
+
+== 23721
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super defence potion</col>:</col>
+lvl 70: Divine super defence potion (1st: #23804)
+
+== 23724
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super defence potion</col>:</col>
+lvl 70: Divine super defence potion (1st: #23804)
+
+== 23727
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super defence potion</col>:</col>
+lvl 70: Divine super defence potion (1st: #23804)
+
+== 23730
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super defence potion</col>:</col>
+lvl 70: Divine super defence potion (1st: #23804)
+
+== 23733
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine ranging potion</col>:</col>
+lvl 74: Divine ranging potion (1st: #23804)
+
+== 23736
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine ranging potion</col>:</col>
+lvl 74: Divine ranging potion (1st: #23804)
+
+== 23739
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine ranging potion</col>:</col>
+lvl 74: Divine ranging potion (1st: #23804)
+
+== 23742
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine ranging potion</col>:</col>
+lvl 74: Divine ranging potion (1st: #23804)
+
+== 23745
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine magic potion</col>:</col>
+lvl 78: Divine magic potion (1st: #23804)
+
+== 23748
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine magic potion</col>:</col>
+lvl 78: Divine magic potion (1st: #23804)
+
+== 23751
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine magic potion</col>:</col>
+lvl 78: Divine magic potion (1st: #23804)
+
+== 23754
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine magic potion</col>:</col>
+lvl 78: Divine magic potion (1st: #23804)
+
+== 23804
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 70: Divine super attack potion (1st: #23804)
+lvl 70: Divine super defence potion (1st: #23804)
+lvl 70: Divine super strength potion (1st: #23804)
+lvl 74: Divine ranging potion (1st: #23804)
+lvl 78: Divine magic potion (1st: #23804)
+lvl 86: Divine bastion potion (1st: #23804)
+lvl 86: Divine battlemage potion (1st: #23804)
+lvl 97: Divine super combat potion (1st: #23804)
+
+== 23962
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 70: Divine super attack potion (1st: #23804)
+lvl 70: Divine super defence potion (1st: #23804)
+lvl 70: Divine super strength potion (1st: #23804)
+lvl 74: Divine ranging potion (1st: #23804)
+lvl 78: Divine magic potion (1st: #23804)
+lvl 86: Divine bastion potion (1st: #23804)
+lvl 86: Divine battlemage potion (1st: #23804)
+lvl 97: Divine super combat potion (1st: #23804)
+
+== 24623
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine battlemage potion</col>:</col>
+lvl 86: Divine battlemage potion (1st: #23804)
+
+== 24626
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine battlemage potion</col>:</col>
+lvl 86: Divine battlemage potion (1st: #23804)
+
+== 24629
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine battlemage potion</col>:</col>
+lvl 86: Divine battlemage potion (1st: #23804)
+
+== 24632
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine battlemage potion</col>:</col>
+lvl 86: Divine battlemage potion (1st: #23804)
+
+== 24635
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine bastion potion</col>:</col>
+lvl 86: Divine bastion potion (1st: #23804)
+
+== 24638
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine bastion potion</col>:</col>
+lvl 86: Divine bastion potion (1st: #23804)
+
+== 24641
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine bastion potion</col>:</col>
+lvl 86: Divine bastion potion (1st: #23804)
+
+== 24644
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine bastion potion</col>:</col>
+lvl 86: Divine bastion potion (1st: #23804)
+
+== 26231
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
+
+== 26340
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient brew</col>:</col>
+lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 91: Forgotten brew (1st: #27616)
+lvl 92: Ancient mix (2nd: #11326)
+
+== 26342
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient brew</col>:</col>
+lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 91: Forgotten brew (1st: #27616)
+lvl 92: Ancient mix (2nd: #11326)
+
+== 26344
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient brew</col>:</col>
+lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 91: Forgotten brew (1st: #27616)
+lvl 92: Ancient mix (2nd: #11326)
+
+== 26346
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient brew</col>:</col>
+lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 91: Forgotten brew (1st: #27616)
+lvl 92: Ancient mix (2nd: #11326)
+
+== 26350
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient mix</col>:</col>
+lvl 92: Ancient mix (2nd: #11326)
+
+== 26353
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient mix</col>:</col>
+lvl 92: Ancient mix (2nd: #11326)
+
+== 26368
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
+
+== 26569
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
+
+== 26581
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goblin potion</col>:</col>
+lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
+
+== 26583
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goblin potion</col>:</col>
+lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
+
+== 26585
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goblin potion</col>:</col>
+lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
+
+== 26587
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goblin potion</col>:</col>
+lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
+
+== 27202
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Menaphite Remedy</col>:</col>
+lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
+
+== 27205
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Menaphite Remedy</col>:</col>
+lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
+
+== 27208
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Menaphite Remedy</col>:</col>
+lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
+
+== 27211
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Menaphite Remedy</col>:</col>
+lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
+
+== 27272
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
+
+== 27616
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 91: Forgotten brew (1st: #27616)
+
+== 27629
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Forgotten brew</col>:</col>
+lvl 91: Forgotten brew (1st: #27616)
+
+== 27632
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Forgotten brew</col>:</col>
+lvl 91: Forgotten brew (1st: #27616)
+
+== 27635
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Forgotten brew</col>:</col>
+lvl 91: Forgotten brew (1st: #27616)
+
+== 27638
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Forgotten brew</col>:</col>
+lvl 91: Forgotten brew (1st: #27616)
+
+== 27790
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+
+== 28837
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Irit tar</col>:</col>
+lvl 55: Irit tar (1st: #259 - 2nd: #1939)
+
+== 29784
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 94: Extended anti-venom+ (1st: #29784)
+
+== 29824
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended anti-venom+</col>:</col>
+lvl 94: Extended anti-venom+ (1st: #29784)
+
+== 29827
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended anti-venom+</col>:</col>
+lvl 94: Extended anti-venom+ (1st: #29784)
+
+== 29830
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended anti-venom+</col>:</col>
+lvl 94: Extended anti-venom+ (1st: #29784)
+
+== 29833
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended anti-venom+</col>:</col>
+lvl 94: Extended anti-venom+ (1st: #29784)
+
+== 29993
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 54: Goading potion (1st: #255 - 2nd: #29993)
+lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
+
+== 30005
+<col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Mox paste</col>:</col>
+lvl 1: #249
+lvl 1: #251
+lvl 1: #253
+lvl 1: #255
+
+== 30007
+<col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Aga paste</col>:</col>
+lvl 1: #259
+lvl 60: #30097
+lvl 1: #265
+lvl 1: #2481
+lvl 60: #267
+lvl 1: #269
+
+== 30009
+<col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Lye paste</col>:</col>
+lvl 1: #257
+lvl 1: #2998
+lvl 1: #261
+lvl 1: #263
+lvl 1: #3000
+
+== 30088
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #30097)
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
+
+== 30094
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #30097)
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
+
+== 30097
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #30097)
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
+
+== 30100
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
+
+== 30125
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer regeneration potion</col>:</col>
+lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
+
+== 30128
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer regeneration potion</col>:</col>
+lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
+
+== 30131
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer regeneration potion</col>:</col>
+lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
+
+== 30134
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer regeneration potion</col>:</col>
+lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
+
+== 30137
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goading potion</col>:</col>
+lvl 54: Goading potion (1st: #255 - 2nd: #29993)
+
+== 30140
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goading potion</col>:</col>
+lvl 54: Goading potion (1st: #255 - 2nd: #29993)
+
+== 30143
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goading potion</col>:</col>
+lvl 54: Goading potion (1st: #255 - 2nd: #29993)
+
+== 30146
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goading potion</col>:</col>
+lvl 54: Goading potion (1st: #255 - 2nd: #29993)
+
+== 30800
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 81: Surge potion (1st: #269 - 2nd: #30800)
+
+== 30875
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Surge potion</col>:</col>
+lvl 81: Surge potion (1st: #269 - 2nd: #30800)
+
+== 30878
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Surge potion</col>:</col>
+lvl 81: Surge potion (1st: #269 - 2nd: #30800)
+
+== 30881
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Surge potion</col>:</col>
+lvl 81: Surge potion (1st: #269 - 2nd: #30800)
+
+== 30884
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Surge potion</col>:</col>
+lvl 81: Surge potion (1st: #269 - 2nd: #30800)
+
+== 31469
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 56: Haemostatic dressing (2nd: #31469)
+
+== 31481
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 56: Haemostatic poultice (1st: #31481 - 2nd: #31569)
+lvl 49: Anti-odour salt (1st: #31481 - 2nd: #31708)
+
+== 31484
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 62: Super fishing potion (1st: #31484 - 2nd: #32357)
+lvl 67: Super hunter potion (1st: #31484 - 2nd: #31708)
+
+== 31487
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+lvl 89: Armadyl brew (1st: #31487 - 2nd: #31710)
+
+== 31569
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 56: Haemostatic poultice (1st: #31481 - 2nd: #31569)
+
+== 31587
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Haemostatic poultice</col>:</col>
+lvl 56: Haemostatic poultice (1st: #31481 - 2nd: #31569)
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+lvl 56: Haemostatic dressing (2nd: #31469)
+
+== 31590
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Haemostatic dressing</col>:</col>
+lvl 56: Haemostatic dressing (2nd: #31469)
+
+== 31593
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Haemostatic dressing</col>:</col>
+lvl 56: Haemostatic dressing (2nd: #31469)
+
+== 31596
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Haemostatic dressing</col>:</col>
+lvl 56: Haemostatic dressing (2nd: #31469)
+
+== 31599
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Haemostatic dressing</col>:</col>
+lvl 56: Haemostatic dressing (2nd: #31469)
+
+== 31602
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super fishing potion</col>:</col>
+lvl 62: Super fishing potion (1st: #31484 - 2nd: #32357)
+
+== 31605
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super fishing potion</col>:</col>
+lvl 62: Super fishing potion (1st: #31484 - 2nd: #32357)
+
+== 31608
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super fishing potion</col>:</col>
+lvl 62: Super fishing potion (1st: #31484 - 2nd: #32357)
+
+== 31611
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super fishing potion</col>:</col>
+lvl 62: Super fishing potion (1st: #31484 - 2nd: #32357)
+
+== 31614
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extreme energy potion</col>:</col>
+lvl 66: Extreme energy potion (2nd: #32360)
+
+== 31617
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extreme energy potion</col>:</col>
+lvl 66: Extreme energy potion (2nd: #32360)
+
+== 31620
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extreme energy potion</col>:</col>
+lvl 66: Extreme energy potion (2nd: #32360)
+
+== 31623
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extreme energy potion</col>:</col>
+lvl 66: Extreme energy potion (2nd: #32360)
+
+== 31626
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super hunter potion</col>:</col>
+lvl 67: Super hunter potion (1st: #31484 - 2nd: #31708)
+
+== 31629
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super hunter potion</col>:</col>
+lvl 67: Super hunter potion (1st: #31484 - 2nd: #31708)
+
+== 31632
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super hunter potion</col>:</col>
+lvl 67: Super hunter potion (1st: #31484 - 2nd: #31708)
+
+== 31635
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super hunter potion</col>:</col>
+lvl 67: Super hunter potion (1st: #31484 - 2nd: #31708)
+
+== 31638
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended stamina potion</col>:</col>
+lvl 85: Extended stamina potion (2nd: #32362)
+
+== 31641
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended stamina potion</col>:</col>
+lvl 85: Extended stamina potion (2nd: #32362)
+
+== 31644
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended stamina potion</col>:</col>
+lvl 85: Extended stamina potion (2nd: #32362)
+
+== 31647
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended stamina potion</col>:</col>
+lvl 85: Extended stamina potion (2nd: #32362)
+
+== 31650
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Armadyl brew</col>:</col>
+lvl 89: Armadyl brew (1st: #31487 - 2nd: #31710)
+
+== 31653
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Armadyl brew</col>:</col>
+lvl 89: Armadyl brew (1st: #31487 - 2nd: #31710)
+
+== 31656
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Armadyl brew</col>:</col>
+lvl 89: Armadyl brew (1st: #31487 - 2nd: #31710)
+
+== 31659
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Armadyl brew</col>:</col>
+lvl 89: Armadyl brew (1st: #31487 - 2nd: #31710)
+
+== 31662
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 56: Haemostatic poultice (1st: #31481 - 2nd: #31569)
+
+== 31665
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 62: Super fishing potion (1st: #31484 - 2nd: #32357)
+lvl 67: Super hunter potion (1st: #31484 - 2nd: #31708)
+
+== 31668
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+lvl 89: Armadyl brew (1st: #31487 - 2nd: #31710)
+
+== 31708
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 67: Super hunter potion (1st: #31484 - 2nd: #31708)
+lvl 49: Anti-odour salt (1st: #31481 - 2nd: #31708)
+
+== 31710
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 89: Armadyl brew (1st: #31487 - 2nd: #31710)
+
+== 31712
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-odour salt</col>:</col>
+lvl 49: Anti-odour salt (1st: #31481 - 2nd: #31708)
+
+== 32357
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 62: Super fishing potion (1st: #31484 - 2nd: #32357)
+
+== 32360
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 66: Extreme energy potion (2nd: #32360)
+
+== 32362
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+lvl 85: Extended stamina potion (2nd: #32362)
+
