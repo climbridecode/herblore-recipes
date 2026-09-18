@@ -1,38 +1,3 @@
-== 0
-<col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 56: Haemostatic dressing (2nd: #31469)
-lvl 66: Extreme energy potion (2nd: #32360)
-lvl 85: Extended stamina potion (2nd: #32362)
-lvl 4: Attack mix (2nd: #11324)
-lvl 6: Antipoison mix (2nd: #11324)
-lvl 9: Relicym's mix (2nd: #11324)
-lvl 14: Strength mix (2nd: #11324)
-lvl 24: Restore mix (2nd: #11324)
-lvl 29: Energy mix (2nd: #11326)
-lvl 33: Defence mix (2nd: #11326)
-lvl 37: Agility mix (2nd: #11326)
-lvl 40: Combat mix (2nd: #11326)
-lvl 42: Prayer mix (2nd: #11326)
-lvl 47: Superattack mix (2nd: #11326)
-lvl 51: Anti-poison supermix (2nd: #11326)
-lvl 53: Fishing mix (2nd: #11326)
-lvl 56: Super energy mix (2nd: #11326)
-lvl 58: Hunting mix (2nd: #11326)
-lvl 59: Super strength mix (2nd: #11326)
-lvl 61: Magic essence mix (2nd: #11326)
-lvl 67: Super restore mix (2nd: #11326)
-lvl 71: Super defence mix (2nd: #11326)
-lvl 74: Antidote+ mix (2nd: #11326)
-lvl 75: Antifire mix (2nd: #11326)
-lvl 80: Ranging mix (2nd: #11326)
-lvl 83: Magic mix (2nd: #11326)
-lvl 85: Zamorak mix (2nd: #11326)
-lvl 86: Stamina mix (2nd: #11326)
-lvl 91: Extended antifire mix (2nd: #11326)
-lvl 92: Ancient mix (2nd: #11326)
-lvl 98: Super antifire mix (2nd: #11326)
-lvl 99: Extended super antifire mix (2nd: #11326)
-
 == 91
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
 lvl 3: Attack potion (1st: #249 - 2nd: #221)
@@ -363,30 +328,35 @@ lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
 lvl 85: Zamorak mix (2nd: #11326)
 
 == 199
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #249)
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 3: Attack potion (1st: #249 - 2nd: #221)
 lvl 19: Guam tar (1st: #249 - 2nd: #1939)
-lvl 1: Mox paste (1st: #249)
 
 == 201
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #251)
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 5: Antipoison (1st: #251 - 2nd: #235)
 lvl 31: Marrentill tar (1st: #251 - 2nd: #1939)
-lvl 1: Mox paste (1st: #251)
 
 == 203
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #253)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 12: Strength potion (1st: #253 - 2nd: #225)
 lvl 15: Serum 207 (1st: #253 - 2nd: #592)
 lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
 lvl 39: Tarromin tar (1st: #253 - 2nd: #1939)
-lvl 1: Mox paste (1st: #253)
 
 == 205
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #255)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
 lvl 22: Compost potion (1st: #255 - 2nd: #21622)
@@ -396,56 +366,62 @@ lvl 26: Energy potion (1st: #255 - 2nd: #1975)
 lvl 36: Combat potion (1st: #255 - 2nd: #9736)
 lvl 54: Goading potion (1st: #255 - 2nd: #29993)
 lvl 44: Harralander tar (1st: #255 - 2nd: #1939)
-lvl 1: Mox paste (1st: #255)
 
 == 207
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #257)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 30: Defence potion (1st: #257 - 2nd: #239)
 lvl 38: Prayer potion (1st: #257 - 2nd: #231)
-lvl 1: Lye paste (1st: #257)
 
 == 209
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #259)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 45: Super attack (1st: #259 - 2nd: #221)
 lvl 48: Superantipoison (1st: #259 - 2nd: #235)
 lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
 lvl 55: Irit tar (1st: #259 - 2nd: #1939)
-lvl 1: Aga paste (1st: #259)
 
 == 211
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #261)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 50: Fishing potion (1st: #261 - 2nd: #231)
 lvl 52: Super energy (1st: #261 - 2nd: #2970)
 lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
-lvl 1: Lye paste (1st: #261)
 
 == 213
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #263)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 55: Super strength (1st: #263 - 2nd: #225)
 lvl 60: Weapon poison (1st: #263 - 2nd: #241)
-lvl 1: Lye paste (1st: #263)
 
 == 215
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #265)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 66: Super defence (1st: #265 - 2nd: #239)
 lvl 80: Bastion potion (1st: #265 - 2nd: #245)
 lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
-lvl 1: Aga paste (1st: #265)
 
 == 217
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #267)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 72: Ranging potion (1st: #267 - 2nd: #245)
 lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
 lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
-lvl 60: Aga paste (1st: #267)
 
 == 219
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #269)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 90: Super combat potion (1st: #269)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
 lvl 94: Anti-venom+ (1st: #269)
-lvl 1: Aga paste (1st: #269)
 lvl 81: Surge potion (1st: #269 - 2nd: #30800)
 
 == 221
@@ -508,6 +484,8 @@ lvl 80: Bastion potion (1st: #265 - 2nd: #245)
 lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
 
 == 249
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #249)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 3: Attack potion (1st: #249 - 2nd: #221)
 lvl 19: Guam tar (1st: #249 - 2nd: #1939)
@@ -515,6 +493,8 @@ lvl 19: Guam tar (1st: #249 - 2nd: #1939)
 lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
 
 == 251
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #251)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 5: Antipoison (1st: #251 - 2nd: #235)
 lvl 31: Marrentill tar (1st: #251 - 2nd: #1939)
@@ -522,6 +502,8 @@ lvl 31: Marrentill tar (1st: #251 - 2nd: #1939)
 lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
 
 == 253
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #253)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 12: Strength potion (1st: #253 - 2nd: #225)
 lvl 15: Serum 207 (1st: #253 - 2nd: #592)
@@ -529,6 +511,8 @@ lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
 lvl 39: Tarromin tar (1st: #253 - 2nd: #1939)
 
 == 255
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #255)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
 lvl 22: Compost potion (1st: #255 - 2nd: #21622)
@@ -540,11 +524,15 @@ lvl 54: Goading potion (1st: #255 - 2nd: #29993)
 lvl 44: Harralander tar (1st: #255 - 2nd: #1939)
 
 == 257
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #257)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 30: Defence potion (1st: #257 - 2nd: #239)
 lvl 38: Prayer potion (1st: #257 - 2nd: #231)
 
 == 259
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #259)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 45: Super attack (1st: #259 - 2nd: #221)
 lvl 48: Superantipoison (1st: #259 - 2nd: #235)
@@ -552,29 +540,39 @@ lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
 lvl 55: Irit tar (1st: #259 - 2nd: #1939)
 
 == 261
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #261)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 50: Fishing potion (1st: #261 - 2nd: #231)
 lvl 52: Super energy (1st: #261 - 2nd: #2970)
 lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
 
 == 263
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #263)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 55: Super strength (1st: #263 - 2nd: #225)
 lvl 60: Weapon poison (1st: #263 - 2nd: #241)
 
 == 265
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #265)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 66: Super defence (1st: #265 - 2nd: #239)
 lvl 80: Bastion potion (1st: #265 - 2nd: #245)
 lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
 
 == 267
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #267)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 72: Ranging potion (1st: #267 - 2nd: #245)
 lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
 lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
 
 == 269
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #269)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
 lvl 90: Super combat potion (1st: #269)
@@ -787,6 +785,8 @@ lvl 3: Imp repellent (2nd: Various flowers...)
 lvl 3: Imp repellent (2nd: Various flowers...)
 
 == 2481
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #2481)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
 lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
@@ -797,16 +797,19 @@ lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
 lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
 
 == 2485
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #2481)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
 lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
-lvl 1: Aga paste (1st: #2481)
 
 == 2970
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 lvl 52: Super energy (1st: #261 - 2nd: #2970)
 
 == 2998
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #2998)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
 lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
@@ -814,6 +817,8 @@ lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
 lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
 
 == 3000
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #3000)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 63: Super restore (1st: #3000 - 2nd: #223)
 
@@ -965,17 +970,19 @@ lvl 78: Divine magic potion (1st: #23804)
 lvl 83: Magic mix (2nd: #11326)
 
 == 3049
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #2998)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
 lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
 lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
 lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
-lvl 1: Lye paste (1st: #2998)
 
 == 3051
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #3000)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 63: Super restore (1st: #3000 - 2nd: #223)
-lvl 1: Lye paste (1st: #3000)
 
 == 3138
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
@@ -1056,20 +1063,28 @@ lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
 lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
 
 == 5291
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #249)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 3: Attack potion (1st: #249 - 2nd: #221)
 
 == 5292
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #251)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 5: Antipoison (1st: #251 - 2nd: #235)
 
 == 5293
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #253)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 12: Strength potion (1st: #253 - 2nd: #225)
 lvl 15: Serum 207 (1st: #253 - 2nd: #592)
 lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
 
 == 5294
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Mox paste (1st: #255)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
 lvl 22: Compost potion (1st: #255 - 2nd: #21622)
@@ -1080,11 +1095,15 @@ lvl 36: Combat potion (1st: #255 - 2nd: #9736)
 lvl 54: Goading potion (1st: #255 - 2nd: #29993)
 
 == 5295
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #257)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 30: Defence potion (1st: #257 - 2nd: #239)
 lvl 38: Prayer potion (1st: #257 - 2nd: #231)
 
 == 5296
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #2998)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
 lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
@@ -1092,44 +1111,60 @@ lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
 lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
 
 == 5297
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #259)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 45: Super attack (1st: #259 - 2nd: #221)
 lvl 48: Superantipoison (1st: #259 - 2nd: #235)
 lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
 
 == 5298
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #261)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 50: Fishing potion (1st: #261 - 2nd: #231)
 lvl 52: Super energy (1st: #261 - 2nd: #2970)
 lvl 53: Hunter potion (1st: #261 - 2nd: #10111)
 
 == 5299
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #263)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 55: Super strength (1st: #263 - 2nd: #225)
 lvl 60: Weapon poison (1st: #263 - 2nd: #241)
 
 == 5300
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Lye paste (1st: #3000)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 63: Super restore (1st: #3000 - 2nd: #223)
 
 == 5301
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #265)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 66: Super defence (1st: #265 - 2nd: #239)
 lvl 80: Bastion potion (1st: #265 - 2nd: #245)
 lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
 
 == 5302
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #2481)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
 lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
 
 == 5303
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #267)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 72: Ranging potion (1st: #267 - 2nd: #245)
 lvl 85: Ancient brew (1st: #267 - 2nd: #26368)
 lvl 88: Menaphite Remedy (1st: #267 - 2nd: #27272)
 
 == 5304
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 1: Aga paste (1st: #269)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
 lvl 94: Anti-venom+ (1st: #269)
@@ -2215,7 +2250,6 @@ lvl 91: Forgotten brew (1st: #27616)
 == 27790
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
-lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
 
 == 28837
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Irit tar</col>:</col>
@@ -2271,15 +2305,20 @@ lvl 1: Lye paste (1st: #263)
 lvl 1: Lye paste (1st: #3000)
 
 == 30088
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #30097)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
 
 == 30094
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #30097)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
-lvl 60: Aga paste (1st: #30097)
 
 == 30097
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+lvl 60: Aga paste (1st: #30097)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
 

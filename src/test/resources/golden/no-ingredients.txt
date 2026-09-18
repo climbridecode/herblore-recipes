@@ -1,38 +1,3 @@
-== 0
-<col=00ff00>Primary</col><col=eeeeee> for:</col>
-Haemostatic dressing
-Extreme energy potion
-Extended stamina potion
-Attack mix
-Antipoison mix
-Relicym's mix
-Strength mix
-Restore mix
-Energy mix
-Defence mix
-Agility mix
-Combat mix
-Prayer mix
-Superattack mix
-Anti-poison supermix
-Fishing mix
-Super energy mix
-Hunting mix
-Super strength mix
-Magic essence mix
-Super restore mix
-Super defence mix
-Antidote+ mix
-Antifire mix
-Ranging mix
-Magic mix
-Zamorak mix
-Stamina mix
-Extended antifire mix
-Ancient mix
-Super antifire mix
-Extended super antifire mix
-
 == 91
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
 Attack potion
@@ -363,30 +328,35 @@ Zamorak brew
 Zamorak mix
 
 == 199
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 Guthix rest tea
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Attack potion
 Guam tar
-Mox paste
 
 == 201
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 Guthix rest tea
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Antipoison
 Marrentill tar
-Mox paste
 
 == 203
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Strength potion
 Serum 207
 Shrink-me-quick
 Tarromin tar
-Mox paste
 
 == 205
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Guthix rest tea
 Compost potion
@@ -396,56 +366,62 @@ Energy potion
 Combat potion
 Goading potion
 Harralander tar
-Mox paste
 
 == 207
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Defence potion
 Prayer potion
-Lye paste
 
 == 209
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Super attack
 Superantipoison
 Antidote++
 Irit tar
-Aga paste
 
 == 211
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Fishing potion
 Super energy
 Hunter potion
-Lye paste
 
 == 213
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Super strength
 Weapon poison
-Lye paste
 
 == 215
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Super defence
 Bastion potion
 Battlemage potion
-Aga paste
 
 == 217
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Ranging potion
 Ancient brew
 Menaphite Remedy
-Aga paste
 
 == 219
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Super combat potion
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Zamorak brew
 Anti-venom+
-Aga paste
 Surge potion
 
 == 221
@@ -508,6 +484,8 @@ Bastion potion
 Zamorak brew
 
 == 249
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Attack potion
 Guam tar
@@ -515,6 +493,8 @@ Guam tar
 Guthix rest tea
 
 == 251
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Antipoison
 Marrentill tar
@@ -522,6 +502,8 @@ Marrentill tar
 Guthix rest tea
 
 == 253
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Strength potion
 Serum 207
@@ -529,6 +511,8 @@ Shrink-me-quick
 Tarromin tar
 
 == 255
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Guthix rest tea
 Compost potion
@@ -540,11 +524,15 @@ Goading potion
 Harralander tar
 
 == 257
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Defence potion
 Prayer potion
 
 == 259
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Super attack
 Superantipoison
@@ -552,29 +540,39 @@ Antidote++
 Irit tar
 
 == 261
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Fishing potion
 Super energy
 Hunter potion
 
 == 263
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Super strength
 Weapon poison
 
 == 265
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Super defence
 Bastion potion
 Battlemage potion
 
 == 267
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Ranging potion
 Ancient brew
 Menaphite Remedy
 
 == 269
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Zamorak brew
 Super combat potion
@@ -787,6 +785,8 @@ Imp repellent
 Imp repellent
 
 == 2481
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Antifire potion
 Magic potion
@@ -797,16 +797,19 @@ Antifire potion
 Magic potion
 
 == 2485
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Antifire potion
 Magic potion
-Aga paste
 
 == 2970
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 Super energy
 
 == 2998
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Agility potion
 Goblin potion
@@ -814,6 +817,8 @@ Antidote+
 Saradomin brew
 
 == 3000
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Super restore
 
@@ -965,17 +970,19 @@ Divine magic potion
 Magic mix
 
 == 3049
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Agility potion
 Goblin potion
 Antidote+
 Saradomin brew
-Lye paste
 
 == 3051
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Super restore
-Lye paste
 
 == 3138
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
@@ -1056,20 +1063,28 @@ Zamorak brew
 Weapon poison++
 
 == 5291
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Attack potion
 
 == 5292
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Antipoison
 
 == 5293
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Strength potion
 Serum 207
 Shrink-me-quick
 
 == 5294
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Mox paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Guthix rest tea
 Compost potion
@@ -1080,11 +1095,15 @@ Combat potion
 Goading potion
 
 == 5295
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Defence potion
 Prayer potion
 
 == 5296
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Agility potion
 Goblin potion
@@ -1092,44 +1111,60 @@ Antidote+
 Saradomin brew
 
 == 5297
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Super attack
 Superantipoison
 Antidote++
 
 == 5298
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Fishing potion
 Super energy
 Hunter potion
 
 == 5299
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Super strength
 Weapon poison
 
 == 5300
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Lye paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Super restore
 
 == 5301
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Super defence
 Bastion potion
 Battlemage potion
 
 == 5302
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Antifire potion
 Magic potion
 
 == 5303
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Ranging potion
 Ancient brew
 Menaphite Remedy
 
 == 5304
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Zamorak brew
 Anti-venom+
@@ -2215,7 +2250,6 @@ Forgotten brew
 == 27790
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Weapon poison++
-Weapon poison++
 
 == 28837
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Irit tar</col>:</col>
@@ -2271,15 +2305,20 @@ Lye paste
 Lye paste
 
 == 30088
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Prayer regeneration potion
 
 == 30094
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Prayer regeneration potion
-Aga paste
 
 == 30097
+<col=f8707b>Paste</col><col=eeeeee> for:</col>
+Aga paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Prayer regeneration potion
 
