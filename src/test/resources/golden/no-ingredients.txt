@@ -1,0 +1,2503 @@
+== 0
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Haemostatic dressing
+Extreme energy potion
+Extended stamina potion
+Attack mix
+Antipoison mix
+Relicym's mix
+Strength mix
+Restore mix
+Energy mix
+Defence mix
+Agility mix
+Combat mix
+Prayer mix
+Superattack mix
+Anti-poison supermix
+Fishing mix
+Super energy mix
+Hunting mix
+Super strength mix
+Magic essence mix
+Super restore mix
+Super defence mix
+Antidote+ mix
+Antifire mix
+Ranging mix
+Magic mix
+Zamorak mix
+Stamina mix
+Extended antifire mix
+Ancient mix
+Super antifire mix
+Extended super antifire mix
+
+== 91
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Attack potion
+
+== 93
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Antipoison
+
+== 95
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Strength potion
+Serum 207
+Shrink-me-quick
+
+== 97
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Guthix rest tea
+Compost potion
+Restore potion
+Blamish oil
+Energy potion
+Combat potion
+Goading potion
+
+== 99
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Defence potion
+Prayer potion
+
+== 101
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Super attack
+Superantipoison
+Antidote++
+
+== 103
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Fishing potion
+Super energy
+Hunter potion
+
+== 105
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Super strength
+Weapon poison
+
+== 107
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Super defence
+
+== 109
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Ranging potion
+Ancient brew
+Menaphite Remedy
+
+== 111
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Zamorak brew
+Surge potion
+
+== 113
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength potion</col>:</col>
+Strength potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Strength mix
+
+== 115
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength potion</col>:</col>
+Strength potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Strength mix
+
+== 117
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength potion</col>:</col>
+Strength potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Strength mix
+
+== 119
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength potion</col>:</col>
+Strength potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Strength mix
+
+== 121
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack potion</col>:</col>
+Attack potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Attack mix
+
+== 123
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack potion</col>:</col>
+Attack potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Attack mix
+
+== 125
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack potion</col>:</col>
+Attack potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Attack mix
+
+== 127
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore potion</col>:</col>
+Restore potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Guthix balance
+Restore mix
+
+== 129
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore potion</col>:</col>
+Restore potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Guthix balance
+Restore mix
+
+== 131
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore potion</col>:</col>
+Restore potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Guthix balance
+Restore mix
+
+== 133
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence potion</col>:</col>
+Defence potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Defence mix
+
+== 135
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence potion</col>:</col>
+Defence potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Defence mix
+
+== 137
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence potion</col>:</col>
+Defence potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Defence mix
+
+== 139
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer potion</col>:</col>
+Prayer potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Prayer mix
+
+== 141
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer potion</col>:</col>
+Prayer potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Prayer mix
+
+== 143
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer potion</col>:</col>
+Prayer potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Prayer mix
+
+== 145
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super attack</col>:</col>
+Super attack
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super attack potion
+Super combat potion
+Superattack mix
+
+== 147
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super attack</col>:</col>
+Super attack
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super attack potion
+Super combat potion
+Superattack mix
+
+== 149
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super attack</col>:</col>
+Super attack
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super attack potion
+Super combat potion
+Superattack mix
+
+== 151
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing potion</col>:</col>
+Fishing potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Fishing mix
+
+== 153
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing potion</col>:</col>
+Fishing potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Fishing mix
+
+== 155
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing potion</col>:</col>
+Fishing potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Fishing mix
+
+== 157
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength</col>:</col>
+Super strength
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super strength potion
+Super combat potion
+Super strength mix
+
+== 159
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength</col>:</col>
+Super strength
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super strength potion
+Super combat potion
+Super strength mix
+
+== 161
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength</col>:</col>
+Super strength
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super strength potion
+Super combat potion
+Super strength mix
+
+== 163
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence</col>:</col>
+Super defence
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super defence potion
+Super combat potion
+Super defence mix
+
+== 165
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence</col>:</col>
+Super defence
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super defence potion
+Super combat potion
+Super defence mix
+
+== 167
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence</col>:</col>
+Super defence
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super defence potion
+Super combat potion
+Super defence mix
+
+== 169
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging potion</col>:</col>
+Ranging potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine ranging potion
+Ranging mix
+
+== 171
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging potion</col>:</col>
+Ranging potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine ranging potion
+Ranging mix
+
+== 173
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging potion</col>:</col>
+Ranging potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine ranging potion
+Ranging mix
+
+== 175
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison</col>:</col>
+Antipoison
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Antipoison mix
+
+== 177
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison</col>:</col>
+Antipoison
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Antipoison mix
+
+== 179
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison</col>:</col>
+Antipoison
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Antipoison mix
+
+== 181
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superantipoison</col>:</col>
+Superantipoison
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-poison supermix
+
+== 183
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superantipoison</col>:</col>
+Superantipoison
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-poison supermix
+
+== 185
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superantipoison</col>:</col>
+Superantipoison
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-poison supermix
+
+== 187
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Weapon poison</col>:</col>
+Weapon poison
+
+== 189
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak brew</col>:</col>
+Zamorak brew
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Zamorak mix
+
+== 191
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak brew</col>:</col>
+Zamorak brew
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Zamorak mix
+
+== 193
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak brew</col>:</col>
+Zamorak brew
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Zamorak mix
+
+== 199
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Guthix rest tea
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Attack potion
+Guam tar
+Mox paste
+
+== 201
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Guthix rest tea
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Antipoison
+Marrentill tar
+Mox paste
+
+== 203
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Strength potion
+Serum 207
+Shrink-me-quick
+Tarromin tar
+Mox paste
+
+== 205
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Guthix rest tea
+Compost potion
+Restore potion
+Blamish oil
+Energy potion
+Combat potion
+Goading potion
+Harralander tar
+Mox paste
+
+== 207
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Defence potion
+Prayer potion
+Lye paste
+
+== 209
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Super attack
+Superantipoison
+Antidote++
+Irit tar
+Aga paste
+
+== 211
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Fishing potion
+Super energy
+Hunter potion
+Lye paste
+
+== 213
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Super strength
+Weapon poison
+Lye paste
+
+== 215
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Super defence
+Bastion potion
+Battlemage potion
+Aga paste
+
+== 217
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Ranging potion
+Ancient brew
+Menaphite Remedy
+Aga paste
+
+== 219
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Super combat potion
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Zamorak brew
+Anti-venom+
+Aga paste
+Surge potion
+
+== 221
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Attack potion
+Super attack
+
+== 223
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Restore potion
+Super restore
+Weapon poison+
+
+== 225
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Strength potion
+Super strength
+
+== 231
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Prayer potion
+Fishing potion
+
+== 235
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Sanfew serum
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Antipoison
+Superantipoison
+
+== 237
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Sanfew serum
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Antipoison
+Superantipoison
+
+== 239
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Defence potion
+Super defence
+
+== 241
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Weapon poison
+Antifire potion
+
+== 243
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Weapon poison
+Antifire potion
+
+== 245
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Ranging potion
+Bastion potion
+
+== 247
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Zamorak brew
+
+== 249
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Attack potion
+Guam tar
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Guthix rest tea
+
+== 251
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Antipoison
+Marrentill tar
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Guthix rest tea
+
+== 253
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Strength potion
+Serum 207
+Shrink-me-quick
+Tarromin tar
+
+== 255
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Guthix rest tea
+Compost potion
+Restore potion
+Blamish oil
+Energy potion
+Combat potion
+Goading potion
+Harralander tar
+
+== 257
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Defence potion
+Prayer potion
+
+== 259
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Super attack
+Superantipoison
+Antidote++
+Irit tar
+
+== 261
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Fishing potion
+Super energy
+Hunter potion
+
+== 263
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Super strength
+Weapon poison
+
+== 265
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Super defence
+Bastion potion
+Battlemage potion
+
+== 267
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Ranging potion
+Ancient brew
+Menaphite Remedy
+
+== 269
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Zamorak brew
+Super combat potion
+Anti-venom+
+Surge potion
+
+== 592
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Serum 207
+
+== 1525
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Relicym's balm
+
+== 1526
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Relicym's balm
+Sanfew serum
+
+== 1533
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Relicym's balm
+
+== 1534
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Relicym's balm
+
+== 1550
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Guthix balance
+
+== 1581
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Blamish oil
+
+== 1582
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Blamish oil</col>:</col>
+Blamish oil
+
+== 1939
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Guam tar
+Marrentill tar
+Tarromin tar
+Harralander tar
+Irit tar
+
+== 1973
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Energy potion
+
+== 1975
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Energy potion
+
+== 2152
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Agility potion
+
+== 2428
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack potion</col>:</col>
+Attack potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Attack mix
+
+== 2430
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore potion</col>:</col>
+Restore potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Guthix balance
+Restore mix
+
+== 2432
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence potion</col>:</col>
+Defence potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Defence mix
+
+== 2434
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer potion</col>:</col>
+Prayer potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Prayer mix
+
+== 2436
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super attack</col>:</col>
+Super attack
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super attack potion
+Super combat potion
+Superattack mix
+
+== 2438
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing potion</col>:</col>
+Fishing potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Fishing mix
+
+== 2440
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength</col>:</col>
+Super strength
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super strength potion
+Super combat potion
+Super strength mix
+
+== 2442
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence</col>:</col>
+Super defence
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super defence potion
+Super combat potion
+Super defence mix
+
+== 2444
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging potion</col>:</col>
+Ranging potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine ranging potion
+Ranging mix
+
+== 2446
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison</col>:</col>
+Antipoison
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Antipoison mix
+
+== 2448
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superantipoison</col>:</col>
+Superantipoison
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-poison supermix
+
+== 2450
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak brew</col>:</col>
+Zamorak brew
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Zamorak mix
+
+== 2452
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire potion</col>:</col>
+Antifire potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended antifire
+Super antifire potion
+Extended super antifire
+Antifire mix
+
+== 2454
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire potion</col>:</col>
+Antifire potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended antifire
+Super antifire potion
+Extended super antifire
+Antifire mix
+
+== 2456
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire potion</col>:</col>
+Antifire potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended antifire
+Super antifire potion
+Extended super antifire
+Antifire mix
+
+== 2458
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire potion</col>:</col>
+Antifire potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended antifire
+Super antifire potion
+Extended super antifire
+Antifire mix
+
+== 2460
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 2462
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 2464
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 2466
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 2468
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 2470
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 2472
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 2474
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 2476
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 2481
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Antifire potion
+Magic potion
+
+== 2483
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Antifire potion
+Magic potion
+
+== 2485
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Antifire potion
+Magic potion
+Aga paste
+
+== 2970
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Super energy
+
+== 2998
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Agility potion
+Goblin potion
+Antidote+
+Saradomin brew
+
+== 3000
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Super restore
+
+== 3002
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Agility potion
+Goblin potion
+Antidote+
+Saradomin brew
+
+== 3004
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Super restore
+
+== 3008
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy potion</col>:</col>
+Energy potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Energy mix
+
+== 3010
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy potion</col>:</col>
+Energy potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Energy mix
+
+== 3012
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy potion</col>:</col>
+Energy potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Energy mix
+
+== 3014
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy potion</col>:</col>
+Energy potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Energy mix
+
+== 3016
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy</col>:</col>
+Super energy
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Stamina potion
+Extreme energy potion
+Super energy mix
+
+== 3018
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy</col>:</col>
+Super energy
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Stamina potion
+Extreme energy potion
+Super energy mix
+
+== 3020
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy</col>:</col>
+Super energy
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Stamina potion
+Extreme energy potion
+Super energy mix
+
+== 3022
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy</col>:</col>
+Super energy
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Stamina potion
+Extreme energy potion
+Super energy mix
+
+== 3024
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore</col>:</col>
+Super restore
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Sanfew serum
+Super restore mix
+
+== 3026
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore</col>:</col>
+Super restore
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Sanfew serum
+Super restore mix
+
+== 3028
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore</col>:</col>
+Super restore
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Sanfew serum
+Super restore mix
+
+== 3030
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore</col>:</col>
+Super restore
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Sanfew serum
+Super restore mix
+
+== 3032
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility potion</col>:</col>
+Agility potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Agility mix
+
+== 3034
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility potion</col>:</col>
+Agility potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Agility mix
+
+== 3036
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility potion</col>:</col>
+Agility potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Agility mix
+
+== 3038
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility potion</col>:</col>
+Agility potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Agility mix
+
+== 3040
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic potion</col>:</col>
+Magic potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine magic potion
+Magic mix
+
+== 3042
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic potion</col>:</col>
+Magic potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine magic potion
+Magic mix
+
+== 3044
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic potion</col>:</col>
+Magic potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine magic potion
+Magic mix
+
+== 3046
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic potion</col>:</col>
+Magic potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine magic potion
+Magic mix
+
+== 3049
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Agility potion
+Goblin potion
+Antidote+
+Saradomin brew
+Lye paste
+
+== 3051
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Super restore
+Lye paste
+
+== 3138
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Magic potion
+Battlemage potion
+
+== 3408
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Serum 207</col>:</col>
+Serum 207
+
+== 3410
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Serum 207</col>:</col>
+Serum 207
+
+== 3412
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Serum 207</col>:</col>
+Serum 207
+
+== 3414
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Serum 207</col>:</col>
+Serum 207
+
+== 4417
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
+Guthix rest tea
+
+== 4419
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
+Guthix rest tea
+
+== 4421
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
+Guthix rest tea
+
+== 4423
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
+Guthix rest tea
+
+== 4840
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Relicym's balm
+
+== 4842
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's balm</col>:</col>
+Relicym's balm
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Relicym's mix
+
+== 4844
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's balm</col>:</col>
+Relicym's balm
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Relicym's mix
+
+== 4846
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's balm</col>:</col>
+Relicym's balm
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Relicym's mix
+
+== 4848
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's balm</col>:</col>
+Relicym's balm
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Relicym's mix
+
+== 5100
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Strength potion
+Super strength
+
+== 5104
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Zamorak brew
+
+== 5106
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Weapon poison++
+
+== 5291
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Attack potion
+
+== 5292
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Antipoison
+
+== 5293
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Strength potion
+Serum 207
+Shrink-me-quick
+
+== 5294
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Guthix rest tea
+Compost potion
+Restore potion
+Blamish oil
+Energy potion
+Combat potion
+Goading potion
+
+== 5295
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Defence potion
+Prayer potion
+
+== 5296
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Agility potion
+Goblin potion
+Antidote+
+Saradomin brew
+
+== 5297
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Super attack
+Superantipoison
+Antidote++
+
+== 5298
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Fishing potion
+Super energy
+Hunter potion
+
+== 5299
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Super strength
+Weapon poison
+
+== 5300
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Super restore
+
+== 5301
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Super defence
+Bastion potion
+Battlemage potion
+
+== 5302
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Antifire potion
+Magic potion
+
+== 5303
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Ranging potion
+Ancient brew
+Menaphite Remedy
+
+== 5304
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Zamorak brew
+Anti-venom+
+Surge potion
+
+== 5936
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Weapon poison+
+
+== 5937
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Weapon poison+</col>:</col>
+Weapon poison+
+
+== 5939
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Weapon poison++
+
+== 5940
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Weapon poison++</col>:</col>
+Weapon poison++
+
+== 5943
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
+Antidote+
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Antidote+ mix
+
+== 5945
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
+Antidote+
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Antidote+ mix
+
+== 5947
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
+Antidote+
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Antidote+ mix
+
+== 5949
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
+Antidote+
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Antidote+ mix
+
+== 5952
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
+Antidote++
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-venom
+
+== 5954
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
+Antidote++
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-venom
+
+== 5956
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
+Antidote++
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-venom
+
+== 5958
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
+Antidote++
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-venom
+
+== 6010
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 6012
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 6014
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Imp repellent
+
+== 6016
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Weapon poison+
+
+== 6018
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Weapon poison++
+
+== 6049
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Antidote+
+
+== 6051
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Antidote++
+
+== 6470
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Compost potion</col>:</col>
+Compost potion
+
+== 6472
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Compost potion</col>:</col>
+Compost potion
+
+== 6474
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Compost potion</col>:</col>
+Compost potion
+
+== 6476
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Compost potion</col>:</col>
+Compost potion
+
+== 6685
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Saradomin brew</col>:</col>
+Saradomin brew
+
+== 6687
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Saradomin brew</col>:</col>
+Saradomin brew
+
+== 6689
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Saradomin brew</col>:</col>
+Saradomin brew
+
+== 6691
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Saradomin brew</col>:</col>
+Saradomin brew
+
+== 6693
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Saradomin brew
+
+== 7650
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Guthix balance
+
+== 7660
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix balance</col>:</col>
+Guthix balance
+
+== 7662
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix balance</col>:</col>
+Guthix balance
+
+== 7664
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix balance</col>:</col>
+Guthix balance
+
+== 7666
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix balance</col>:</col>
+Guthix balance
+
+== 9016
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Magic essence
+
+== 9017
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Magic essence
+
+== 9018
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Magic essence
+
+== 9019
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Magic essence
+
+== 9021
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence</col>:</col>
+Magic essence
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Magic essence mix
+
+== 9022
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence</col>:</col>
+Magic essence
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Magic essence mix
+
+== 9023
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence</col>:</col>
+Magic essence
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Magic essence mix
+
+== 9024
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence</col>:</col>
+Magic essence
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Magic essence mix
+
+== 9735
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Combat potion
+
+== 9736
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Combat potion
+
+== 9739
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat potion</col>:</col>
+Combat potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Combat mix
+
+== 9741
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat potion</col>:</col>
+Combat potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Combat mix
+
+== 9743
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat potion</col>:</col>
+Combat potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Combat mix
+
+== 9745
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat potion</col>:</col>
+Combat potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Combat mix
+
+== 9998
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunter potion</col>:</col>
+Hunter potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Hunting mix
+
+== 10000
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunter potion</col>:</col>
+Hunter potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Hunting mix
+
+== 10002
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunter potion</col>:</col>
+Hunter potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Hunting mix
+
+== 10004
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunter potion</col>:</col>
+Hunter potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Hunting mix
+
+== 10109
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Hunter potion
+
+== 10111
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Hunter potion
+
+== 10142
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guam tar</col>:</col>
+Guam tar
+
+== 10143
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Marrentill tar</col>:</col>
+Marrentill tar
+
+== 10144
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Tarromin tar</col>:</col>
+Tarromin tar
+
+== 10145
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Harralander tar</col>:</col>
+Harralander tar
+
+== 10925
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Sanfew serum</col>:</col>
+Sanfew serum
+
+== 10927
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Sanfew serum</col>:</col>
+Sanfew serum
+
+== 10929
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Sanfew serum</col>:</col>
+Sanfew serum
+
+== 10931
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Sanfew serum</col>:</col>
+Sanfew serum
+
+== 10937
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Sanfew serum
+
+== 11204
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Shrink-me-quick</col>:</col>
+Shrink-me-quick
+
+== 11205
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Shrink-me-quick
+
+== 11262
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Imp repellent</col>:</col>
+Imp repellent
+
+== 11324
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Attack mix
+Antipoison mix
+Relicym's mix
+Strength mix
+Restore mix
+
+== 11326
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Energy mix
+Defence mix
+Agility mix
+Combat mix
+Prayer mix
+Superattack mix
+Anti-poison supermix
+Fishing mix
+Super energy mix
+Hunting mix
+Super strength mix
+Magic essence mix
+Super restore mix
+Super defence mix
+Antidote+ mix
+Antifire mix
+Ranging mix
+Magic mix
+Zamorak mix
+Stamina mix
+Extended antifire mix
+Ancient mix
+Super antifire mix
+Extended super antifire mix
+
+== 11429
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack mix</col>:</col>
+Attack mix
+
+== 11431
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Attack mix</col>:</col>
+Attack mix
+
+== 11433
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison mix</col>:</col>
+Antipoison mix
+
+== 11435
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antipoison mix</col>:</col>
+Antipoison mix
+
+== 11437
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's mix</col>:</col>
+Relicym's mix
+
+== 11439
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Relicym's mix</col>:</col>
+Relicym's mix
+
+== 11441
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength mix</col>:</col>
+Strength mix
+
+== 11443
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Strength mix</col>:</col>
+Strength mix
+
+== 11445
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat mix</col>:</col>
+Combat mix
+
+== 11447
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Combat mix</col>:</col>
+Combat mix
+
+== 11449
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore mix</col>:</col>
+Restore mix
+
+== 11451
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Restore mix</col>:</col>
+Restore mix
+
+== 11453
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy mix</col>:</col>
+Energy mix
+
+== 11455
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Energy mix</col>:</col>
+Energy mix
+
+== 11457
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence mix</col>:</col>
+Defence mix
+
+== 11459
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Defence mix</col>:</col>
+Defence mix
+
+== 11461
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility mix</col>:</col>
+Agility mix
+
+== 11463
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Agility mix</col>:</col>
+Agility mix
+
+== 11465
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer mix</col>:</col>
+Prayer mix
+
+== 11467
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer mix</col>:</col>
+Prayer mix
+
+== 11469
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superattack mix</col>:</col>
+Superattack mix
+
+== 11471
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Superattack mix</col>:</col>
+Superattack mix
+
+== 11473
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-poison supermix</col>:</col>
+Anti-poison supermix
+
+== 11475
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-poison supermix</col>:</col>
+Anti-poison supermix
+
+== 11477
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing mix</col>:</col>
+Fishing mix
+
+== 11479
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Fishing mix</col>:</col>
+Fishing mix
+
+== 11481
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy mix</col>:</col>
+Super energy mix
+
+== 11483
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super energy mix</col>:</col>
+Super energy mix
+
+== 11485
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength mix</col>:</col>
+Super strength mix
+
+== 11487
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super strength mix</col>:</col>
+Super strength mix
+
+== 11489
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence mix</col>:</col>
+Magic essence mix
+
+== 11491
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic essence mix</col>:</col>
+Magic essence mix
+
+== 11493
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore mix</col>:</col>
+Super restore mix
+
+== 11495
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super restore mix</col>:</col>
+Super restore mix
+
+== 11497
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence mix</col>:</col>
+Super defence mix
+
+== 11499
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super defence mix</col>:</col>
+Super defence mix
+
+== 11501
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+ mix</col>:</col>
+Antidote+ mix
+
+== 11503
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+ mix</col>:</col>
+Antidote+ mix
+
+== 11505
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire mix</col>:</col>
+Antifire mix
+
+== 11507
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antifire mix</col>:</col>
+Antifire mix
+
+== 11509
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging mix</col>:</col>
+Ranging mix
+
+== 11511
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ranging mix</col>:</col>
+Ranging mix
+
+== 11513
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic mix</col>:</col>
+Magic mix
+
+== 11515
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Magic mix</col>:</col>
+Magic mix
+
+== 11517
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunting mix</col>:</col>
+Hunting mix
+
+== 11519
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Hunting mix</col>:</col>
+Hunting mix
+
+== 11521
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak mix</col>:</col>
+Zamorak mix
+
+== 11523
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Zamorak mix</col>:</col>
+Zamorak mix
+
+== 11951
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire</col>:</col>
+Extended antifire
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended antifire mix
+
+== 11953
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire</col>:</col>
+Extended antifire
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended antifire mix
+
+== 11955
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire</col>:</col>
+Extended antifire
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended antifire mix
+
+== 11957
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire</col>:</col>
+Extended antifire
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended antifire mix
+
+== 11960
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire mix</col>:</col>
+Extended antifire mix
+
+== 11962
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended antifire mix</col>:</col>
+Extended antifire mix
+
+== 11992
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Extended antifire
+
+== 11994
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Extended antifire
+
+== 12625
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina potion</col>:</col>
+Stamina potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended stamina potion
+Stamina mix
+
+== 12627
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina potion</col>:</col>
+Stamina potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended stamina potion
+Stamina mix
+
+== 12629
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina potion</col>:</col>
+Stamina potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended stamina potion
+Stamina mix
+
+== 12631
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina potion</col>:</col>
+Stamina potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended stamina potion
+Stamina mix
+
+== 12633
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina mix</col>:</col>
+Stamina mix
+
+== 12635
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Stamina mix</col>:</col>
+Stamina mix
+
+== 12640
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Stamina potion
+
+== 12641
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Stamina potion
+
+== 12695
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super combat potion</col>:</col>
+Super combat potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super combat potion
+
+== 12697
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super combat potion</col>:</col>
+Super combat potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super combat potion
+
+== 12699
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super combat potion</col>:</col>
+Super combat potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super combat potion
+
+== 12701
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super combat potion</col>:</col>
+Super combat potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine super combat potion
+
+== 12905
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom</col>:</col>
+Anti-venom
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-venom+
+
+== 12907
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom</col>:</col>
+Anti-venom
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-venom+
+
+== 12909
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom</col>:</col>
+Anti-venom
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-venom+
+
+== 12911
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom</col>:</col>
+Anti-venom
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Anti-venom+
+
+== 12913
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom+</col>:</col>
+Anti-venom+
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended anti-venom+
+
+== 12915
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom+</col>:</col>
+Anti-venom+
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended anti-venom+
+
+== 12917
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom+</col>:</col>
+Anti-venom+
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended anti-venom+
+
+== 12919
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-venom+</col>:</col>
+Anti-venom+
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended anti-venom+
+
+== 12934
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Anti-venom
+
+== 21622
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Compost potion
+
+== 21975
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Super antifire potion
+Extended super antifire
+
+== 21978
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire potion</col>:</col>
+Super antifire potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Super antifire mix
+
+== 21981
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire potion</col>:</col>
+Super antifire potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Super antifire mix
+
+== 21984
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire potion</col>:</col>
+Super antifire potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Super antifire mix
+
+== 21987
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire potion</col>:</col>
+Super antifire potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Super antifire mix
+
+== 21994
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire mix</col>:</col>
+Super antifire mix
+
+== 21997
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super antifire mix</col>:</col>
+Super antifire mix
+
+== 22209
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire</col>:</col>
+Extended super antifire
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended super antifire mix
+
+== 22212
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire</col>:</col>
+Extended super antifire
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended super antifire mix
+
+== 22215
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire</col>:</col>
+Extended super antifire
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended super antifire mix
+
+== 22218
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire</col>:</col>
+Extended super antifire
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Extended super antifire mix
+
+== 22221
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire mix</col>:</col>
+Extended super antifire mix
+
+== 22224
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended super antifire mix</col>:</col>
+Extended super antifire mix
+
+== 22443
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Bastion potion
+Battlemage potion
+
+== 22449
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
+Battlemage potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine battlemage potion
+
+== 22452
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
+Battlemage potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine battlemage potion
+
+== 22455
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
+Battlemage potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine battlemage potion
+
+== 22458
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
+Battlemage potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine battlemage potion
+
+== 22461
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
+Bastion potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine bastion potion
+
+== 22464
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
+Bastion potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine bastion potion
+
+== 22467
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
+Bastion potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine bastion potion
+
+== 22470
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
+Bastion potion
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Divine bastion potion
+
+== 22873
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Magic potion
+Battlemage potion
+
+== 22879
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Prayer potion
+Fishing potion
+
+== 23685
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super combat potion</col>:</col>
+Divine super combat potion
+
+== 23688
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super combat potion</col>:</col>
+Divine super combat potion
+
+== 23691
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super combat potion</col>:</col>
+Divine super combat potion
+
+== 23694
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super combat potion</col>:</col>
+Divine super combat potion
+
+== 23697
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super attack potion</col>:</col>
+Divine super attack potion
+
+== 23700
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super attack potion</col>:</col>
+Divine super attack potion
+
+== 23703
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super attack potion</col>:</col>
+Divine super attack potion
+
+== 23706
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super attack potion</col>:</col>
+Divine super attack potion
+
+== 23709
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super strength potion</col>:</col>
+Divine super strength potion
+
+== 23712
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super strength potion</col>:</col>
+Divine super strength potion
+
+== 23715
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super strength potion</col>:</col>
+Divine super strength potion
+
+== 23718
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super strength potion</col>:</col>
+Divine super strength potion
+
+== 23721
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super defence potion</col>:</col>
+Divine super defence potion
+
+== 23724
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super defence potion</col>:</col>
+Divine super defence potion
+
+== 23727
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super defence potion</col>:</col>
+Divine super defence potion
+
+== 23730
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine super defence potion</col>:</col>
+Divine super defence potion
+
+== 23733
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine ranging potion</col>:</col>
+Divine ranging potion
+
+== 23736
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine ranging potion</col>:</col>
+Divine ranging potion
+
+== 23739
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine ranging potion</col>:</col>
+Divine ranging potion
+
+== 23742
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine ranging potion</col>:</col>
+Divine ranging potion
+
+== 23745
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine magic potion</col>:</col>
+Divine magic potion
+
+== 23748
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine magic potion</col>:</col>
+Divine magic potion
+
+== 23751
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine magic potion</col>:</col>
+Divine magic potion
+
+== 23754
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine magic potion</col>:</col>
+Divine magic potion
+
+== 23804
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Divine super attack potion
+Divine super defence potion
+Divine super strength potion
+Divine ranging potion
+Divine magic potion
+Divine bastion potion
+Divine battlemage potion
+Divine super combat potion
+
+== 23962
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Divine super attack potion
+Divine super defence potion
+Divine super strength potion
+Divine ranging potion
+Divine magic potion
+Divine bastion potion
+Divine battlemage potion
+Divine super combat potion
+
+== 24623
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine battlemage potion</col>:</col>
+Divine battlemage potion
+
+== 24626
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine battlemage potion</col>:</col>
+Divine battlemage potion
+
+== 24629
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine battlemage potion</col>:</col>
+Divine battlemage potion
+
+== 24632
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine battlemage potion</col>:</col>
+Divine battlemage potion
+
+== 24635
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine bastion potion</col>:</col>
+Divine bastion potion
+
+== 24638
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine bastion potion</col>:</col>
+Divine bastion potion
+
+== 24641
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine bastion potion</col>:</col>
+Divine bastion potion
+
+== 24644
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Divine bastion potion</col>:</col>
+Divine bastion potion
+
+== 26231
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Ancient brew
+
+== 26340
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient brew</col>:</col>
+Ancient brew
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Forgotten brew
+Ancient mix
+
+== 26342
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient brew</col>:</col>
+Ancient brew
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Forgotten brew
+Ancient mix
+
+== 26344
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient brew</col>:</col>
+Ancient brew
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Forgotten brew
+Ancient mix
+
+== 26346
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient brew</col>:</col>
+Ancient brew
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Forgotten brew
+Ancient mix
+
+== 26350
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient mix</col>:</col>
+Ancient mix
+
+== 26353
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Ancient mix</col>:</col>
+Ancient mix
+
+== 26368
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Ancient brew
+
+== 26569
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Goblin potion
+
+== 26581
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goblin potion</col>:</col>
+Goblin potion
+
+== 26583
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goblin potion</col>:</col>
+Goblin potion
+
+== 26585
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goblin potion</col>:</col>
+Goblin potion
+
+== 26587
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goblin potion</col>:</col>
+Goblin potion
+
+== 27202
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Menaphite Remedy</col>:</col>
+Menaphite Remedy
+
+== 27205
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Menaphite Remedy</col>:</col>
+Menaphite Remedy
+
+== 27208
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Menaphite Remedy</col>:</col>
+Menaphite Remedy
+
+== 27211
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Menaphite Remedy</col>:</col>
+Menaphite Remedy
+
+== 27272
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Menaphite Remedy
+
+== 27616
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Forgotten brew
+
+== 27629
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Forgotten brew</col>:</col>
+Forgotten brew
+
+== 27632
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Forgotten brew</col>:</col>
+Forgotten brew
+
+== 27635
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Forgotten brew</col>:</col>
+Forgotten brew
+
+== 27638
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Forgotten brew</col>:</col>
+Forgotten brew
+
+== 27790
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Weapon poison++
+Weapon poison++
+
+== 28837
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Irit tar</col>:</col>
+Irit tar
+
+== 29784
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Extended anti-venom+
+
+== 29824
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended anti-venom+</col>:</col>
+Extended anti-venom+
+
+== 29827
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended anti-venom+</col>:</col>
+Extended anti-venom+
+
+== 29830
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended anti-venom+</col>:</col>
+Extended anti-venom+
+
+== 29833
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended anti-venom+</col>:</col>
+Extended anti-venom+
+
+== 29993
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Goading potion
+Prayer regeneration potion
+
+== 30005
+<col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Mox paste</col>:</col>
+Mox paste
+Mox paste
+Mox paste
+Mox paste
+
+== 30007
+<col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Aga paste</col>:</col>
+Aga paste
+Aga paste
+Aga paste
+Aga paste
+Aga paste
+Aga paste
+
+== 30009
+<col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Lye paste</col>:</col>
+Lye paste
+Lye paste
+Lye paste
+Lye paste
+Lye paste
+
+== 30088
+<col=ff8c67>Seed</col><col=eeeeee> for:</col>
+Prayer regeneration potion
+
+== 30094
+<col=70f8d0>Clean</col><col=eeeeee> for:</col>
+Prayer regeneration potion
+Aga paste
+
+== 30097
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Prayer regeneration potion
+
+== 30100
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Prayer regeneration potion
+
+== 30125
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer regeneration potion</col>:</col>
+Prayer regeneration potion
+
+== 30128
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer regeneration potion</col>:</col>
+Prayer regeneration potion
+
+== 30131
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer regeneration potion</col>:</col>
+Prayer regeneration potion
+
+== 30134
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Prayer regeneration potion</col>:</col>
+Prayer regeneration potion
+
+== 30137
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goading potion</col>:</col>
+Goading potion
+
+== 30140
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goading potion</col>:</col>
+Goading potion
+
+== 30143
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goading potion</col>:</col>
+Goading potion
+
+== 30146
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Goading potion</col>:</col>
+Goading potion
+
+== 30800
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Surge potion
+
+== 30875
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Surge potion</col>:</col>
+Surge potion
+
+== 30878
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Surge potion</col>:</col>
+Surge potion
+
+== 30881
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Surge potion</col>:</col>
+Surge potion
+
+== 30884
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Surge potion</col>:</col>
+Surge potion
+
+== 31469
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Haemostatic dressing
+
+== 31481
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Haemostatic poultice
+Anti-odour salt
+
+== 31484
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Super fishing potion
+Super hunter potion
+
+== 31487
+<col=00ff00>Primary</col><col=eeeeee> for:</col>
+Armadyl brew
+
+== 31569
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Haemostatic poultice
+
+== 31587
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Haemostatic poultice</col>:</col>
+Haemostatic poultice
+<col=b599ff>Base</col><col=eeeeee> for:</col>
+Haemostatic dressing
+
+== 31590
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Haemostatic dressing</col>:</col>
+Haemostatic dressing
+
+== 31593
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Haemostatic dressing</col>:</col>
+Haemostatic dressing
+
+== 31596
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Haemostatic dressing</col>:</col>
+Haemostatic dressing
+
+== 31599
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Haemostatic dressing</col>:</col>
+Haemostatic dressing
+
+== 31602
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super fishing potion</col>:</col>
+Super fishing potion
+
+== 31605
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super fishing potion</col>:</col>
+Super fishing potion
+
+== 31608
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super fishing potion</col>:</col>
+Super fishing potion
+
+== 31611
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super fishing potion</col>:</col>
+Super fishing potion
+
+== 31614
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extreme energy potion</col>:</col>
+Extreme energy potion
+
+== 31617
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extreme energy potion</col>:</col>
+Extreme energy potion
+
+== 31620
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extreme energy potion</col>:</col>
+Extreme energy potion
+
+== 31623
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extreme energy potion</col>:</col>
+Extreme energy potion
+
+== 31626
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super hunter potion</col>:</col>
+Super hunter potion
+
+== 31629
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super hunter potion</col>:</col>
+Super hunter potion
+
+== 31632
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super hunter potion</col>:</col>
+Super hunter potion
+
+== 31635
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Super hunter potion</col>:</col>
+Super hunter potion
+
+== 31638
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended stamina potion</col>:</col>
+Extended stamina potion
+
+== 31641
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended stamina potion</col>:</col>
+Extended stamina potion
+
+== 31644
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended stamina potion</col>:</col>
+Extended stamina potion
+
+== 31647
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Extended stamina potion</col>:</col>
+Extended stamina potion
+
+== 31650
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Armadyl brew</col>:</col>
+Armadyl brew
+
+== 31653
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Armadyl brew</col>:</col>
+Armadyl brew
+
+== 31656
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Armadyl brew</col>:</col>
+Armadyl brew
+
+== 31659
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Armadyl brew</col>:</col>
+Armadyl brew
+
+== 31662
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Haemostatic poultice
+
+== 31665
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Super fishing potion
+Super hunter potion
+
+== 31668
+<col=ffd700>Unfinished</col><col=eeeeee> for:</col>
+Armadyl brew
+
+== 31708
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Super hunter potion
+Anti-odour salt
+
+== 31710
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Armadyl brew
+
+== 31712
+<col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Anti-odour salt</col>:</col>
+Anti-odour salt
+
+== 32357
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Super fishing potion
+
+== 32360
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Extreme energy potion
+
+== 32362
+<col=00ffff>Secondary</col><col=eeeeee> for:</col>
+Extended stamina potion
+
