@@ -14,7 +14,7 @@ lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
 
 == 97
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 lvl 22: Compost potion (1st: #255 - 2nd: #21622)
 lvl 22: Restore potion (1st: #255 - 2nd: #223)
 lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
@@ -31,7 +31,7 @@ lvl 38: Prayer potion (1st: #257 - 2nd: #231)
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
 lvl 45: Super attack (1st: #259 - 2nd: #221)
 lvl 48: Superantipoison (1st: #259 - 2nd: #235)
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 
 == 103
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
@@ -331,7 +331,7 @@ lvl 85: Zamorak mix (2nd: #11326)
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 lvl 1: Mox paste (1st: #249)
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 3: Attack potion (1st: #249 - 2nd: #221)
 lvl 19: Guam tar (1st: #249 - 2nd: #1939)
@@ -340,7 +340,7 @@ lvl 19: Guam tar (1st: #249 - 2nd: #1939)
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 lvl 1: Mox paste (1st: #251)
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 5: Antipoison (1st: #251 - 2nd: #235)
 lvl 31: Marrentill tar (1st: #251 - 2nd: #1939)
@@ -358,7 +358,7 @@ lvl 39: Tarromin tar (1st: #253 - 2nd: #1939)
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 lvl 1: Mox paste (1st: #255)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 lvl 22: Compost potion (1st: #255 - 2nd: #21622)
 lvl 22: Restore potion (1st: #255 - 2nd: #223)
 lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
@@ -380,7 +380,7 @@ lvl 1: Aga paste (1st: #259)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 45: Super attack (1st: #259 - 2nd: #221)
 lvl 48: Superantipoison (1st: #259 - 2nd: #235)
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 lvl 55: Irit tar (1st: #259 - 2nd: #1939)
 
 == 211
@@ -403,8 +403,8 @@ lvl 60: Weapon poison (1st: #263 - 2nd: #241)
 lvl 1: Aga paste (1st: #265)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 66: Super defence (1st: #265 - 2nd: #239)
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 
 == 217
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -433,7 +433,7 @@ lvl 45: Super attack (1st: #259 - 2nd: #221)
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 lvl 22: Restore potion (1st: #255 - 2nd: #223)
 lvl 63: Super restore (1st: #3000 - 2nd: #223)
-lvl 73: Weapon poison+ (1st: #6016 - 2nd: #223)
+lvl 73: Weapon poison+ [<col=b599ff>#5935</col>] (1st: #6016 - 2nd: #223)
 
 == 225
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
@@ -477,7 +477,7 @@ lvl 69: Antifire potion (1st: #2481 - 2nd: #241)
 == 245
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 lvl 72: Ranging potion (1st: #267 - 2nd: #245)
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
 
 == 247
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
@@ -490,7 +490,7 @@ lvl 1: Mox paste (1st: #249)
 lvl 3: Attack potion (1st: #249 - 2nd: #221)
 lvl 19: Guam tar (1st: #249 - 2nd: #1939)
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 
 == 251
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -499,7 +499,7 @@ lvl 1: Mox paste (1st: #251)
 lvl 5: Antipoison (1st: #251 - 2nd: #235)
 lvl 31: Marrentill tar (1st: #251 - 2nd: #1939)
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 
 == 253
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -514,7 +514,7 @@ lvl 39: Tarromin tar (1st: #253 - 2nd: #1939)
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 lvl 1: Mox paste (1st: #255)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 lvl 22: Compost potion (1st: #255 - 2nd: #21622)
 lvl 22: Restore potion (1st: #255 - 2nd: #223)
 lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
@@ -536,7 +536,7 @@ lvl 1: Aga paste (1st: #259)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 45: Super attack (1st: #259 - 2nd: #221)
 lvl 48: Superantipoison (1st: #259 - 2nd: #235)
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 lvl 55: Irit tar (1st: #259 - 2nd: #1939)
 
 == 261
@@ -559,8 +559,8 @@ lvl 60: Weapon poison (1st: #263 - 2nd: #241)
 lvl 1: Aga paste (1st: #265)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 66: Super defence (1st: #265 - 2nd: #239)
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 
 == 267
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -750,39 +750,39 @@ lvl 75: Antifire mix (2nd: #11326)
 
 == 2460
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 2462
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 2464
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 2466
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 2468
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 2470
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 2472
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 2474
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 2476
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 2481
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -813,7 +813,7 @@ lvl 1: Lye paste (1st: #2998)
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
 lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
 
 == 3000
@@ -826,7 +826,7 @@ lvl 63: Super restore (1st: #3000 - 2nd: #223)
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
 lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
 lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
 
 == 3004
@@ -975,7 +975,7 @@ lvl 1: Lye paste (1st: #2998)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
 lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
 
 == 3051
@@ -987,7 +987,7 @@ lvl 63: Super restore (1st: #3000 - 2nd: #223)
 == 3138
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 
 == 3408
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Serum 207</col>:</col>
@@ -1007,19 +1007,19 @@ lvl 15: Serum 207 (1st: #253 - 2nd: #592)
 
 == 4417
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 
 == 4419
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 
 == 4421
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 
 == 4423
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 
 == 4840
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
@@ -1060,7 +1060,7 @@ lvl 78: Zamorak brew (1st: #269 - 2nd: #247)
 
 == 5106
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+lvl 82: Weapon poison++ [<col=b599ff>#5935</col>] (1st: #27790 - 2nd: #6018)
 
 == 5291
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -1086,7 +1086,7 @@ lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 lvl 1: Mox paste (1st: #255)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 lvl 22: Compost potion (1st: #255 - 2nd: #21622)
 lvl 22: Restore potion (1st: #255 - 2nd: #223)
 lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
@@ -1107,7 +1107,7 @@ lvl 1: Lye paste (1st: #2998)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
 lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
 
 == 5297
@@ -1116,7 +1116,7 @@ lvl 1: Aga paste (1st: #259)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 45: Super attack (1st: #259 - 2nd: #221)
 lvl 48: Superantipoison (1st: #259 - 2nd: #235)
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 
 == 5298
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -1144,8 +1144,8 @@ lvl 63: Super restore (1st: #3000 - 2nd: #223)
 lvl 1: Aga paste (1st: #265)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 66: Super defence (1st: #265 - 2nd: #239)
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 
 == 5302
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -1172,95 +1172,95 @@ lvl 81: Surge potion (1st: #269 - 2nd: #30800)
 
 == 5936
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-lvl 73: Weapon poison+ (1st: #6016 - 2nd: #223)
+lvl 73: Weapon poison+ [<col=b599ff>#5935</col>] (1st: #6016 - 2nd: #223)
 
 == 5937
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Weapon poison+</col>:</col>
-lvl 73: Weapon poison+ (1st: #6016 - 2nd: #223)
+lvl 73: Weapon poison+ [<col=b599ff>#5935</col>] (1st: #6016 - 2nd: #223)
 
 == 5939
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+lvl 82: Weapon poison++ [<col=b599ff>#5935</col>] (1st: #27790 - 2nd: #6018)
 
 == 5940
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Weapon poison++</col>:</col>
-lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+lvl 82: Weapon poison++ [<col=b599ff>#5935</col>] (1st: #27790 - 2nd: #6018)
 
 == 5943
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 74: Antidote+ mix (2nd: #11326)
 
 == 5945
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 74: Antidote+ mix (2nd: #11326)
 
 == 5947
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 74: Antidote+ mix (2nd: #11326)
 
 == 5949
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 74: Antidote+ mix (2nd: #11326)
 
 == 5952
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 87: Anti-venom (1st: #12934)
 
 == 5954
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 87: Anti-venom (1st: #12934)
 
 == 5956
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 87: Anti-venom (1st: #12934)
 
 == 5958
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 87: Anti-venom (1st: #12934)
 
 == 6010
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 6012
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 6014
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 6016
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 73: Weapon poison+ (1st: #6016 - 2nd: #223)
+lvl 73: Weapon poison+ [<col=b599ff>#5935</col>] (1st: #6016 - 2nd: #223)
 
 == 6018
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+lvl 82: Weapon poison++ [<col=b599ff>#5935</col>] (1st: #27790 - 2nd: #6018)
 
 == 6049
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 
 == 6051
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 
 == 6470
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Compost potion</col>:</col>
@@ -1468,7 +1468,7 @@ lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
 
 == 11262
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Imp repellent</col>:</col>
-lvl 3: Imp repellent (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
+lvl 3: Imp repellent [<col=b599ff>#11264</col>] (2nd: #6010, #6014, #6012, #2460, #2462, #2464, #2466, #2468, #2470, #2472, #2476, #2474)
 
 == 11324
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
@@ -1932,61 +1932,61 @@ lvl 99: Extended super antifire mix (2nd: #11326)
 
 == 22443
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 
 == 22449
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 86: Divine battlemage potion (1st: #23804)
 
 == 22452
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 86: Divine battlemage potion (1st: #23804)
 
 == 22455
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 86: Divine battlemage potion (1st: #23804)
 
 == 22458
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 86: Divine battlemage potion (1st: #23804)
 
 == 22461
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 86: Divine bastion potion (1st: #23804)
 
 == 22464
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 86: Divine bastion potion (1st: #23804)
 
 == 22467
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 86: Divine bastion potion (1st: #23804)
 
 == 22470
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 lvl 86: Divine bastion potion (1st: #23804)
 
 == 22873
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 
 == 22879
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
@@ -2249,7 +2249,7 @@ lvl 91: Forgotten brew (1st: #27616)
 
 == 27790
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+lvl 82: Weapon poison++ [<col=b599ff>#5935</col>] (1st: #27790 - 2nd: #6018)
 
 == 28837
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Irit tar</col>:</col>

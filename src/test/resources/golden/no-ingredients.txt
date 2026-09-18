@@ -14,7 +14,7 @@ Shrink-me-quick
 
 == 97
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 Compost potion
 Restore potion
 Blamish oil
@@ -31,7 +31,7 @@ Prayer potion
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
 Super attack
 Superantipoison
-Antidote++
+Antidote++ [<col=b599ff>#5935</col>]
 
 == 103
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
@@ -331,7 +331,7 @@ Zamorak mix
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 Mox paste
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Attack potion
 Guam tar
@@ -340,7 +340,7 @@ Guam tar
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 Mox paste
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Antipoison
 Marrentill tar
@@ -358,7 +358,7 @@ Tarromin tar
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 Mox paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 Compost potion
 Restore potion
 Blamish oil
@@ -380,7 +380,7 @@ Aga paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Super attack
 Superantipoison
-Antidote++
+Antidote++ [<col=b599ff>#5935</col>]
 Irit tar
 
 == 211
@@ -403,8 +403,8 @@ Weapon poison
 Aga paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Super defence
-Bastion potion
-Battlemage potion
+Bastion potion [<col=b599ff>#22405</col>]
+Battlemage potion [<col=b599ff>#22405</col>]
 
 == 217
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -433,7 +433,7 @@ Super attack
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 Restore potion
 Super restore
-Weapon poison+
+Weapon poison+ [<col=b599ff>#5935</col>]
 
 == 225
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
@@ -477,7 +477,7 @@ Antifire potion
 == 245
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 Ranging potion
-Bastion potion
+Bastion potion [<col=b599ff>#22405</col>]
 
 == 247
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
@@ -490,7 +490,7 @@ Mox paste
 Attack potion
 Guam tar
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 
 == 251
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -499,7 +499,7 @@ Mox paste
 Antipoison
 Marrentill tar
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 
 == 253
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -514,7 +514,7 @@ Tarromin tar
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 Mox paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 Compost potion
 Restore potion
 Blamish oil
@@ -536,7 +536,7 @@ Aga paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Super attack
 Superantipoison
-Antidote++
+Antidote++ [<col=b599ff>#5935</col>]
 Irit tar
 
 == 261
@@ -559,8 +559,8 @@ Weapon poison
 Aga paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Super defence
-Bastion potion
-Battlemage potion
+Bastion potion [<col=b599ff>#22405</col>]
+Battlemage potion [<col=b599ff>#22405</col>]
 
 == 267
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -750,39 +750,39 @@ Antifire mix
 
 == 2460
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 2462
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 2464
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 2466
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 2468
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 2470
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 2472
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 2474
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 2476
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 2481
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -813,7 +813,7 @@ Lye paste
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
 Agility potion
 Goblin potion
-Antidote+
+Antidote+ [<col=b599ff>#5935</col>]
 Saradomin brew
 
 == 3000
@@ -826,7 +826,7 @@ Super restore
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
 Agility potion
 Goblin potion
-Antidote+
+Antidote+ [<col=b599ff>#5935</col>]
 Saradomin brew
 
 == 3004
@@ -975,7 +975,7 @@ Lye paste
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 Agility potion
 Goblin potion
-Antidote+
+Antidote+ [<col=b599ff>#5935</col>]
 Saradomin brew
 
 == 3051
@@ -987,7 +987,7 @@ Super restore
 == 3138
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 Magic potion
-Battlemage potion
+Battlemage potion [<col=b599ff>#22405</col>]
 
 == 3408
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Serum 207</col>:</col>
@@ -1007,19 +1007,19 @@ Serum 207
 
 == 4417
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 
 == 4419
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 
 == 4421
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 
 == 4423
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Guthix rest tea</col>:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 
 == 4840
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
@@ -1060,7 +1060,7 @@ Zamorak brew
 
 == 5106
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-Weapon poison++
+Weapon poison++ [<col=b599ff>#5935</col>]
 
 == 5291
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -1086,7 +1086,7 @@ Shrink-me-quick
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 Mox paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
-Guthix rest tea
+Guthix rest tea [<col=b599ff>#4460</col>]
 Compost potion
 Restore potion
 Blamish oil
@@ -1107,7 +1107,7 @@ Lye paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Agility potion
 Goblin potion
-Antidote+
+Antidote+ [<col=b599ff>#5935</col>]
 Saradomin brew
 
 == 5297
@@ -1116,7 +1116,7 @@ Aga paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Super attack
 Superantipoison
-Antidote++
+Antidote++ [<col=b599ff>#5935</col>]
 
 == 5298
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -1144,8 +1144,8 @@ Super restore
 Aga paste
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 Super defence
-Bastion potion
-Battlemage potion
+Bastion potion [<col=b599ff>#22405</col>]
+Battlemage potion [<col=b599ff>#22405</col>]
 
 == 5302
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -1172,95 +1172,95 @@ Surge potion
 
 == 5936
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-Weapon poison+
+Weapon poison+ [<col=b599ff>#5935</col>]
 
 == 5937
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Weapon poison+</col>:</col>
-Weapon poison+
+Weapon poison+ [<col=b599ff>#5935</col>]
 
 == 5939
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-Weapon poison++
+Weapon poison++ [<col=b599ff>#5935</col>]
 
 == 5940
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Weapon poison++</col>:</col>
-Weapon poison++
+Weapon poison++ [<col=b599ff>#5935</col>]
 
 == 5943
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
-Antidote+
+Antidote+ [<col=b599ff>#5935</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Antidote+ mix
 
 == 5945
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
-Antidote+
+Antidote+ [<col=b599ff>#5935</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Antidote+ mix
 
 == 5947
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
-Antidote+
+Antidote+ [<col=b599ff>#5935</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Antidote+ mix
 
 == 5949
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote+</col>:</col>
-Antidote+
+Antidote+ [<col=b599ff>#5935</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Antidote+ mix
 
 == 5952
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
-Antidote++
+Antidote++ [<col=b599ff>#5935</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Anti-venom
 
 == 5954
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
-Antidote++
+Antidote++ [<col=b599ff>#5935</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Anti-venom
 
 == 5956
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
-Antidote++
+Antidote++ [<col=b599ff>#5935</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Anti-venom
 
 == 5958
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Antidote++</col>:</col>
-Antidote++
+Antidote++ [<col=b599ff>#5935</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Anti-venom
 
 == 6010
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 6012
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 6014
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 6016
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Weapon poison+
+Weapon poison+ [<col=b599ff>#5935</col>]
 
 == 6018
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-Weapon poison++
+Weapon poison++ [<col=b599ff>#5935</col>]
 
 == 6049
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-Antidote+
+Antidote+ [<col=b599ff>#5935</col>]
 
 == 6051
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
-Antidote++
+Antidote++ [<col=b599ff>#5935</col>]
 
 == 6470
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Compost potion</col>:</col>
@@ -1468,7 +1468,7 @@ Shrink-me-quick
 
 == 11262
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Imp repellent</col>:</col>
-Imp repellent
+Imp repellent [<col=b599ff>#11264</col>]
 
 == 11324
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
@@ -1932,61 +1932,61 @@ Extended super antifire mix
 
 == 22443
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-Bastion potion
-Battlemage potion
+Bastion potion [<col=b599ff>#22405</col>]
+Battlemage potion [<col=b599ff>#22405</col>]
 
 == 22449
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
-Battlemage potion
+Battlemage potion [<col=b599ff>#22405</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Divine battlemage potion
 
 == 22452
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
-Battlemage potion
+Battlemage potion [<col=b599ff>#22405</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Divine battlemage potion
 
 == 22455
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
-Battlemage potion
+Battlemage potion [<col=b599ff>#22405</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Divine battlemage potion
 
 == 22458
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Battlemage potion</col>:</col>
-Battlemage potion
+Battlemage potion [<col=b599ff>#22405</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Divine battlemage potion
 
 == 22461
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
-Bastion potion
+Bastion potion [<col=b599ff>#22405</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Divine bastion potion
 
 == 22464
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
-Bastion potion
+Bastion potion [<col=b599ff>#22405</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Divine bastion potion
 
 == 22467
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
-Bastion potion
+Bastion potion [<col=b599ff>#22405</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Divine bastion potion
 
 == 22470
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Bastion potion</col>:</col>
-Bastion potion
+Bastion potion [<col=b599ff>#22405</col>]
 <col=b599ff>Base</col><col=eeeeee> for:</col>
 Divine bastion potion
 
 == 22873
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
 Magic potion
-Battlemage potion
+Battlemage potion [<col=b599ff>#22405</col>]
 
 == 22879
 <col=00ffff>Secondary</col><col=eeeeee> for:</col>
@@ -2249,7 +2249,7 @@ Forgotten brew
 
 == 27790
 <col=00ff00>Primary</col><col=eeeeee> for:</col>
-Weapon poison++
+Weapon poison++ [<col=b599ff>#5935</col>]
 
 == 28837
 <col=ec80ff>Requirements</col><col=eeeeee> for <col=00ffff>Irit tar</col>:</col>

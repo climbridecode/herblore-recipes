@@ -17,6 +17,8 @@ public class Recipe
 	int level;
 	/** Item id of the single primary ingredient, or 0 when there is none. */
 	int primary;
+	/** Item id of the base when it is not a vial of water (blood, coconut milk...), or 0 when it is water or unknown. */
+	int base;
 	/** Never null; empty when the recipe has no secondaries. */
 	Set<Integer> secondaries;
 	/** True when the secondaries are so numerous they can be summarised (imp repellent's flowers). */
@@ -26,11 +28,12 @@ public class Recipe
 	{
 		Set<Integer> secondaries = potion.getSecondaries() == null ? ImmutableSet.of() : potion.getSecondaries();
 		boolean collapsible = potion.getIds().contains(ItemID.II_IMP_REPELLENT);
-		return new Recipe(potion.getName(), potion.getLevel(), potion.getPrimary(), secondaries, collapsible);
+		int base = potion.getBasicBase() == ItemID.VIAL_WATER ? 0 : potion.getBasicBase();
+		return new Recipe(potion.getName(), potion.getLevel(), potion.getPrimary(), base, secondaries, collapsible);
 	}
 
 	public static Recipe of(Paste paste, Paste.HerbRecipe herb)
 	{
-		return new Recipe(paste.getName(), herb.getLevel(), herb.getHerb(), ImmutableSet.of(), false);
+		return new Recipe(paste.getName(), herb.getLevel(), herb.getHerb(), 0, ImmutableSet.of(), false);
 	}
 }

@@ -14,7 +14,7 @@ lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
 
 == 97
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 lvl 22: Compost potion (1st: #255 - 2nd: #21622)
 lvl 22: Restore potion (1st: #255 - 2nd: #223)
 lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
@@ -31,7 +31,7 @@ lvl 38: Prayer potion (1st: #257 - 2nd: #231)
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
 lvl 45: Super attack (1st: #259 - 2nd: #221)
 lvl 48: Superantipoison (1st: #259 - 2nd: #235)
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 
 == 103
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
@@ -86,7 +86,7 @@ lvl 39: Tarromin tar (1st: #253 - 2nd: #1939)
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 lvl 1: Mox paste (1st: #255)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 lvl 22: Compost potion (1st: #255 - 2nd: #21622)
 lvl 22: Restore potion (1st: #255 - 2nd: #223)
 lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
@@ -108,7 +108,7 @@ lvl 1: Aga paste (1st: #259)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 45: Super attack (1st: #259 - 2nd: #221)
 lvl 48: Superantipoison (1st: #259 - 2nd: #235)
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 lvl 55: Irit tar (1st: #259 - 2nd: #1939)
 
 == 211
@@ -131,8 +131,8 @@ lvl 60: Weapon poison (1st: #263 - 2nd: #241)
 lvl 1: Aga paste (1st: #265)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 66: Super defence (1st: #265 - 2nd: #239)
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 
 == 217
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -170,7 +170,7 @@ lvl 76: Magic potion (1st: #2481 - 2nd: #3138)
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
 lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
 lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
 
 == 3004
@@ -183,7 +183,7 @@ lvl 1: Lye paste (1st: #2998)
 <col=70f8d0>Clean</col><col=eeeeee> for:</col>
 lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
 lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
 
 == 3051
@@ -220,7 +220,7 @@ lvl 52: Shrink-me-quick (1st: #253 - 2nd: #11205)
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
 lvl 1: Mox paste (1st: #255)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
-lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)
+lvl 18: Guthix rest tea [<col=b599ff>#4460</col>] (1st: #255 - 2nd: #249, #251)
 lvl 22: Compost potion (1st: #255 - 2nd: #21622)
 lvl 22: Restore potion (1st: #255 - 2nd: #223)
 lvl 25: Blamish oil (1st: #255 - 2nd: #1581)
@@ -241,7 +241,7 @@ lvl 1: Lye paste (1st: #2998)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 34: Agility potion (1st: #2998 - 2nd: #2152)
 lvl 47: Goblin potion (1st: #2998 - 2nd: #26569)
-lvl 68: Antidote+ (1st: #2998 - 2nd: #6049)
+lvl 68: Antidote+ [<col=b599ff>#5935</col>] (1st: #2998 - 2nd: #6049)
 lvl 81: Saradomin brew (1st: #2998 - 2nd: #6693)
 
 == 5297
@@ -250,7 +250,7 @@ lvl 1: Aga paste (1st: #259)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 45: Super attack (1st: #259 - 2nd: #221)
 lvl 48: Superantipoison (1st: #259 - 2nd: #235)
-lvl 79: Antidote++ (1st: #259 - 2nd: #6051)
+lvl 79: Antidote++ [<col=b599ff>#5935</col>] (1st: #259 - 2nd: #6051)
 
 == 5298
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -278,8 +278,8 @@ lvl 63: Super restore (1st: #3000 - 2nd: #223)
 lvl 1: Aga paste (1st: #265)
 <col=ff8c67>Seed</col><col=eeeeee> for:</col>
 lvl 66: Super defence (1st: #265 - 2nd: #239)
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 
 == 5302
 <col=f8707b>Paste</col><col=eeeeee> for:</col>
@@ -306,11 +306,11 @@ lvl 81: Surge potion (1st: #269 - 2nd: #30800)
 
 == 5936
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-lvl 73: Weapon poison+ (1st: #6016 - 2nd: #223)
+lvl 73: Weapon poison+ [<col=b599ff>#5935</col>] (1st: #6016 - 2nd: #223)
 
 == 5939
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-lvl 82: Weapon poison++ (1st: #27790 - 2nd: #6018)
+lvl 82: Weapon poison++ [<col=b599ff>#5935</col>] (1st: #27790 - 2nd: #6018)
 
 == 9019
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
@@ -318,8 +318,8 @@ lvl 57: Magic essence (1st: #9017 - 2nd: #9018)
 
 == 22443
 <col=ffd700>Unfinished</col><col=eeeeee> for:</col>
-lvl 80: Bastion potion (1st: #265 - 2nd: #245)
-lvl 80: Battlemage potion (1st: #265 - 2nd: #3138)
+lvl 80: Bastion potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #245)
+lvl 80: Battlemage potion [<col=b599ff>#22405</col>] (1st: #265 - 2nd: #3138)
 
 == 30005
 <col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Mox paste</col>:</col>

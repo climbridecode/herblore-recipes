@@ -137,11 +137,15 @@ public final class TooltipRenderer
 		return levelPrefix(recipe) + itemName.apply(recipe.getPrimary());
 	}
 
-	/** e.g. {@code lvl 3: Attack potion (1st: Guam leaf - 2nd: Eye of newt)} */
+	/** e.g. {@code lvl 3: Attack potion (1st: Guam leaf - 2nd: Eye of newt)}, or {@code Bastion potion [Vial of blood] (...)}. */
 	private String line(Recipe recipe)
 	{
 		StringBuilder line = new StringBuilder(levelPrefix(recipe));
 		line.append(recipe.getName());
+		if (config.showPotionBase() && recipe.getBase() > 0)
+		{
+			line.append(" [").append(colorWrap(itemName.apply(recipe.getBase()), PURPLE)).append("]");
+		}
 
 		List<String> ingredients = new ArrayList<>();
 		if (config.showPrimariesInTooltip() && recipe.getPrimary() > 0)

@@ -40,7 +40,7 @@ public class TooltipRendererTest
 				"lvl 3: Attack potion (1st: #249 - 2nd: #221)\n" +
 				"lvl 19: Guam tar (1st: #249 - 2nd: #1939)\n" +
 				"Secondary for:\n" +
-				"lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)\n",
+				"lvl 18: Guthix rest tea [#" + ItemID.CUP_HOT_WATER + "] (1st: #255 - 2nd: #249, #251)\n",
 			plain(ItemID.GUAM_LEAF));
 	}
 
@@ -51,7 +51,7 @@ public class TooltipRendererTest
 			"Paste for:\n" +
 				"lvl 1: Mox paste (1st: #249)\n" +
 				"Secondary for:\n" +
-				"lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)\n" +
+				"lvl 18: Guthix rest tea [#" + ItemID.CUP_HOT_WATER + "] (1st: #255 - 2nd: #249, #251)\n" +
 				"Clean for:\n" +
 				"lvl 3: Attack potion (1st: #249 - 2nd: #221)\n" +
 				"lvl 19: Guam tar (1st: #249 - 2nd: #1939)\n",
@@ -144,7 +144,7 @@ public class TooltipRendererTest
 
 		assertEquals(
 			"Secondary for:\n" +
-				"lvl 18: Guthix rest tea (1st: #255 - 2nd: #249, #251)\n",
+				"lvl 18: Guthix rest tea [#" + ItemID.CUP_HOT_WATER + "] (1st: #255 - 2nd: #249, #251)\n",
 			plain(ItemID.UNIDENTIFIED_GUAM, config));
 	}
 
@@ -252,7 +252,7 @@ public class TooltipRendererTest
 	{
 		assertEquals(
 			"Primary for:\n" +
-				"lvl 3: Imp repellent (2nd: Various flowers...)\n",
+				"lvl 3: Imp repellent [#" + ItemID.II_ANCHOVY_OIL + "] (2nd: Various flowers...)\n",
 			plain(ItemID.MARIGOLD));
 
 		TestConfig config = new TestConfig();
@@ -260,5 +260,39 @@ public class TooltipRendererTest
 		String detailed = plain(ItemID.MARIGOLD, config);
 		assertTrue(detailed, detailed.contains("2nd: #" + ItemID.MARIGOLD));
 		assertFalse(detailed, detailed.contains("Various flowers"));
+	}
+
+	@Test
+	public void potionWithABaseThatIsNotWaterIsTaggedWithIt()
+	{
+		String cadantine = plain(ItemID.CADANTINE);
+
+		assertTrue(cadantine, cadantine.contains("lvl 80: Bastion potion [#" + ItemID.MYQ4_BLOOD_VIAL + "] (1st: #"
+			+ ItemID.CADANTINE + " - 2nd: #" + ItemID.WINE_OF_ZAMORAK + ")\n"));
+		assertFalse(cadantine, cadantine.contains("Super defence ["));
+
+		String irit = plain(ItemID.IRIT_LEAF);
+		assertTrue(irit, irit.contains("Antidote++ [#" + ItemID.VIAL_COCONUT_MILK + "]"));
+		assertFalse(irit, irit.contains("Superantipoison ["));
+	}
+
+	@Test
+	public void potionTooltipTagsItsOwnBase()
+	{
+		String bastion = plain(ItemID._4DOSEBASTION);
+
+		assertTrue(bastion, bastion.contains("lvl 80: Bastion potion [#" + ItemID.MYQ4_BLOOD_VIAL + "]"));
+	}
+
+	@Test
+	public void baseTagCanBeSwitchedOff()
+	{
+		TestConfig config = new TestConfig();
+		config.potionBase = false;
+
+		String cadantine = plain(ItemID.CADANTINE, config);
+
+		assertTrue(cadantine, cadantine.contains("lvl 80: Bastion potion (1st: #"));
+		assertFalse(cadantine, cadantine.contains("["));
 	}
 }
