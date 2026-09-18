@@ -24,7 +24,7 @@ final class GoldenFile
 	static void check(String name, List<String> actual) throws IOException
 	{
 		Path file = DIR.resolve(name + ".txt");
-		if (System.getenv("UPDATE_GOLDEN") != null)
+		if ("1".equals(System.getenv("UPDATE_GOLDEN")))
 		{
 			Files.createDirectories(DIR);
 			Files.write(file, actual);

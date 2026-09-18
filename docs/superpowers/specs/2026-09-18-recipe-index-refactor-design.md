@@ -112,8 +112,13 @@ form of a herb.
   eight-key list.
 - The overlay drops its per-form `isSeed` / `isUnfinished` / `isGrimy` checks.
   Its keybind and interface-group logic is unchanged.
-- **Deliberate behavior change:** the seed toggle now hides only the seed
-  section, not the whole tooltip for that item.
+- **Deliberate behavior change:** the seed, unfinished and grimy toggles now
+  hide only their own sections, instead of the whole tooltip for that item (the
+  overlay used to suppress everything). This is only observable for three grimy
+  herbs that are also ingredients elsewhere: grimy guam and grimy marentill
+  (secondary for Guthix rest tea) and grimy torstol (alternate primary for
+  Super combat potion) keep those sections when the grimy toggle is off. Seeds
+  and unfinished potions have no other sections, so for them nothing changes.
 
 ### 4. Testing and migration order
 
@@ -161,6 +166,8 @@ Where the implementation refined the design above:
 - `ItemRole` has an extra value, `PASTE_RECIPES`, for the paste item's own "To make <paste>:" section. A `Section` is
   `(role, gate, recipes)`: `role` decides title and order, `gate` decides which config toggle applies.
 - `TooltipRenderer` reads the config interface directly instead of a separate options snapshot.
+- The overlay's per-form toggle checks were replaced by per-section gating in the renderer; see the "Deliberate behavior change"
+  bullet in section 3 for the only user-visible effect (three grimy herbs). The `ingredient-forms-off` snapshot locks it in.
 - Two existing bugs surfaced while snapshotting and are fixed: item 0 ("Dwarf remains") had a bogus tooltip because
   potions without a primary ingredient were indexed under id 0, and stackable nightshade listed Weapon poison++ twice
   because it is both the primary and the alternate primary.

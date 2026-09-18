@@ -43,4 +43,14 @@ public class TooltipGoldenTest
 		config.complex = false;
 		GoldenFile.check("ingredient-tooltips-off", TooltipHarness.dump(config));
 	}
+
+	@Test
+	public void ingredientFormsOff() throws IOException
+	{
+		TestConfig config = new TestConfig();
+		config.grimy = false;
+		config.seeds = false;
+		config.unfinished = false;
+		GoldenFile.check("ingredient-forms-off", TooltipHarness.dump(config));
+	}
 }
