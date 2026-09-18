@@ -2282,27 +2282,27 @@ Prayer regeneration potion
 
 == 30005
 <col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Mox paste</col>:</col>
-Mox paste
-Mox paste
-Mox paste
-Mox paste
+#249
+#251
+#253
+#255
 
 == 30007
 <col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Aga paste</col>:</col>
-Aga paste
-Aga paste
-Aga paste
-Aga paste
-Aga paste
-Aga paste
+#259
+#30097
+#265
+#2481
+#267
+#269
 
 == 30009
 <col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Lye paste</col>:</col>
-Lye paste
-Lye paste
-Lye paste
-Lye paste
-Lye paste
+#257
+#2998
+#261
+#263
+#3000
 
 == 30088
 <col=f8707b>Paste</col><col=eeeeee> for:</col>

@@ -63,7 +63,8 @@ public final class TooltipRenderer
 			text.append(title(section)).append(LINE_BREAK);
 			for (Recipe recipe : section.getRecipes())
 			{
-				text.append(line(recipe)).append(LINE_BREAK);
+				String line = section.getRole() == ItemRole.PASTE_RECIPES ? herbLine(recipe) : line(recipe);
+				text.append(line).append(LINE_BREAK);
 			}
 		}
 		return text.length() == 0 ? Optional.empty() : Optional.of(text.toString());
@@ -119,14 +120,16 @@ public final class TooltipRenderer
 		}
 	}
 
+	/** The herb a paste is made from, e.g. {@code lvl 1: Ranarr weed}. The paste's own name is already in the title. */
+	private String herbLine(Recipe recipe)
+	{
+		return levelPrefix(recipe) + itemName.apply(recipe.getPrimary());
+	}
+
 	/** e.g. {@code lvl 3: Attack potion (1st: Guam leaf - 2nd: Eye of newt)} */
 	private String line(Recipe recipe)
 	{
-		StringBuilder line = new StringBuilder();
-		if (config.showHerbloreLvlInTooltip())
-		{
-			line.append("lvl ").append(recipe.getLevel()).append(": ");
-		}
+		StringBuilder line = new StringBuilder(levelPrefix(recipe));
 		line.append(recipe.getName());
 
 		List<String> ingredients = new ArrayList<>();
@@ -143,6 +146,11 @@ public final class TooltipRenderer
 			line.append(" (").append(String.join(" - ", ingredients)).append(")");
 		}
 		return line.toString();
+	}
+
+	private String levelPrefix(Recipe recipe)
+	{
+		return config.showHerbloreLvlInTooltip() ? "lvl " + recipe.getLevel() + ": " : "";
 	}
 
 	private String secondaries(Recipe recipe)

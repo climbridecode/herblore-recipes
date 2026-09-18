@@ -1965,27 +1965,27 @@ lvl 58: Prayer regeneration potion (1st: #30097 - 2nd: #29993)
 
 == 30005
 <col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Mox paste</col>:</col>
-lvl 1: Mox paste (1st: #249)
-lvl 1: Mox paste (1st: #251)
-lvl 1: Mox paste (1st: #253)
-lvl 1: Mox paste (1st: #255)
+lvl 1: #249
+lvl 1: #251
+lvl 1: #253
+lvl 1: #255
 
 == 30007
 <col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Aga paste</col>:</col>
-lvl 1: Aga paste (1st: #259)
-lvl 60: Aga paste (1st: #30097)
-lvl 1: Aga paste (1st: #265)
-lvl 1: Aga paste (1st: #2481)
-lvl 60: Aga paste (1st: #267)
-lvl 1: Aga paste (1st: #269)
+lvl 1: #259
+lvl 60: #30097
+lvl 1: #265
+lvl 1: #2481
+lvl 60: #267
+lvl 1: #269
 
 == 30009
 <col=42bb7b>To make</col><col=eeeeee> <col=00ffff>Lye paste</col>:</col>
-lvl 1: Lye paste (1st: #257)
-lvl 1: Lye paste (1st: #2998)
-lvl 1: Lye paste (1st: #261)
-lvl 1: Lye paste (1st: #263)
-lvl 1: Lye paste (1st: #3000)
+lvl 1: #257
+lvl 1: #2998
+lvl 1: #261
+lvl 1: #263
+lvl 1: #3000
 
 == 30097
 <col=f8707b>Paste</col><col=eeeeee> for:</col>

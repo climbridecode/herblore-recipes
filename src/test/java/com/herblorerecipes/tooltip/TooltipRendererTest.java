@@ -70,15 +70,42 @@ public class TooltipRendererTest
 	}
 
 	@Test
-	public void pasteItemShowsWhatMakesIt()
+	public void pasteItemListsTheHerbsThatMakeIt()
 	{
 		assertEquals(
 			"To make Mox paste:\n" +
-				"lvl 1: Mox paste (1st: #249)\n" +
-				"lvl 1: Mox paste (1st: #" + ItemID.MARENTILL + ")\n" +
-				"lvl 1: Mox paste (1st: #" + ItemID.TARROMIN + ")\n" +
-				"lvl 1: Mox paste (1st: #" + ItemID.HARRALANDER + ")\n",
+				"lvl 1: #249\n" +
+				"lvl 1: #" + ItemID.MARENTILL + "\n" +
+				"lvl 1: #" + ItemID.TARROMIN + "\n" +
+				"lvl 1: #" + ItemID.HARRALANDER + "\n",
 			plain(ItemID.MM_MOX_PASTE));
+	}
+
+	@Test
+	public void pasteItemKeepsTheHigherLevelHerbsDistinguishable()
+	{
+		String aga = plain(ItemID.MM_AGA_PASTE);
+
+		assertTrue(aga, aga.contains("lvl 60: #" + ItemID.HUASCA + "\n"));
+		assertTrue(aga, aga.contains("lvl 60: #" + ItemID.DWARF_WEED + "\n"));
+		assertTrue(aga, aga.contains("lvl 1: #" + ItemID.IRIT_LEAF + "\n"));
+	}
+
+	@Test
+	public void pasteItemHerbsFollowTheLevelToggleButNotTheIngredientToggles()
+	{
+		TestConfig config = new TestConfig();
+		config.level = false;
+		config.primaryIngredients = false;
+		config.secondaryIngredients = false;
+
+		assertEquals(
+			"To make Mox paste:\n" +
+				"#249\n" +
+				"#" + ItemID.MARENTILL + "\n" +
+				"#" + ItemID.TARROMIN + "\n" +
+				"#" + ItemID.HARRALANDER + "\n",
+			plain(ItemID.MM_MOX_PASTE, config));
 	}
 
 	@Test
