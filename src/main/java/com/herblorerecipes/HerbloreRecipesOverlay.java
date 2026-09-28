@@ -4,6 +4,8 @@ import com.herblorerecipes.cache.TooltipCache;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
+import java.util.EnumSet;
+import java.util.Set;
 import javax.inject.Inject;
 import net.runelite.api.Client;
 import net.runelite.api.MenuAction;
@@ -26,6 +28,18 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 	private final TooltipManager tooltipManager;
 	private final HerbloreRecipesConfig config;
 	private final ItemManager itemManager;
+
+	private static final Set<MenuAction> ITEM_ACTIONS = EnumSet.of(
+		MenuAction.WIDGET_TARGET_ON_WIDGET,
+		MenuAction.WIDGET_TARGET,
+		MenuAction.CC_OP,
+		MenuAction.CC_OP_LOW_PRIORITY,
+		MenuAction.WIDGET_FIRST_OPTION,
+		MenuAction.WIDGET_SECOND_OPTION,
+		MenuAction.WIDGET_THIRD_OPTION,
+		MenuAction.WIDGET_FOURTH_OPTION,
+		MenuAction.WIDGET_FIFTH_OPTION
+	);
 
 	private boolean boundKeyPressed;
 
@@ -103,71 +117,44 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 		}
 
 		final MenuAction action = menuEntry.getType();
-		final int widgetId = menuEntry.getParam1();
-		final int groupId = WidgetUtil.componentToInterface(widgetId);
-
-		switch (action)
+		if (!ITEM_ACTIONS.contains(action))
 		{
-			case WIDGET_TARGET_ON_WIDGET:
-			case WIDGET_TARGET:
-			case CC_OP:
-			case WIDGET_FIRST_OPTION:
-			case WIDGET_SECOND_OPTION:
-			case WIDGET_THIRD_OPTION:
-			case WIDGET_FOURTH_OPTION:
-			case CC_OP_LOW_PRIORITY:
-			case WIDGET_FIFTH_OPTION:
-				switch (groupId)
-				{
-					case InterfaceID.SHARED_BANK_SIDE:
-					case InterfaceID.GIM_SIDEPANEL:
-					case InterfaceID.SHARED_BANK:
-						if (!config.showTooltipInGroupStorage())
-						{
-							return null;
-						}
-						showTooltip(widgetId, menuEntry);
-						break;
+			return null;
+		}
 
-					case InterfaceID.SEED_VAULT_DEPOSIT:
-					case InterfaceID.SEED_VAULT:
-						if (!config.showTooltipInSeedVault())
-						{
-							return null;
-						}
-						showTooltip(widgetId, menuEntry);
-						break;
-
-					case InterfaceID.BANKSIDE:
-					case InterfaceID.INVENTORY:
-						if (!config.showTooltipInInv())
-						{
-							return null;
-						}
-						showTooltip(widgetId, menuEntry);
-						break;
-
-					case InterfaceID.BANKMAIN:
-						if (!config.showTooltipOnPlaceholder() && action == MenuAction.CC_OP_LOW_PRIORITY)
-						{
-							// item is bank placeholder - return null
-							return null;
-						}
-						if (!config.showTooltipInBank())
-						{
-							return null;
-						}
-
-						showTooltip(widgetId, menuEntry);
-						break;
-				}
+		final int groupId = WidgetUtil.componentToInterface(menuEntry.getParam1());
+		if (isEnabledIn(groupId, action))
+		{
+			showTooltip(getItemIdFromMenuEntry(menuEntry));
 		}
 		return null;
 	}
 
-	private void showTooltip(int widgetId, MenuEntry menuEntry)
+	boolean isEnabledIn(int groupId, MenuAction action)
 	{
-		showTooltip(getItemIdFromMenuEntry(menuEntry));
+		switch (groupId)
+		{
+			case InterfaceID.SHARED_BANK:
+			case InterfaceID.SHARED_BANK_SIDE:
+			case InterfaceID.GIM_SIDEPANEL:
+				return config.showTooltipInGroupStorage();
+
+			case InterfaceID.SEED_VAULT:
+			case InterfaceID.SEED_VAULT_DEPOSIT:
+				return config.showTooltipInSeedVault();
+
+			case InterfaceID.INVENTORY:
+			case InterfaceID.BANKSIDE:
+				return config.showTooltipInInv();
+
+			case InterfaceID.BANKMAIN:
+				// bank placeholders use the low-priority op
+				final boolean placeholder = action == MenuAction.CC_OP_LOW_PRIORITY;
+				return config.showTooltipInBank() && (!placeholder || config.showTooltipOnPlaceholder());
+
+			default:
+				return false;
+		}
 	}
 
 	private int getItemIdFromMenuEntry(MenuEntry menuEntry)

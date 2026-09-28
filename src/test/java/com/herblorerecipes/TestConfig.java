@@ -18,6 +18,11 @@ public class TestConfig implements HerbloreRecipesConfig
 	public boolean pastes = true;
 	public boolean pastesOnHerbs = true;
 	public boolean potionBase = true;
+	public boolean inInventory = true;
+	public boolean inBank = true;
+	public boolean onPlaceholder = true;
+	public boolean inSeedVault = true;
+	public boolean inGroupStorage = true;
 
 	@Override
 	public boolean showTooltipOnPotions()
@@ -101,5 +106,35 @@ public class TestConfig implements HerbloreRecipesConfig
 	public boolean showPotionBase()
 	{
 		return potionBase;
+	}
+
+	@Override
+	public boolean showTooltipInInv()
+	{
+		return inInventory;
+	}
+
+	@Override
+	public boolean showTooltipInBank()
+	{
+		return inBank;
+	}
+
+	@Override
+	public boolean showTooltipOnPlaceholder()
+	{
+		return onPlaceholder;
+	}
+
+	@Override
+	public boolean showTooltipInSeedVault()
+	{
+		return inSeedVault;
+	}
+
+	@Override
+	public boolean showTooltipInGroupStorage()
+	{
+		return inGroupStorage;
 	}
 }
