@@ -8,7 +8,7 @@ import javax.inject.Inject;
 import net.runelite.api.Client;
 import net.runelite.api.MenuAction;
 import net.runelite.api.MenuEntry;
-import net.runelite.api.widgets.InterfaceID;
+import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.widgets.WidgetUtil;
 import net.runelite.client.config.Keybind;
 import net.runelite.client.game.ItemManager;
@@ -85,7 +85,7 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 			}
 		}
 
-		final MenuEntry[] menuEntries = client.getMenuEntries();
+		final MenuEntry[] menuEntries = client.getMenu().getMenuEntries();
 		final int last = menuEntries.length - 1;
 
 		if (last < 0)
@@ -119,9 +119,9 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 			case WIDGET_FIFTH_OPTION:
 				switch (groupId)
 				{
-					case InterfaceID.GROUP_STORAGE_INVENTORY:
-					case InterfaceID.GROUP_IRON:
-					case InterfaceID.GROUP_STORAGE:
+					case InterfaceID.SHARED_BANK_SIDE:
+					case InterfaceID.GIM_SIDEPANEL:
+					case InterfaceID.SHARED_BANK:
 						if (!config.showTooltipInGroupStorage())
 						{
 							return null;
@@ -129,7 +129,7 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 						showTooltip(widgetId, menuEntry);
 						break;
 
-					case InterfaceID.SEED_VAULT_INVENTORY:
+					case InterfaceID.SEED_VAULT_DEPOSIT:
 					case InterfaceID.SEED_VAULT:
 						if (!config.showTooltipInSeedVault())
 						{
@@ -138,7 +138,7 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 						showTooltip(widgetId, menuEntry);
 						break;
 
-					case InterfaceID.BANK_INVENTORY:
+					case InterfaceID.BANKSIDE:
 					case InterfaceID.INVENTORY:
 						if (!config.showTooltipInInv())
 						{
@@ -147,7 +147,7 @@ public class HerbloreRecipesOverlay extends Overlay implements KeyListener
 						showTooltip(widgetId, menuEntry);
 						break;
 
-					case InterfaceID.BANK:
+					case InterfaceID.BANKMAIN:
 						if (!config.showTooltipOnPlaceholder() && action == MenuAction.CC_OP_LOW_PRIORITY)
 						{
 							// item is bank placeholder - return null
